@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860"><rect x="0" y="0" width="1600" height="860" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="860" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHAT COMPETES IN AN AGENT'S DECISION</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">The three inputs</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Power, speed of influence and time to return do not coincide</text>
+<rect x="60" y="195" width="468" height="545" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="100" cy="241" r="20" fill="#2F5D8A"/>
+<text x="100" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="86" y="295" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Parametric</text>
+<text x="86" y="321" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">knowledge</text>
+<text x="86" y="363" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">What the model learned in</text>
+<text x="86" y="384" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">training and carries in its</text>
+<text x="86" y="405" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">weights. Answers even with no</text>
+<text x="86" y="426" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">internet access.</text>
+<text x="86" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">relative power</text>
+<rect x="86" y="480" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="86" y="480" width="416.0" height="18" rx="5" fill="#2F5D8A"/>
+<text x="86" y="526" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">speed of influence</text>
+<rect x="86" y="536" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="86" y="536" width="49.92" height="18" rx="5" fill="#B8792E"/>
+<line x1="86" y1="612" x2="502" y2="612" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="640" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">time to return</text>
+<text x="86" y="668" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">18 to 36 months</text>
+<text x="86" y="700" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Explains shadcn/ui: volume of</text>
+<text x="86" y="718" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">public code became the default</text>
+<rect x="554" y="195" width="468" height="545" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="594" cy="241" r="20" fill="#2F5D8A"/>
+<text x="594" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="580" y="295" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Real-time</text>
+<text x="580" y="321" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">retrieval</text>
+<text x="580" y="363" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">What the agent fetches during</text>
+<text x="580" y="384" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">the task: docs, search results,</text>
+<text x="580" y="405" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">repository files, llms.txt.</text>
+<text x="580" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">relative power</text>
+<rect x="580" y="480" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="580" y="480" width="228.8" height="18" rx="5" fill="#2F5D8A"/>
+<text x="580" y="526" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">speed of influence</text>
+<rect x="580" y="536" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="580" y="536" width="353.59999999999997" height="18" rx="5" fill="#B8792E"/>
+<line x1="580" y1="612" x2="996" y2="612" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="640" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">time to return</text>
+<text x="580" y="668" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">weeks</text>
+<text x="580" y="700" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Only reaches those who already</text>
+<text x="580" y="718" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">know to look for you</text>
+<rect x="1048" y="195" width="468" height="545" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="1088" cy="241" r="20" fill="#2F5D8A"/>
+<text x="1088" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1074" y="295" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Execution</text>
+<text x="1074" y="321" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">friction</text>
+<text x="1074" y="363" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">What happens when the agent</text>
+<text x="1074" y="384" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">tries to use it. Custom DSL,</text>
+<text x="1074" y="405" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">manual steps, schema token</text>
+<text x="1074" y="426" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">cost.</text>
+<text x="1074" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">relative power</text>
+<rect x="1074" y="480" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="1074" y="480" width="312.0" height="18" rx="5" fill="#2F5D8A"/>
+<text x="1074" y="526" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">speed of influence</text>
+<rect x="1074" y="536" width="416" height="18" rx="5" fill="#EEF0F3"/>
+<rect x="1074" y="536" width="291.2" height="18" rx="5" fill="#B8792E"/>
+<line x1="1074" y1="612" x2="1490" y2="612" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="640" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">time to return</text>
+<text x="1074" y="668" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">one sprint</text>
+<text x="1074" y="700" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Only acts after the first two</text>
+<text x="1074" y="718" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">battles have been won</text>
+<line x1="60" y1="794" x2="1540" y2="794" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="820" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Treating all three as one thing — "optimize for AI" — is what makes teams spend six months in the wrong place.</text></svg>

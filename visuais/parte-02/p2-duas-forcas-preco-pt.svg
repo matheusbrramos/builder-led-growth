@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800"><rect x="0" y="0" width="1600" height="800" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="800" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">PRECIFICAÇÃO SOB BLG</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">As duas forças a equilibrar</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">O tier gratuito deixa de ser topo de funil e vira ingresso — sem deixar de precisar gerar receita</text>
+<rect x="60" y="205" width="620" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="205" width="620" height="6" rx="0" fill="#2F5D8A"/>
+<text x="90" y="257" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">FORÇA 1 — INGRESSO</text>
+<text x="90" y="297" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">A máquina precisa poder</text>
+<text x="90" y="327" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">tentar sem pedir autorização</text>
+<text x="90" y="377" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Um agente que bate num paywall precisa parar,</text>
+<text x="90" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">avisar o humano e esperar. A interrupção quebra o</text>
+<text x="90" y="419" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">fluxo e transfere a decisão para quem estava</text>
+<text x="90" y="440" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">fazendo outra coisa — abrindo espaço para o agente</text>
+<text x="90" y="461" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">escolher a ferramenta que não exigiu parada.</text>
+<text x="90" y="509" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Sem tier gratuito, você não está no jogo.</text>
+<rect x="920" y="205" width="620" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="920" y="205" width="620" height="6" rx="0" fill="#B8792E"/>
+<text x="950" y="257" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">FORÇA 2 — SUFICIÊNCIA</text>
+<text x="950" y="297" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">O gratuito não pode</text>
+<text x="950" y="327" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">resolver o problema inteiro</text>
+<text x="950" y="377" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">O freemium do PLG converte porque o humano cria</text>
+<text x="950" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">hábito, bate no limite e sente dor. A máquina não</text>
+<text x="950" y="419" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">sente atrito como incômodo, não cria apego e tem</text>
+<text x="950" y="440" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">paciência infinita para esperar o limite resetar.</text>
+<text x="950" y="461" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">O mecanismo de conversão por dor não transfere.</text>
+<text x="950" y="509" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Já existe técnica publicada de empilhar free tiers.</text>
+<path d="M758.0,370.0 l-30,0 m5,-5 l-5,5 l5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<path d="M842.0,370.0 l30,0 m-5,-5 l5,5 l-5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<rect x="60" y="575" width="1480" height="118" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="88" y="609" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">AS ALAVANCAS QUE RESOLVEM A TENSÃO</text>
+<circle cx="93" cy="636" r="4" fill="#2F5D8A"/>
+<text x="108" y="641" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Custo do crédito proporcional ao custo de servir</text>
+<circle cx="833" cy="636" r="4" fill="#2F5D8A"/>
+<text x="848" y="641" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Cota calibrada por unidade de trabalho, não de calendário</text>
+<circle cx="93" cy="666" r="4" fill="#2F5D8A"/>
+<text x="108" y="671" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Limite de concorrência, além de limite de volume</text>
+<circle cx="833" cy="666" r="4" fill="#2F5D8A"/>
+<text x="848" y="671" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Caminho de receita trafegável pela máquina</text>
+<line x1="60" y1="734" x2="1540" y2="734" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="760" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">O detalhe menos copiado: limitar concorrência permite ser generoso em volume sem servir de infraestrutura de produção.</text></svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780"><rect x="0" y="0" width="1600" height="780" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="780" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">CONSOLIDATED VIEW</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">What each metric answers — and what it doesn't</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">The most common error is reporting AI mentions as though they were adoption</text>
+<rect x="60" y="175" width="1480" height="44" rx="6" fill="#E7EEF4"/>
+<text x="76" y="205" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">STAGE</text>
+<text x="316" y="205" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHERE TO MEASURE</text>
+<text x="606" y="205" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">METRIC</text>
+<text x="1046" y="205" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHAT IT DOESN'T ANSWER</text>
+<rect x="60" y="225" width="1480" height="62" rx="6" fill="#F7F8FA"/>
+<text x="76" y="251" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Candidacy</text>
+<text x="316" y="251" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Inside the model</text>
+<text x="606" y="251" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Share of Model</text>
+<text x="1046" y="251" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say whether the citation is correct</text>
+<text x="76" y="313" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Candidacy</text>
+<text x="316" y="313" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Inside the model</text>
+<text x="606" y="313" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Citation accuracy rate</text>
+<text x="1046" y="313" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say whether you are the one picked</text>
+<rect x="60" y="349" width="1480" height="62" rx="6" fill="#F7F8FA"/>
+<text x="76" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Recommendation</text>
+<text x="316" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">In the community</text>
+<text x="606" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Presence in comparisons</text>
+<text x="1046" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say whether the integration works</text>
+<text x="76" y="437" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Recommendation</text>
+<text x="316" y="437" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">In the community</text>
+<text x="606" y="437" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Dependents, downloads, scaffolds</text>
+<text x="1046" y="437" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say whether usage recurs</text>
+<rect x="60" y="473" width="1480" height="62" rx="6" fill="#F7F8FA"/>
+<text x="76" y="499" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Adoption</text>
+<text x="316" y="499" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Inside the product</text>
+<text x="606" y="499" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">First successful call</text>
+<text x="1046" y="499" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say whether the customer stays</text>
+<text x="76" y="561" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Crosses all 3</text>
+<text x="316" y="561" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Inside the product</text>
+<text x="606" y="561" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Architectural adoption rate</text>
+<text x="1046" y="561" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Doesn't say why the agent chose you</text>
+<rect x="60" y="629" width="1480" height="70" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="661" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">THE FIRST NUMBER TO MEASURE</text>
+<text x="88" y="685" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">If you don't know what share of the resources in your product is created by an agent, you don't know whether BLG is already relevant to you.</text>
+<line x1="60" y1="714" x2="1540" y2="714" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="740" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">References: Supabase (60%+ of databases via AI tools) · Vercel (from &lt;3% to more than half of deploys).</text></svg>

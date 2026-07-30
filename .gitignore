@@ -1,0 +1,8 @@
+# Este repositorio e SAIDA GERADA por scripts/publicar.py, no repositorio
+# privado de trabalho. Nao edite arquivos aqui: a proxima geracao sobrescreve.
+
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.py[cod]

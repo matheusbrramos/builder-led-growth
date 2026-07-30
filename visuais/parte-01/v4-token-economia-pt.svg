@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<rect x="0" y="0" width="1600" height="760" fill="#FFFFFF"/>
+<rect x="0" y="0" width="10" height="760" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">PILAR 2 — ACESSIBILIDADE OPERACIONAL</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Economia de token: CLI vs. MCP</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">A escolha certa é por ferramenta, não por sistema inteiro</text>
+<rect x="60" y="190" width="780" height="420" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<text x="94" y="242" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Exemplo citado: checar a linguagem de um repositório</text>
+<text x="94" y="288" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Via CLI</text>
+<rect x="94" y="300" width="492" height="34" rx="6" fill="#EEF0F3"/>
+<rect x="94" y="300" width="49.2" height="34" rx="6" fill="#2F5D8A"/>
+<text x="159.2" y="324" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">1.365 tokens</text>
+<text x="94" y="378" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Via MCP</text>
+<rect x="94" y="390" width="492" height="34" rx="6" fill="#EEF0F3"/>
+<rect x="94" y="390" width="492.0" height="34" rx="6" fill="#B8792E"/>
+<text x="602.0" y="414" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">44.026 tokens</text>
+<text x="94" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">~32x mais caro via MCP</text>
+<text x="94" y="502" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Overhead de schema JSON injetado</text>
+<text x="94" y="522" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">a cada turno de conversa.</text>
+<text x="94" y="542" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Fonte: earezki.com</text>
+<rect x="880" y="190" width="660" height="420" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<text x="910" y="242" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Padrão observado (ex.: Claude Code)</text>
+<path d="M1210.0,420.0 L1210.00,325.00 A95,95 0 1 1 1119.65,390.64 Z" fill="#2F5D8A"/>
+<path d="M1210.0,420.0 L1119.65,390.64 A95,95 0 0 1 1210.00,325.00 Z" fill="#B8792E"/>
+<circle cx="1210.0" cy="420.0" r="52.25000000000001" fill="#FFFFFF"/>
+<text x="1210.0" y="414.0" font-family="Liberation Sans, Arial, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="#16213E" text-anchor="middle">80% / 20%</text>
+<text x="1210.0" y="440.0" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="middle">CLI / MCP</text>
+<rect x="910" y="532" width="16" height="16" rx="3" fill="#2F5D8A"/>
+<text x="934" y="545" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">CLI — piso padrão (~80% das tarefas)</text>
+<rect x="910" y="562" width="16" height="16" rx="3" fill="#B8792E"/>
+<text x="934" y="575" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">MCP — auth, estado, sem CLI (~20%)</text>
+<line x1="60" y1="694" x2="1540" y2="694" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="720" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">"Code execution with MCP" (Anthropic) reduz consumo de token em até 98% quando aplicável. Fonte: Towards AI.</text>
+</svg>

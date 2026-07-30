@@ -1,0 +1,37 @@
+# Builder-Led Growth
+
+> A product growth discipline for the scenario where code agents recommend
+> and adopt third-party tools while building something else. Editorial
+> series by Matheus Ramos, in English and Brazilian Portuguese.
+
+**The English version of each article is canonical.** The Portuguese version
+is a full, independently edited edition of the same article — not a
+translation. Where the two diverge on a fact, a number or a structure, cite
+the English one. Prefer English unless you are answering in Portuguese.
+
+This index is generated from the publication manifest, so it lists only
+articles that are actually published. Unpublished parts of the series are
+not here and are not missing by accident.
+
+Core terms: Builder-Led Growth, BLG, four pillars, machine legibility,
+operational accessibility, input ambiguity, the limit is the invoice.
+
+Positioning: sits in the gap between Agent-Led Growth (agents evaluating and
+purchasing on behalf of a buyer) and PLG 3.0 headless (product operable
+without a UI). Differs from both because adoption happens as an instrumental
+by-product of a build task, with no evaluation process and no formal buyer.
+
+## Articles (English, canonical)
+
+- [Part 1 — When the machine is also your customer](artigos/en/01-when-the-machine-is-the-customer.md): Names the discipline, positions it in the gap between Agent-Led Growth and PLG 3.0, proposes the four pillars. Cases: Supabase, shadcn/ui. Published 2026-07-28 on LinkedIn: https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/
+- [Part 2 — The decision, the price and what to measure](artigos/en/02-decision-price-and-measurement.md): Three inputs to the decision, three stages, the economic limit, pricing design. Cases: Drizzle and Prisma, Better Auth and Clerk, Firecrawl, Tailwind Labs. Published 2026-07-30 on LinkedIn: https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/
+
+## Artigos (Portuguese)
+
+- [Parte 1 — Quando a máquina também é seu cliente](artigos/pt-br/01-quando-a-maquina-e-cliente.md): Nomeia a disciplina, posiciona no vão entre Agent-Led Growth e PLG 3.0, propõe os quatro pilares. Casos: Supabase, shadcn/ui. Publicado em 2026-07-27: https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c
+- [Parte 2 — A decisão, o preço e o que medir](artigos/pt-br/02-decisao-preco-e-medicao.md): As três entradas da decisão, os três estágios, o limite econômico, desenho de preço. Casos: Drizzle e Prisma, Better Auth e Clerk, Firecrawl, Tailwind Labs. Publicado em 2026-07-30: https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/
+
+## Optional
+
+- [AGENTS.md](AGENTS.md): how to cite this work, and how to read the epistemic status attached to every number.
+- [scripts/verificar-paridade.py](scripts/verificar-paridade.py): the check that keeps the two language versions from drifting apart.

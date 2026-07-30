@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect x="0" y="0" width="1920" height="1080" fill="#101A30"/>
+<line x1="1300" y1="0" x2="1640" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1346" y1="0" x2="1686" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1392" y1="0" x2="1732" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1438" y1="0" x2="1778" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1484" y1="0" x2="1824" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1530" y1="0" x2="1870" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1576" y1="0" x2="1916" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1622" y1="0" x2="1962" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1668" y1="0" x2="2008" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1714" y1="0" x2="2054" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1760" y1="0" x2="2100" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1806" y1="0" x2="2146" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1852" y1="0" x2="2192" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<line x1="1898" y1="0" x2="2238" y2="340" stroke="#2F5D8A" stroke-opacity="0.14" stroke-width="2"/>
+<rect x="0" y="0" width="14" height="1080" fill="#2F5D8A"/>
+<text x="120" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="26" font-weight="700" font-style="normal" fill="#6E9CC4" text-anchor="start" letter-spacing="4">A NEW GROWTH DISCIPLINE — PART 1 OF 2</text>
+<line x1="120" y1="228" x2="470" y2="228" stroke="#2F5D8A" stroke-width="3"/>
+<text x="114" y="340" font-family="Liberation Sans, Arial, sans-serif" font-size="104" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="start">Builder-Led Growth</text>
+<text x="118" y="430" font-family="Liberation Sans, Arial, sans-serif" font-size="54" font-weight="400" font-style="normal" fill="#AEB6C2" text-anchor="start">When the machine is also</text>
+<text x="118" y="494" font-family="Liberation Sans, Arial, sans-serif" font-size="54" font-weight="400" font-style="normal" fill="#AEB6C2" text-anchor="start">your customer</text>
+<rect x="120" y="640" width="420" height="210" rx="14" fill="none" stroke="#AEB6C2" stroke-opacity="0.45" stroke-width="2"/>
+<text x="330.0" y="735" font-family="Liberation Sans, Arial, sans-serif" font-size="44" font-weight="700" font-style="normal" fill="#AEB6C2" text-anchor="middle">ALG</text>
+<text x="330.0" y="785" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="400" font-style="italic" fill="#AEB6C2" text-anchor="middle">formal purchase</text>
+<rect x="592" y="614" width="436" height="262" rx="16" fill="#2F5D8A" fill-opacity="0.18" stroke="#6E9CC4" stroke-width="3.5"/>
+<text x="810.0" y="728" font-family="Liberation Sans, Arial, sans-serif" font-size="58" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">BLG</text>
+<text x="810.0" y="782" font-family="Liberation Sans, Arial, sans-serif" font-size="26" font-weight="400" font-style="italic" fill="#6E9CC4" text-anchor="middle">construction</text>
+<rect x="1080" y="640" width="420" height="210" rx="14" fill="none" stroke="#AEB6C2" stroke-opacity="0.45" stroke-width="2"/>
+<text x="1290.0" y="735" font-family="Liberation Sans, Arial, sans-serif" font-size="44" font-weight="700" font-style="normal" fill="#AEB6C2" text-anchor="middle">PLG 3.0</text>
+<text x="1290.0" y="785" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="400" font-style="italic" fill="#AEB6C2" text-anchor="middle">headless product</text>
+<line x1="540" y1="745.0" x2="592" y2="745.0" stroke="#6E9CC4" stroke-width="2.5" stroke-dasharray="7,7"/>
+<line x1="1028" y1="745.0" x2="1080" y2="745.0" stroke="#6E9CC4" stroke-width="2.5" stroke-dasharray="7,7"/>
+<text x="810.0" y="926" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="400" font-style="italic" fill="#AEB6C2" text-anchor="middle">the gap between existing boundaries</text>
+<line x1="120" y1="990" x2="1800" y2="990" stroke="#2F5D8A" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="120" y="1032" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="400" font-style="normal" fill="#AEB6C2" text-anchor="start">Matheus Ramos · with Supabase and shadcn/ui cases, GEO data, and token economics</text>
+</svg>

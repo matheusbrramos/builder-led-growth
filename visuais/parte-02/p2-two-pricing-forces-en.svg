@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800"><rect x="0" y="0" width="1600" height="800" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="800" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">PRICING UNDER BLG</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">The two forces to balance</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">The free tier stops being top-of-funnel and becomes an entry ticket — while still having to produce revenue</text>
+<rect x="60" y="205" width="620" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="205" width="620" height="6" rx="0" fill="#2F5D8A"/>
+<text x="90" y="257" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">FORCE 1 — ENTRY TICKET</text>
+<text x="90" y="297" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">The machine has to be able to</text>
+<text x="90" y="327" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">try without asking permission</text>
+<text x="90" y="377" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">An agent that hits a paywall has to stop, notify the</text>
+<text x="90" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">human and wait. The interruption breaks the flow</text>
+<text x="90" y="419" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">and transfers the decision to someone who was</text>
+<text x="90" y="440" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">doing something else — opening room for the agent</text>
+<text x="90" y="461" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">to pick the tool that required no stop.</text>
+<text x="90" y="509" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Without a free tier, you aren't in the game.</text>
+<rect x="920" y="205" width="620" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="920" y="205" width="620" height="6" rx="0" fill="#B8792E"/>
+<text x="950" y="257" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">FORCE 2 — SUFFICIENCY</text>
+<text x="950" y="297" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">The free tier can't solve</text>
+<text x="950" y="327" font-family="Liberation Sans, Arial, sans-serif" font-size="22" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">the whole problem</text>
+<text x="950" y="377" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">PLG freemium converts because the human builds a</text>
+<text x="950" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">habit, hits the limit and feels pain. The machine</text>
+<text x="950" y="419" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">doesn't feel friction as discomfort, forms no</text>
+<text x="950" y="440" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">attachment, and has infinite patience to wait for a</text>
+<text x="950" y="461" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">reset. Pain-driven conversion doesn't transfer.</text>
+<text x="950" y="509" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Published guides already teach stacking free tiers.</text>
+<path d="M758.0,370.0 l-30,0 m5,-5 l-5,5 l5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<path d="M842.0,370.0 l30,0 m-5,-5 l5,5 l-5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<rect x="60" y="575" width="1480" height="118" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="88" y="609" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">THE LEVERS THAT RESOLVE THE TENSION</text>
+<circle cx="93" cy="636" r="4" fill="#2F5D8A"/>
+<text x="108" y="641" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Credit cost proportional to cost-to-serve</text>
+<circle cx="833" cy="636" r="4" fill="#2F5D8A"/>
+<text x="848" y="641" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Quota calibrated by unit of work, not by calendar</text>
+<circle cx="93" cy="666" r="4" fill="#2F5D8A"/>
+<text x="108" y="671" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Concurrency limits, on top of volume limits</text>
+<circle cx="833" cy="666" r="4" fill="#2F5D8A"/>
+<text x="848" y="671" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">A revenue path the machine can traverse</text>
+<line x1="60" y1="734" x2="1540" y2="734" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="760" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">The least copied detail: limiting concurrency lets you stay generous on volume without serving as production infrastructure.</text></svg>

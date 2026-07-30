@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820">
+<rect x="0" y="0" width="1600" height="820" fill="#FFFFFF"/>
+<rect x="0" y="0" width="10" height="820" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">THE FOUR PILLARS</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">What a product needs to do well</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Four independent, mutually reinforcing levers — not one more channel</text>
+<rect x="60" y="200" width="358" height="540" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="100" cy="246" r="20" fill="#2F5D8A"/>
+<text x="100" y="253" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="86" y="300" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Machine</text>
+<text x="86" y="325" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">legibility</text>
+<text x="86" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Documentation, APIs, and content</text>
+<text x="86" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">structured to be read by an</text>
+<text x="86" y="416" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">agent before being read</text>
+<text x="86" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">by a human.</text>
+<line x1="86" y1="622" x2="392" y2="622" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="656" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">16% -&gt; 54%</text>
+<text x="86" y="678" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">correct citation (GPT-4)</text>
+<text x="86" y="722" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">with structured data · Digidop</text>
+<rect x="444" y="200" width="358" height="540" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="484" cy="246" r="20" fill="#2F5D8A"/>
+<text x="484" y="253" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="470" y="300" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Operational</text>
+<text x="470" y="325" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">accessibility</text>
+<text x="470" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">MCP, CLI, and SDK aren't</text>
+<text x="470" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">interchangeable — the right</text>
+<text x="470" y="416" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">choice is per tool,</text>
+<text x="470" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">not per system.</text>
+<line x1="470" y1="622" x2="776" y2="622" stroke="#DEE2E7" stroke-width="1"/>
+<text x="470" y="656" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">up to 32x</text>
+<text x="470" y="678" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">more tokens via MCP</text>
+<text x="470" y="722" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">vs. equivalent CLI · earezki.com</text>
+<rect x="828" y="200" width="358" height="540" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="868" cy="246" r="20" fill="#2F5D8A"/>
+<text x="868" y="253" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="854" y="300" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Community and</text>
+<text x="854" y="325" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">validation signal</text>
+<text x="854" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Feeds two paths: entering</text>
+<text x="854" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">training data (slow) and</text>
+<text x="854" y="416" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">becoming third-party</text>
+<text x="854" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">comparative content (fast).</text>
+<line x1="854" y1="622" x2="1160" y2="622" stroke="#DEE2E7" stroke-width="1"/>
+<text x="854" y="656" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">32.5%</text>
+<text x="854" y="678" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">of AI citations</text>
+<text x="854" y="722" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">come from third-party content · Connor Kimball</text>
+<rect x="1212" y="200" width="358" height="540" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<circle cx="1252" cy="246" r="20" fill="#2F5D8A"/>
+<text x="1252" y="253" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="1238" y="300" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Model trust</text>
+<text x="1238" y="325" font-family="Liberation Sans, Arial, sans-serif" font-size="18.5" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">and safety</text>
+<text x="1238" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Not information security —</text>
+<text x="1238" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">it's how much the agent trusts</text>
+<text x="1238" y="416" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">acting without constant</text>
+<text x="1238" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">human checking.</text>
+<line x1="1238" y1="622" x2="1544" y2="622" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1238" y="656" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">most delicate</text>
+<text x="1238" y="678" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">frontier of the four</text>
+<text x="1238" y="722" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">no consolidated public metric yet</text>
+<line x1="60" y1="754" x2="1540" y2="754" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="780" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Sources cited individually in the full piece (Digidop, Connor Kimball, earezki.com, Firecrawl, Towards AI).</text>
+</svg>

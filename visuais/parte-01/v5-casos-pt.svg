@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<rect x="0" y="0" width="1600" height="800" fill="#FFFFFF"/>
+<rect x="0" y="0" width="10" height="800" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">CASOS REAIS</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Duas provas, duas camadas de stack</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">SaaS financiado vs. open source sem funding direto — o mesmo padrão se repetindo</text>
+<rect x="60" y="190" width="700" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="190" width="700" height="6" rx="0" fill="#2F5D8A"/>
+<text x="90" y="246" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Supabase</text>
+<text x="90" y="274" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">backend / banco de dados — SaaS financiado</text>
+<text x="90" y="320" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">US$500M</text>
+<text x="90" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Rodada levantada em junho de 2026,</text>
+<text x="90" y="365" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">avaliação de US$10,5 bilhões</text>
+<line x1="90" y1="396" x2="730" y2="396" stroke="#DEE2E7" stroke-width="1"/>
+<text x="90" y="412" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">60%+</text>
+<text x="90" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">dos novos bancos de dados criados</text>
+<text x="90" y="457" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">na plataforma via ferramentas de IA</text>
+<line x1="90" y1="488" x2="730" y2="488" stroke="#DEE2E7" stroke-width="1"/>
+<text x="90" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">600%</text>
+<text x="90" y="530" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">alta ano-contra-ano em bancos</text>
+<text x="90" y="549" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">de dados criados via Claude Code</text>
+<text x="90" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Let's Data Science · SiliconANGLE · Supabase Blog</text>
+<rect x="820" y="190" width="700" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="820" y="190" width="700" height="6" rx="0" fill="#2F5D8A"/>
+<text x="850" y="246" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">shadcn/ui</text>
+<text x="850" y="274" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">componentes de interface — open source</text>
+<text x="850" y="320" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">109 mil+</text>
+<text x="850" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">estrelas no GitHub em menos</text>
+<text x="850" y="365" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">de 3 anos, sem funding direto</text>
+<line x1="850" y1="396" x2="1490" y2="396" stroke="#DEE2E7" stroke-width="1"/>
+<text x="850" y="412" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">5</text>
+<text x="850" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">ferramentas de fornecedores</text>
+<text x="850" y="457" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">independentes geram por padrão</text>
+<line x1="850" y1="488" x2="1490" y2="488" stroke="#DEE2E7" stroke-width="1"/>
+<text x="850" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">US$0</text>
+<text x="850" y="530" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">gastos em vendas — tração vem</text>
+<text x="850" y="549" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">de estar no dado de treino</text>
+<text x="850" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">ShadcnDeck · Vibe Coder Blog</text>
+<line x1="60" y1="734" x2="1540" y2="734" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="760" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Fontes individuais no artigo completo (Let's Data Science, SiliconANGLE, Supabase Blog, ShadcnDeck, Vibe Coder Blog).</text>
+</svg>

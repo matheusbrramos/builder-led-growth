@@ -1,0 +1,16 @@
+# Line-ending normalisation.
+#
+# This repository is edited from two sides: Windows (PowerShell, local editor)
+# and Linux (the agent's sandbox, which writes LF). Without this rule each side
+# rewrites every file it touches and the diff stops being readable — a 3-word
+# correction shows up as a 400-line change.
+#
+# eol=lf keeps the working tree identical on both sides, so a diff only ever
+# shows what actually changed.
+
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+<rect x="0" y="0" width="1600" height="760" fill="#FFFFFF"/>
+<rect x="0" y="0" width="10" height="760" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">GEO — GENERATIVE ENGINE OPTIMIZATION</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Como a IA decide o que citar</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Dois achados que mudam onde vale investir conteúdo</text>
+<rect x="60" y="190" width="700" height="420" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<text x="94" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Taxa de citação correta (GPT-4)</text>
+<text x="94" y="290" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Sem dados estruturados</text>
+<rect x="94" y="302" width="632" height="30" rx="6" fill="#EEF0F3"/>
+<rect x="94" y="302" width="187.25925925925924" height="30" rx="6" fill="#C7CDD5"/>
+<text x="295.25925925925924" y="323" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">16%</text>
+<text x="94" y="364" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Com dados estruturados (schema.org/JSON-LD)</text>
+<rect x="94" y="376" width="632" height="30" rx="6" fill="#EEF0F3"/>
+<rect x="94" y="376" width="632.0" height="30" rx="6" fill="#2F5D8A"/>
+<text x="740.0" y="397" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">54%</text>
+<text x="94" y="588.0" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Fonte: Digidop (digidop.com)</text>
+<rect x="820" y="190" width="700" height="420" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<text x="854" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Origem das citações de IA</text>
+<text x="854" y="290" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Páginas comerciais próprias</text>
+<rect x="854" y="302" width="632" height="30" rx="6" fill="#EEF0F3"/>
+<rect x="854" y="302" width="97.23076923076924" height="30" rx="6" fill="#C7CDD5"/>
+<text x="965.2307692307693" y="323" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">&lt; 5%</text>
+<text x="854" y="364" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Conteúdo comparativo de terceiros</text>
+<rect x="854" y="376" width="632" height="30" rx="6" fill="#EEF0F3"/>
+<rect x="854" y="376" width="632.0" height="30" rx="6" fill="#2F5D8A"/>
+<text x="1500.0" y="397" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">32,5%</text>
+<text x="854" y="588.0" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Fonte: Connor Kimball (connorkimball.com)</text>
+<text x="60" y="666" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Aparecer bem numa comparação de terceiros pesa mais de 6x do que caprichar na própria landing page.</text>
+<line x1="60" y1="694" x2="1540" y2="694" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="720" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Dados citados com fonte individual no artigo completo — não são medição própria.</text>
+</svg>

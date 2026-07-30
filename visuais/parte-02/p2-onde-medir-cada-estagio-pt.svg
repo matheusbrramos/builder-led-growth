@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840"><rect x="0" y="0" width="1600" height="840" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="840" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">MEDIÇÃO</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Onde se mede cada estágio</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Candidatura mede o passado do modelo. Comunidade mede o futuro dele.</text>
+<rect x="60" y="200" width="468" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="200" width="468" height="6" rx="0" fill="#2F5D8A"/>
+<text x="86" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">DENTRO DO MODELO</text>
+<text x="86" y="286" font-family="Liberation Sans, Arial, sans-serif" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Candidatura</text>
+<line x1="86" y1="310" x2="502" y2="310" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Share of Model — % das respostas</text>
+<text x="86" y="370" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">da categoria que citam você</text>
+<text x="86" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start"></text>
+<text x="86" y="418" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Taxa de acerto de citação —</text>
+<text x="86" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">quando cita, acerta pacote,</text>
+<text x="86" y="466" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">instalação e método?</text>
+<line x1="86" y1="628" x2="502" y2="628" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Mede o que o modelo já sabe:</text>
+<text x="86" y="680" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">um corpus fechado meses atrás.</text>
+<rect x="554" y="200" width="468" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="554" y="200" width="468" height="6" rx="0" fill="#B8792E"/>
+<text x="580" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">NA COMUNIDADE</text>
+<text x="580" y="286" font-family="Liberation Sans, Arial, sans-serif" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Recomendação</text>
+<line x1="580" y1="310" x2="996" y2="310" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Presença nas 15-20 comparações</text>
+<text x="580" y="370" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">mais buscadas da categoria</text>
+<text x="580" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Dependentes no GitHub (Used by)</text>
+<text x="580" y="418" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Downloads comparados a 3 rivais</text>
+<text x="580" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Inclusão em scaffolds e starters</text>
+<text x="580" y="466" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Levantamentos anuais e listas</text>
+<line x1="580" y1="628" x2="996" y2="628" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Mede o material do qual a</text>
+<text x="580" y="680" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">recomendação futura vai se alimentar.</text>
+<rect x="1048" y="200" width="468" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="1048" y="200" width="468" height="6" rx="0" fill="#2F7D5D"/>
+<text x="1074" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F7D5D" text-anchor="start">DENTRO DO PRODUTO</text>
+<text x="1074" y="286" font-family="Liberation Sans, Arial, sans-serif" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Adoção</text>
+<line x1="1074" y1="310" x2="1490" y2="310" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="346" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">O evento que só acontece quando</text>
+<text x="1074" y="370" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">a integração funcionou de verdade</text>
+<text x="1074" y="394" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start"></text>
+<text x="1074" y="418" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Não é download. Não é install.</text>
+<text x="1074" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Não é cadastro. É a primeira</text>
+<text x="1074" y="466" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">chamada com dados reais.</text>
+<line x1="1074" y1="628" x2="1490" y2="628" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Separa "fui recomendado" de</text>
+<text x="1074" y="680" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">"estou sendo usado".</text>
+<line x1="60" y1="774" x2="1540" y2="774" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="800" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Medir recomendação perguntando ao agente é medir candidatura de novo — o modelo só devolve o que já sabia.</text></svg>

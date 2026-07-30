@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="900" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">O FUNIL BUILDER-LED GROWTH</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Três estágios, três mecanismos</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Cada estágio é decidido por uma entrada diferente — e se perde de um jeito diferente</text>
+<rect x="60" y="200" width="468" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="200" width="468" height="6" rx="0" fill="#C7CDD5"/>
+<text x="86" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">01</text>
+<text x="160" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Candidatura</text>
+<text x="86" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">A PERGUNTA</text>
+<text x="86" y="322" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">O modelo sabe que você existe,</text>
+<text x="86" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">com precisão para citar certo?</text>
+<text x="86" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">MECANISMO DOMINANTE</text>
+<text x="86" y="426" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Conhecimento paramétrico</text>
+<text x="86" y="472" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">COMO SE PERDE AQUI</text>
+<text x="86" y="498" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Ser citado com erro:</text>
+<text x="86" y="519" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">nome de pacote errado, método</text>
+<text x="86" y="540" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">inexistente, versão descontinuada</text>
+<line x1="86" y1="624" x2="502" y2="624" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="662" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">16% → 54%</text>
+<text x="86" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">acerto do GPT-4 com dados estruturados</text>
+<path d="M531,460.0 l14,0 m-5,-5 l5,5 l-5,5" stroke="#8B93A1" stroke-width="2" fill="none"/>
+<rect x="554" y="200" width="468" height="520" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="554" y="200" width="468" height="6" rx="0" fill="#C7CDD5"/>
+<text x="580" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">02</text>
+<text x="654" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Recomendação</text>
+<text x="580" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">A PERGUNTA</text>
+<text x="580" y="322" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Entre os candidatos,</text>
+<text x="580" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">o agente escolhe você?</text>
+<text x="580" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">MECANISMO DOMINANTE</text>
+<text x="580" y="426" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Recuperação + sinal de comunidade</text>
+<text x="580" y="472" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">COMO SE PERDE AQUI</text>
+<text x="580" y="498" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Ausência do conteúdo</text>
+<text x="580" y="519" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">comparativo de terceiros que</text>
+<text x="580" y="540" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">responde pela maior fatia</text>
+<line x1="580" y1="624" x2="996" y2="624" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="662" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">32,5% vs &lt;5%</text>
+<text x="580" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">terceiros vs. página própria</text>
+<path d="M1025,460.0 l14,0 m-5,-5 l5,5 l-5,5" stroke="#8B93A1" stroke-width="2" fill="none"/>
+<rect x="1048" y="200" width="468" height="520" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="2"/>
+<rect x="1048" y="200" width="468" height="6" rx="0" fill="#2F5D8A"/>
+<text x="1074" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">03</text>
+<text x="1148" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Adoção</text>
+<text x="1074" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">A PERGUNTA</text>
+<text x="1074" y="322" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">A recomendação virou</text>
+<text x="1074" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">integração funcionando?</text>
+<text x="1074" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">MECANISMO DOMINANTE</text>
+<text x="1074" y="426" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Atrito de execução</text>
+<text x="1074" y="472" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">COMO SE PERDE AQUI</text>
+<text x="1074" y="498" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Passos manuais no meio do</text>
+<text x="1074" y="519" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">fluxo. Nenhuma métrica de</text>
+<text x="1074" y="540" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">marketing acusa a perda</text>
+<line x1="1074" y1="624" x2="1490" y2="624" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="662" font-family="Liberation Sans, Arial, sans-serif" font-size="24" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">o estágio cego</text>
+<text x="1074" y="690" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">"fui recomendado" já foi cumprido</text>
+<rect x="60" y="754" width="1480" height="74" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="786" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">O LIMITE DA TESE</text>
+<text x="88" y="812" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">O BLG decide quem entra. Quem decide se permanece é a economia humana — o limite da tese é o boleto.</text>
+<line x1="60" y1="834" x2="1540" y2="834" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="860" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Fontes: Digidop (dados estruturados) · Connor Kimball (origem das citações) · análise completa no artigo.</text></svg>
