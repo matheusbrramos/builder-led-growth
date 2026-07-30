@@ -27,7 +27,7 @@ for i in range(14):
     b.append(f'<line x1="{x0}" y1="0" x2="{x0+340}" y2="340" stroke="{ACCENT}" stroke-opacity="0.14" stroke-width="2"/>')
 b.append(f'<rect x="0" y="0" width="14" height="{H}" fill="{ACCENT}"/>')
 
-b.append(txt(120, 196, "BUILDER-LED GROWTH — PARTE 2 DE 9", 26, "700", ACCENT_LIGHT, sp="4"))
+b.append(txt(120, 196, "BUILDER-LED GROWTH — PARTE 2", 26, "700", ACCENT_LIGHT, sp="4"))
 b.append(f'<line x1="120" y1="224" x2="560" y2="224" stroke="{ACCENT}" stroke-width="3"/>')
 
 b.append(txt(114, 336, "Como a máquina decide,", 88, "700", WHITE))

@@ -356,7 +356,7 @@ def cover():
         b.append(f'<line x1="{x0}" y1="0" x2="{x0+340}" y2="340" stroke="{ACCENT}" stroke-opacity="0.14" stroke-width="2"/>')
     b.append(f'<rect x="0" y="0" width="14" height="{H}" fill="{ACCENT}"/>')
 
-    b.append(f'<text x="120" y="196" font-family="{FONT}" font-size="26" font-weight="700" fill="{ACCENT_LIGHT}" letter-spacing="4">BUILDER-LED GROWTH — PART 2 OF 9</text>')
+    b.append(f'<text x="120" y="196" font-family="{FONT}" font-size="26" font-weight="700" fill="{ACCENT_LIGHT}" letter-spacing="4">BUILDER-LED GROWTH — PART 2</text>')
     b.append(f'<line x1="120" y1="224" x2="560" y2="224" stroke="{ACCENT}" stroke-width="3"/>')
 
     b.append(txt(114, 336, "How the machine decides,", 88, "700", WHITE))

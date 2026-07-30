@@ -31,7 +31,7 @@ def txt(x, y, s, size=16, weight="400", fill=NAVY, anchor="start", style="normal
 def build_cover(lang):
     W, H = 1920, 1080
     if lang == "pt":
-        kicker = "UMA NOVA DISCIPLINA DE GROWTH — PARTE 1 DE 2"
+        kicker = "UMA NOVA DISCIPLINA DE GROWTH — PARTE 1"
         title1 = "Builder-Led Growth"
         sub1 = "Quando a máquina também"
         sub2 = "é seu cliente"
@@ -44,7 +44,7 @@ def build_cover(lang):
         gap_label = "o vão entre as fronteiras existentes"
         footer = "Matheus Ramos · com casos Supabase e shadcn/ui, dados de GEO e economia de token"
     else:
-        kicker = "A NEW GROWTH DISCIPLINE — PART 1 OF 2"
+        kicker = "A NEW GROWTH DISCIPLINE — PART 1"
         title1 = "Builder-Led Growth"
         sub1 = "When the machine is also"
         sub2 = "your customer"
