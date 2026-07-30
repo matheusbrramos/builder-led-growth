@@ -118,7 +118,7 @@ The fourth: there's a concrete risk of "agent-washing" — companies slapping an
 
 ## And the "how," in practice?
 
-This piece deliberately stayed at the level of thesis and evidence — enough to hold up the argument without turning into a 6,000-word manual. But the obvious questions that follow once you accept this thesis are all operational: what exactly makes a model prefer one product over another, which metrics to track to know if it's working, which pricing model fits best, how to turn community management into part of the strategy — and, above all, how growth should demand things from engineering and relate to it to get this thesis off the page. I wrote that part separately, as an operational deep-dive — publishing it next.
+This piece deliberately stayed at the level of thesis and evidence — enough to hold up the argument without turning into a 6,000-word manual. But the obvious questions that follow once you accept this thesis are all operational: what exactly makes a model prefer one product over another, which metrics to track to know if it's working, which pricing model fits best, how to turn community management into part of the strategy — and, above all, how growth should demand things from engineering and relate to it to get this thesis off the page. I wrote that part separately. What I pictured as a second piece turned into a series — each pillar asked for more room than a single deep-dive could hold.
 
 ## Closing
 
@@ -136,3 +136,12 @@ Closing without pretending to have the finished answer — because I don't — h
 - If you have an API, measure what it would cost in tokens to expose it as MCP versus as a plain CLI — the right answer for your case might be both, not one.
 - Write a simple `AGENTS.md` or `llms.txt` — but know exactly what to expect from it. Ahrefs analyzed server logs across 137,000 domains and found 97% of `llms.txt` files received zero requests in May 2026; AI retrieval bots accounted for 1.1% of hits, and the single largest requester was SEO audit tooling at 21.7% ([PPC Land](https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/)). For generative search visibility, then, the file doesn't deliver — Google itself has stated it carries no ranking effect. What the same study shows is that IDE agents (Cursor, Windsurf, Claude Code, Copilot, Cline, Aider) actively look for `/llms.txt` and `/llms-full.txt` when pointed at a documentation site. It's agent-readiness infrastructure, not a GEO tool — and that's precisely why it matters here.
 - If your product serves a regulated industry, don't bet on this discipline as your main motion — treat it as a complementary layer, not a replacement.
+
+---
+
+**The Builder-Led Growth series**
+
+- Part 1 — When the machine is also your customer (this piece)
+- [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
+
+The series continues. Each part goes deeper into something this piece could only point at, and this block is updated as the next ones come out.

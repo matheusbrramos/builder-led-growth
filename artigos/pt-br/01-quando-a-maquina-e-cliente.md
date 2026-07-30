@@ -118,7 +118,7 @@ A quarta: existe um risco concreto de "agent-washing" — empresas colando o ró
 
 ## E o "como", na prática?
 
-Este texto ficou deliberadamente no nível de tese e evidência — o suficiente pra sustentar o argumento sem virar um manual de 6 mil palavras. Mas as perguntas óbvias que vêm depois de aceitar essa tese são todas operacionais: o que exatamente faz um modelo preferir um produto a outro, quais métricas acompanhar pra saber se está funcionando, qual modelo de precificação se encaixa melhor, como transformar gestão de comunidade em parte da estratégia — e, principalmente, como growth deve demandar de engenharia e se relacionar com ela pra essa tese sair do papel. Escrevi essa parte separadamente, como aprofundamento operacional — publico em seguida.
+Este texto ficou deliberadamente no nível de tese e evidência — o suficiente pra sustentar o argumento sem virar um manual de 6 mil palavras. Mas as perguntas óbvias que vêm depois de aceitar essa tese são todas operacionais: o que exatamente faz um modelo preferir um produto a outro, quais métricas acompanhar pra saber se está funcionando, qual modelo de precificação se encaixa melhor, como transformar gestão de comunidade em parte da estratégia — e, principalmente, como growth deve demandar de engenharia e se relacionar com ela pra essa tese sair do papel. Escrevi essa parte separadamente. O que eu imaginava como um segundo texto acabou virando uma série — cada pilar pedia mais espaço do que um aprofundamento único comportava.
 
 ## Fechamento
 
@@ -136,3 +136,12 @@ Fechando sem soar como quem tem a resposta pronta — porque não tenho — aqui
 - Se você tem uma API, meça quanto custaria em tokens expor ela como MCP versus como CLI simples — pode ser que a resposta certa para o seu caso seja as duas, não uma só.
 - Escreva um `AGENTS.md` ou `llms.txt` simples — mas sabendo exatamente o que esperar dele. A Ahrefs analisou logs de servidor de 137 mil domínios e encontrou 97% dos arquivos `llms.txt` com zero requisições em maio de 2026; bots de retrieval de IA responderam por 1,1% dos acessos, e o maior solicitante foi ferramenta de auditoria de SEO, com 21,7% ([PPC Land](https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/)). Para visibilidade em busca generativa, portanto, o arquivo não entrega — o próprio Google declarou que ele não afeta ranking. O que o mesmo estudo mostra é que agentes de IDE (Cursor, Windsurf, Claude Code, Copilot, Cline, Aider) procuram ativamente `/llms.txt` e `/llms-full.txt` quando apontados para um site de documentação. É infraestrutura de prontidão para agentes, não ferramenta de GEO — e é justamente por isso que importa aqui.
 - Se seu produto atende uma indústria regulada, não aposte nessa disciplina como motion principal — trate como camada complementar, não substituta.
+
+---
+
+**Série Builder-Led Growth**
+
+- Parte 1 — Quando a máquina também é seu cliente (este texto)
+- [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
+
+A série continua. Cada parte aprofunda um pedaço do que este texto só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.
