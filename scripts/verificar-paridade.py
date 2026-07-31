@@ -8,7 +8,7 @@ Por que este script existe
 --------------------------
 A serie mantem duas versoes completas de cada artigo, editadas de forma
 independente. Isso e uma decisao deliberada, registrada em
-pesquisa/bilinguismo-e-canonicidade.md. O risco dessa decisao nao e ter duas
+a nota de canonicidade do projeto. O risco dessa decisao nao e ter duas
 linguas -- e as duas versoes derivarem: um numero corrigido numa e nao na outra,
 uma secao acrescentada so num lado, uma fonte trocada. Deriva assim nao aparece
 na leitura; aparece na compilacao, meses depois, quando ja custa reescrita.
@@ -95,6 +95,13 @@ def numeros(texto):
     resolvida para o valor cheio.
     """
     achados = set()
+
+    # URL nao e prosa. Endereco de fonte carrega numero que nao e afirmacao do
+    # texto — data no caminho, slug com "1-3-billion", identificador de artigo.
+    # Sem isto, trocar a fonte por outra de mesmo conteudo acusa divergencia, e
+    # foi assim que a parte 7 apontou "3 bilhoes" que ninguem escreveu.
+    # As URLs continuam comparadas em separado, pela funcao propria.
+    texto = re.sub(r"https?://\S+", " ", texto)
 
     def registrar(n):
         if n and not RUIDO_NUMERICO.match(n):
