@@ -15,7 +15,9 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 
 ---
 
-## Published so far
+## The series
+
+### Published
 
 - **[Part 1 — When the machine is also your customer](artigos/en/01-when-the-machine-is-the-customer.md)** — Names the discipline, positions it in the gap between Agent-Led Growth and PLG 3.0, proposes the four pillars. Cases: Supabase, shadcn/ui.  
   Published 2026-07-28 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
@@ -24,6 +26,26 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
   Published 2026-07-30 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
   · Português: [Parte 2 — A decisão, o preço e o que medir](artigos/pt-br/02-decisao-preco-e-medicao.md) — publicado em 2026-07-30 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
 
+### Coming next
+
+Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
+
+- **[Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md)** — Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine.  
+  LinkedIn: 5 August 2026
+  · Português: [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md) — LinkedIn: 4 de agosto de 2026
+- **[Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md)** — Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run.  
+  LinkedIn: 7 August 2026
+  · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — LinkedIn: 6 de agosto de 2026
+- **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
+  LinkedIn: 12 August 2026
+  · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — LinkedIn: 11 de agosto de 2026
+- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
+  LinkedIn: 14 August 2026
+  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — LinkedIn: 13 de agosto de 2026
+- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
+  LinkedIn: 19 August 2026
+  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026
+
 Each article exists as two full versions, English and Brazilian Portuguese, edited
 independently rather than translated. **The English version is canonical**: where
 the two diverge on a fact, a number or a structure, cite the English one. The
@@ -31,8 +53,14 @@ reasoning is in [`AGENTS.md`](AGENTS.md), and
 [`scripts/verificar-paridade.py`](scripts/verificar-paridade.py) is the check that
 keeps them from drifting apart.
 
-Only published articles live here. Drafts, plans and working research stay in a
-private repository until the piece they belong to is out.
+**The whole series lives here, including pieces that haven't run on LinkedIn
+yet.** Every text is final; the index says which have already gone out and which
+are scheduled. Holding an article back until it runs would contradict the thesis
+itself, which argues that public material feeds the corpus and that the lag until
+a model knows is measured in months.
+
+Drafts, plans and working research stay in a private repository. What you see
+here is the work, not the path that led to it.
 
 ---
 
@@ -40,14 +68,14 @@ private repository until the piece they belong to is out.
 
 1. **Machine legibility** — the machine can read, understand and use your product without ambiguity
 2. **Operational accessibility** — it can start without a human stepping in halfway
-3. **Community and validation signal** — third-party material exists for future recommendation to feed on
-4. **Model trust and safety** — the machine, and the human behind it, accept using it without reviewing
+3. **Community and validation signal** — there is third-party material that future recommendations will feed on
+4. **Model trust and safety** — the machine, and the human behind it, accept using it without reviewing every step
 
 Community isn't quite one of the four: it's what **produces the raw material** for
 the other three.
 
-And the limit of the thesis, from Part 2: **Builder-Led Growth decides who
-enters; human economics decides who stays.**
+And the limit of the thesis, from Part 2: **Builder-Led Growth decides who gets in;
+human economics decides who stays.**
 
 ---
 
@@ -70,10 +98,10 @@ Joshua Baer.
 ## Repository layout
 
 ```
-artigos/en/        published articles, English — canonical
-artigos/pt-br/     published articles, Brazilian Portuguese
+artigos/en/        articles, English — canonical
+artigos/pt-br/     articles, Brazilian Portuguese — a full edition, not a translation
 visuais/           PNG and SVG per part, generated by scripts/
-scripts/           visual generators and the parity checker, in Python
+scripts/           visual generators and the checkers, in Python
 ```
 
 ---
@@ -85,9 +113,10 @@ it's placing it on the path the agent already travels. Writing that and keeping 
 illegible repository would be incoherent.
 
 - **[`AGENTS.md`](AGENTS.md)** — short contract, hand-written, containing only what an agent can't infer from the files. A study across 4 agents and 438 tasks found that model-generated files *reduce* success rates relative to having no file at all.
-- **[`llms.txt`](llms.txt)** — machine-readable index, generated from the publication manifest so it can never list something that isn't out yet. English versions first.
+- **[`llms.txt`](llms.txt)** — machine-readable index, generated from the publication manifest. It lists the whole series and says, for each piece, whether it has run or is scheduled. English versions first.
 - **Distinct, stable names** — numeric prefix, no collision across languages. Around 73% of MCP servers in one survey have repeated tool names; an ambiguous name is a silent failure.
 - **Declared canonicity** — which language version prevails is stated, not left to inference, and checked by script.
+- **Measured dispersion, not assumed** — [`scripts/medir-dispersao.py`](scripts/medir-dispersao.py) checks the canonical anchor of every core concept across the whole corpus. Part 5 of the series calls dispersion the central metric of the third pillar and notes there is no tool for it. Pointed inward the first time it ran, it found six of ten anchors diverging inside the series itself. We fixed the defect the series condemns before publishing, rather than after.
 
 ---
 

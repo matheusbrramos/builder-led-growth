@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="900" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">DE ONDE VEM A INCERTEZA DE UM MODELO SOBRE O SEU PRODUTO</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">As três fontes — e quem controla cada uma</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Das três razões pelas quais um modelo pode errar sobre você, uma está inteiramente nas suas mãos</text>
+<rect x="60" y="190" width="468" height="500" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="190" width="468" height="6" rx="0" fill="#C7CDD5"/>
+<text x="86" y="246" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">Lacuna de</text>
+<text x="86" y="275" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">conhecimento</text>
+<text x="86" y="330" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Cobertura insuficiente no</text>
+<text x="86" y="351" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">treino, ou informação</text>
+<text x="86" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">desatualizada.</text>
+<line x1="86" y1="412" x2="502" y2="412" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">QUEM CONTROLA</text>
+<text x="86" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">Você, indiretamente</text>
+<text x="86" y="518" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">EM QUE PRAZO</text>
+<text x="86" y="554" font-family="Liberation Sans, Arial, sans-serif" font-size="28" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">meses a anos</text>
+<line x1="86" y1="608" x2="502" y2="608" stroke="#DEE2E7" stroke-width="1"/>
+<text x="86" y="638" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Depende de adoção acumulada.</text>
+<text x="86" y="658" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Não acelera com esforço.</text>
+<rect x="554" y="190" width="468" height="500" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="554" y="190" width="468" height="6" rx="0" fill="#C7CDD5"/>
+<text x="580" y="246" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">Aleatoriedade</text>
+<text x="580" y="275" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">de decodificação</text>
+<text x="580" y="330" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">O ruído do próprio processo</text>
+<text x="580" y="351" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">de amostragem do modelo.</text>
+<line x1="580" y1="412" x2="996" y2="412" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">QUEM CONTROLA</text>
+<text x="580" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#5B6472" text-anchor="start">O harness, não você</text>
+<text x="580" y="518" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">EM QUE PRAZO</text>
+<text x="580" y="554" font-family="Liberation Sans, Arial, sans-serif" font-size="28" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">—</text>
+<line x1="580" y1="608" x2="996" y2="608" stroke="#DEE2E7" stroke-width="1"/>
+<text x="580" y="638" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Fora do seu alcance.</text>
+<text x="580" y="658" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">É decisão de quem roda o agente.</text>
+<rect x="1048" y="190" width="468" height="500" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="2.5"/>
+<rect x="1048" y="190" width="468" height="6" rx="0" fill="#2F5D8A"/>
+<text x="1074" y="246" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Ambiguidade</text>
+<text x="1074" y="275" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">de entrada</text>
+<text x="1074" y="330" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">O que você entrega admite</text>
+<text x="1074" y="351" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">mais de uma leitura válida:</text>
+<text x="1074" y="372" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">docs, schema, nome, API.</text>
+<line x1="1074" y1="412" x2="1490" y2="412" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">QUEM CONTROLA</text>
+<text x="1074" y="470" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">VOCÊ, diretamente</text>
+<text x="1074" y="518" font-family="Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">EM QUE PRAZO</text>
+<text x="1074" y="554" font-family="Liberation Sans, Arial, sans-serif" font-size="28" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">agora</text>
+<line x1="1074" y1="608" x2="1490" y2="608" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1074" y="638" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">É a única alavanca que</text>
+<text x="1074" y="658" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">responde nesta semana.</text>
+<rect x="60" y="720" width="1480" height="62" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="759" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">E é justamente onde quase ninguém trabalha: a discussão pública está em aparecer, não em ser inequívoco.</text>
+<line x1="60" y1="834" x2="1540" y2="834" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="860" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Decomposição a partir de The Anatomy of Uncertainty in LLMs (arXiv 2603.24967). O mapeamento para distribuição é do autor.</text></svg>

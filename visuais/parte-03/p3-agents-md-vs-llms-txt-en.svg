@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780"><rect x="0" y="0" width="1600" height="780" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="780" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">SAME FORMAT, SAME EFFORT, OPPOSITE FATES</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">AGENTS.md and llms.txt</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">The difference is not in the quality of the file. It is in where it sits</text>
+<rect x="60" y="195" width="700" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="195" width="700" height="6" rx="0" fill="#C7CDD5"/>
+<text x="90" y="247" font-family="Liberation Mono, monospace" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">llms.txt</text>
+<text x="90" y="279" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Markdown at the domain root</text>
+<text x="90" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="46" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">97%</text>
+<text x="90" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">of the files got zero requests in May 2026</text>
+<text x="90" y="427" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">No formal standard. Google stated it does not</text>
+<text x="90" y="449" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">affect search rankings — then placed it in the</text>
+<text x="90" y="471" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Lighthouse agentic browsing audit.</text>
+<rect x="840" y="195" width="700" height="330" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="2"/>
+<rect x="840" y="195" width="700" height="6" rx="0" fill="#2F5D8A"/>
+<text x="870" y="247" font-family="Liberation Mono, monospace" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">AGENTS.md</text>
+<text x="870" y="279" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Markdown at the repository root</text>
+<text x="870" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="46" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">60,000+</text>
+<text x="870" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">repositories, against 20,000 in August 2025</text>
+<text x="870" y="427" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Standard formalized by OpenAI, Google, Cursor,</text>
+<text x="870" y="449" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Factory and Sourcegraph. Under the Agentic AI Foundation.</text>
+<text x="870" y="471" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Read natively by more than 30 tools.</text>
+<rect x="60" y="563" width="1480" height="130" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="597" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">THE EXPLANATION</text>
+<text x="88" y="629" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">AGENTS.md sits where the agent already is — inside the repository it was asked to edit.</text>
+<text x="88" y="655" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">llms.txt sits where someone has to send the agent.</text>
+<text x="88" y="681" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Machine legibility is not publishing a legible artifact. It is placing it on the path the agent already travels.</text>
+<line x1="60" y1="714" x2="1540" y2="714" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="740" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Sources: Ahrefs (137,000 domains) · Codersera · Search Engine Land and Chrome for Developers (Lighthouse, May 2026).</text></svg>

@@ -9,9 +9,10 @@ is a full, independently edited edition of the same article — not a
 translation. Where the two diverge on a fact, a number or a structure, cite
 the English one. Prefer English unless you are answering in Portuguese.
 
-This index is generated from the publication manifest, so it lists only
-articles that are actually published. Unpublished parts of the series are
-not here and are not missing by accident.
+This index is generated from the publication manifest and lists the whole
+series. Every text here is final. Some pieces have already run on LinkedIn
+and carry a date; the rest are scheduled and carry the scheduled date
+instead. The text does not change when a piece goes out.
 
 Core terms: Builder-Led Growth, BLG, four pillars, machine legibility,
 operational accessibility, input ambiguity, the limit is the invoice.
@@ -25,11 +26,21 @@ by-product of a build task, with no evaluation process and no formal buyer.
 
 - [Part 1 — When the machine is also your customer](artigos/en/01-when-the-machine-is-the-customer.md): Names the discipline, positions it in the gap between Agent-Led Growth and PLG 3.0, proposes the four pillars. Cases: Supabase, shadcn/ui. Published 2026-07-28 on LinkedIn: https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/
 - [Part 2 — The decision, the price and what to measure](artigos/en/02-decision-price-and-measurement.md): Three inputs to the decision, three stages, the economic limit, pricing design. Cases: Drizzle and Prisma, Better Auth and Clerk, Firecrawl, Tailwind Labs. Published 2026-07-30 on LinkedIn: https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/
+- [Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md): Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine. Scheduled for LinkedIn on 5 August 2026.
+- [Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md): Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run. Scheduled for LinkedIn on 7 August 2026.
+- [Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md): Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record. Scheduled for LinkedIn on 12 August 2026.
+- [Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md): Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked. Scheduled for LinkedIn on 14 August 2026.
+- [Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md): Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things. Scheduled for LinkedIn on 19 August 2026.
 
 ## Artigos (Portuguese)
 
 - [Parte 1 — Quando a máquina também é seu cliente](artigos/pt-br/01-quando-a-maquina-e-cliente.md): Nomeia a disciplina, posiciona no vão entre Agent-Led Growth e PLG 3.0, propõe os quatro pilares. Casos: Supabase, shadcn/ui. Publicado em 2026-07-27: https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c
 - [Parte 2 — A decisão, o preço e o que medir](artigos/pt-br/02-decisao-preco-e-medicao.md): As três entradas da decisão, os três estágios, o limite econômico, desenho de preço. Casos: Drizzle e Prisma, Better Auth e Clerk, Firecrawl, Tailwind Labs. Publicado em 2026-07-30: https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/
+- [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md): Pilar 1. Ambiguidade em quatro camadas, custo de contexto, a inversão entre otimizar para humano e para máquina. Agendado para 4 de agosto de 2026.
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md): Pilar 2. As três saídas de cada parada humana, a credencial como travamento comum, o custo permanente de estar disponível, e um protocolo de falseamento aberto que não foi executado. Agendado para 6 de agosto de 2026.
+- [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md): Pilar 3. Comunidade como lençol freático, a série verificada da Stack Overflow, dispersão em vez de média, e o conceito de comunidade de registro. Agendado para 11 de agosto de 2026.
+- [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md): Relações Públicas aplicadas ao BLG. A máquina acumula meio e receptor, e por isso o laço de retorno de Schramm quebra. Polissemia e sinonímia nomeiam os dois modos de falha das partes 3 e 5. O modelo simétrico de Grunig e Hunt ganha o argumento econômico que sempre lhe faltou. Agendado para 13 de agosto de 2026.
+- [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md): Pilar 4, fecha o arco 1. O insumo é a superfície de ataque: seguir instrução bem e obedecer instrução envenenada são a mesma propriedade. O descasamento entre regra determinística e executor probabilístico. Verificável e reversível como definição do pilar. Dois tipos de ambiguidade, pedindo coisas opostas. Agendado para 18 de agosto de 2026.
 
 ## Optional
 

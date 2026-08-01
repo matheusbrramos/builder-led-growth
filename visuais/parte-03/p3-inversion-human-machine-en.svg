@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="810" viewBox="0 0 1600 810"><rect x="0" y="0" width="1600" height="810" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="810" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">THE POINT WHERE THE TWO OPTIMIZATIONS DIVERGE</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">What attracts the human confuses the machine</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Until now the two interests had been converging. In content strategy, they do not</text>
+<rect x="60" y="200" width="620" height="340" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="200" width="620" height="6" rx="0" fill="#2F7D5D"/>
+<text x="90" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F7D5D" text-anchor="start">THE HUMAN NEEDS</text>
+<text x="90" y="292" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Repetition across</text>
+<text x="90" y="322" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">varied formats</text>
+<text x="90" y="376" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">They forget and get distracted. The same idea has to</text>
+<text x="90" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">meet them in the feed, in email and in short video,</text>
+<text x="90" y="420" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">and each encounter reinforces the last.</text>
+<text x="90" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start"></text>
+<text x="90" y="464" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Atomization is reach.</text>
+<rect x="920" y="200" width="620" height="340" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="920" y="200" width="620" height="6" rx="0" fill="#9C4A3C"/>
+<text x="950" y="250" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#9C4A3C" text-anchor="start">THE MACHINE NEEDS</text>
+<text x="950" y="292" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">A single, consistent</text>
+<text x="950" y="322" font-family="Liberation Sans, Arial, sans-serif" font-size="23" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">claim</text>
+<text x="950" y="376" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Twelve pieces saying the same thing occupy capacity.</text>
+<text x="950" y="398" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Each adaptation simplifies differently, and incompatible</text>
+<text x="950" y="420" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">simplifications become conflict in the weights.</text>
+<text x="950" y="442" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start"></text>
+<text x="950" y="464" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Atomization is noise with a cost.</text>
+<path d="M760.0,356.0 l-28,0 m5,-5 l-5,5 l5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<path d="M840.0,356.0 l28,0 m-5,-5 l5,5 l-5,5" stroke="#8B93A1" stroke-width="2.5" fill="none"/>
+<rect x="60" y="576" width="1480" height="108" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">THE SHARP VERSION — AND THE COUNTERPOINT THAT PRODUCED IT</text>
+<text x="88" y="638" font-family="Liberation Sans, Arial, sans-serif" font-size="16.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">It is not that less content is better. Content that says different things beats content that says the same thing twelve ways.</text>
+<text x="88" y="664" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Research shows removing near-duplicates worsens training — they differ in semantics. What counts is content variation, not format variation.</text>
+<line x1="60" y1="744" x2="1540" y2="744" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="770" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Proposed direction: separate the circuits. Human content in human channels; a single canonical source on the machine surface.</text></svg>

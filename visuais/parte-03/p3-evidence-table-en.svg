@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950"><rect x="0" y="0" width="1600" height="950" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="950" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHAT IS BACKED AND WHAT IS NOT</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Evidence table for this article</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">A claim with no declared epistemic status is a claim with no address</text>
+<rect x="60" y="172" width="1480" height="42" rx="6" fill="#E7EEF4"/>
+<text x="76" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">CLAIM</text>
+<text x="716" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">STATUS</text>
+<text x="1026" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">BASIS</text>
+<rect x="60" y="220" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Constrained syntax beats a familiar language</text>
+<text x="716" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Published experiment</text>
+<text x="1026" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2512.23214, validated on 2 models</text>
+<text x="76" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">73% of MCP servers have repeated names</text>
+<text x="716" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Survey</text>
+<text x="1026" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2602.18914 — preprint, 10,000+ servers</text>
+<rect x="60" y="324" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Failed disambiguation suppresses attribution</text>
+<text x="716" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Documented mechanism</text>
+<text x="1026" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">entity linking literature; no loss figure</text>
+<text x="76" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Corpus incongruity becomes conflict in the weights</text>
+<text x="716" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Literature review</text>
+<text x="1026" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2403.08319</text>
+<rect x="60" y="428" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Facts compete for model capacity</text>
+<text x="716" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Experiment</text>
+<text x="1026" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2604.08519 — small models, pretraining from scratch</text>
+<text x="76" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Structured data improves citation</text>
+<text x="716" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">IN CONFLICT</text>
+<text x="1026" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Ahrefs finds no effect; arXiv finds +29.6%</text>
+<rect x="60" y="532" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Markdown reduces tokens</text>
+<text x="716" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Range without a standard</text>
+<text x="1026" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">25% to 87% across studies — not a margin of error</text>
+<text x="76" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Context cost is a retention decision</text>
+<text x="716" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Author's reasoning</text>
+<text x="1026" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">no source treats it this way</text>
+<rect x="60" y="636" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Separate the human and canonical circuits</text>
+<text x="716" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Author's reasoning</text>
+<text x="1026" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">no published conversion data</text>
+<text x="76" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Ambiguity affects parametric knowledge</text>
+<text x="716" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Open question</text>
+<text x="1026" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">found no study measuring it</text>
+<rect x="60" y="770" width="1480" height="66" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="798" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">WHAT THAT COSTS</text>
+<text x="88" y="822" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Three of the ten claims are my own reasoning or open questions. I would rather say so than present everything with equal confidence.</text>
+<line x1="60" y1="884" x2="1540" y2="884" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="910" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Builder-Led Growth, part 3 — pillar 1, machine legibility.</text></svg>

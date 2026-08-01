@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950"><rect x="0" y="0" width="1600" height="950" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="950" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">O QUE ESTÁ SUSTENTADO E O QUE NÃO ESTÁ</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Quadro de evidência deste artigo</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Uma afirmação sem status epistêmico declarado é uma afirmação sem endereço</text>
+<rect x="60" y="172" width="1480" height="42" rx="6" fill="#E7EEF4"/>
+<text x="76" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">AFIRMAÇÃO</text>
+<text x="716" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">STATUS</text>
+<text x="1026" y="200" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">BASE</text>
+<rect x="60" y="220" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Sintaxe restrita supera linguagem conhecida</text>
+<text x="716" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Experimento publicado</text>
+<text x="1026" y="244" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2512.23214, validado em 2 modelos</text>
+<text x="76" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">73% dos servidores MCP têm nome repetido</text>
+<text x="716" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Levantamento</text>
+<text x="1026" y="296" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2602.18914 — preprint, 10 mil+ servidores</text>
+<rect x="60" y="324" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Desambiguação falha suprime a atribuição</text>
+<text x="716" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Mecanismo documentado</text>
+<text x="1026" y="348" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">literatura de entity linking; sem número de perda</text>
+<text x="76" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Incongruência no corpus vira conflito nos pesos</text>
+<text x="716" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Revisão de literatura</text>
+<text x="1026" y="400" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2403.08319</text>
+<rect x="60" y="428" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Fatos competem por capacidade do modelo</text>
+<text x="716" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Experimento</text>
+<text x="1026" y="452" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">arXiv 2604.08519 — modelos pequenos, pré-treino do zero</text>
+<text x="76" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Dados estruturados melhoram citação</text>
+<text x="716" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">EM CONFLITO</text>
+<text x="1026" y="504" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Ahrefs não encontra efeito; arXiv encontra +29,6%</text>
+<rect x="60" y="532" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Markdown reduz tokens</text>
+<text x="716" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">Faixa sem padrão</text>
+<text x="1026" y="556" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">de 25% a 87% entre estudos — não é margem de erro</text>
+<text x="76" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Custo de contexto é decisão de retenção</text>
+<text x="716" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Raciocínio do autor</text>
+<text x="1026" y="608" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">nenhuma fonte trata assim</text>
+<rect x="60" y="636" width="1480" height="52" rx="6" fill="#F7F8FA"/>
+<text x="76" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Separar circuito humano e circuito canônico</text>
+<text x="716" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Raciocínio do autor</text>
+<text x="1026" y="660" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">sem dado de conversão publicado</text>
+<text x="76" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Ambiguidade afeta o conhecimento paramétrico</text>
+<text x="716" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">Pergunta em aberto</text>
+<text x="1026" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="13.5" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">não encontrei estudo que meça</text>
+<rect x="60" y="770" width="1480" height="66" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="798" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">O QUE ISSO CUSTA</text>
+<text x="88" y="822" font-family="Liberation Sans, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Três das dez afirmações são raciocínio meu ou pergunta em aberto. Preferi dizer isso a apresentar tudo com a mesma confiança.</text>
+<line x1="60" y1="884" x2="1540" y2="884" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="910" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Builder-Led Growth, parte 3 — pilar 1, legibilidade por máquina.</text></svg>

@@ -34,7 +34,7 @@ Fui atrás da cronologia e a ordem é outra. A Craft Ventures, que investiu na e
 
 A decisão da Lovable não criou o default. Ela ratificou um default que já existia.
 
-Os números do período dão a escala: de 1 milhão para mais de 4,5 milhões de desenvolvedores em menos de um ano; receita recorrente anual de US$16 milhões em 2024 para US$70 milhões em setembro de 2025, crescimento de 250% ao ano com base de usuários subindo mais de 700%; 15,1 milhões de bancos de dados criados só em 2025, mais do que todos os anos anteriores somados; 55% do batch mais recente da Y Combinator e mais de mil empresas YC no total usando a plataforma ([Sacra](https://sacra.com/research/supabase-at-70m-arr-growing-250-yoy/)).
+Os números do período dão a escala: de 1 milhão para mais de 4,5 milhões de desenvolvedores em menos de um ano; receita recorrente anual de US$16 milhões em 2024 para US$70 milhões em setembro de 2025, crescimento de 250% ao ano com base de usuários subindo mais de 700%; 15,1 milhões de bancos de dados criados só em 2025, mais do que todos os anos anteriores somados; 55% do batch da Y Combinator mais recente à época do levantamento, de setembro de 2025, e mais de mil empresas YC no total usando a plataforma ([Sacra](https://sacra.com/research/supabase-at-70m-arr-growing-250-yoy/)).
 
 E há uma frase no relato que vale mais que os números, porque é a tese dita por dentro: *"comunidade é um fosso, não um canal"*. Eles descrevem GEO, comunidade e ciclo de vida como esforço combinado — não como três iniciativas separadas de marketing.
 
@@ -92,15 +92,15 @@ O número mede **procedência**: conteúdo de terceiro pesa 32,5%, página do pr
 
 Mas existe uma categoria intermediária que o dado não resolve: **conteúdo comparativo em primeira pessoa** — a empresa publicando, no próprio domínio, a comparação honesta entre ela e os concorrentes. Não é review plantado, porque a autoria está declarada. Também não é página comercial no sentido do estudo, porque o formato é comparativo e inclui o concorrente. Se isso entra no balde de 5% ou captura parte dos 32,5% é algo que eu não consegui determinar com o material que tenho.
 
-Registro como pergunta em aberto porque ela tem consequência prática grande: se conteúdo comparativo em primeira pessoa capturar peso de terceiro, existe uma alavanca barata e ainda pouco disputada. Se não capturar, é apenas uma boa página de defesa de marca. E, ao longo desta pesquisa, encontrei pelo menos uma empresa apostando na primeira hipótese.
+Deixo em aberto, e a consequência prática é grande: se conteúdo comparativo em primeira pessoa capturar peso de terceiro, existe uma alavanca barata e ainda pouco disputada. Se não capturar, é apenas uma boa página de defesa de marca. E, ao longo desta pesquisa, encontrei pelo menos uma empresa apostando na primeira hipótese.
 
 **Adoção.** A recomendação vira integração funcionando. É onde a maioria dos produtos perde sem que nenhuma métrica de marketing acuse, porque o agente tentou, bateu em três passos que exigiam intervenção humana, o usuário se irritou no meio, e o projeto seguiu com outra coisa.
 
 ![O funil BLG com entrada e mecanismo dominante por estágio](../../visuais/parte-02/p2-funil-tres-estagios-pt.png)
 
-## Dois deslocamentos recentes, e o que cada um ensina
+## Dois deslocamentos de 2025 e 2026, e o que cada um ensina
 
-Supabase e shadcn mostram como se conquista uma posição. Dois casos mais recentes mostram como se **perde** uma — e eles perdem por motivos opostos, o que é mais instrutivo do que se confirmassem a mesma coisa.
+Supabase e shadcn mostram como se conquista uma posição. Dois casos posteriores mostram como se **perde** uma — e eles perdem por motivos opostos, o que é mais instrutivo do que se confirmassem a mesma coisa.
 
 ### Drizzle passou Prisma nos estágios iniciais
 
@@ -206,7 +206,7 @@ E o gargalo aparece num lugar difícil. No PLG clássico, quem chega na hora de 
 
 Isso sugere que o desenho de preço precisa responder também a uma pergunta de sequência, e não só de valor: **quando o humano for interrompido, ele já terá visto valor suficiente para dizer sim?** Se a resposta for não, o atrito removido no começo reaparece — maior — na hora da conversão. Duas alavancas parecem endereçar isso: dimensionar a cota gratuita para cobrir pelo menos um trabalho completo de ponta a ponta, de modo que a interrupção chegue depois de um resultado entregue; e tornar visível ao humano o que o agente já produziu com a ferramenta, para que a decisão de pagar seja tomada diante de valor demonstrado, e não de um aviso de limite.
 
-Registro isso como raciocínio, não como prática validada — não encontrei ninguém publicando dados de conversão sob esse desenho. Mas é o tipo de armadilha que só aparece quando se olha o funil inteiro em vez de celebrar a remoção de um atrito isolado.
+Daqui em diante é raciocínio meu: não encontrei ninguém publicando dados de conversão sob esse desenho. Mas é o tipo de armadilha que só aparece quando se olha o funil inteiro em vez de celebrar a remoção de um atrito isolado.
 
 ### Modelos que servem ao BLG, e por quê
 

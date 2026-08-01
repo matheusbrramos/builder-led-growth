@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="780" viewBox="0 0 1600 780"><rect x="0" y="0" width="1600" height="780" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="780" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">MESMO FORMATO, MESMO ESFORÇO, DESTINOS OPOSTOS</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">AGENTS.md e llms.txt</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">A diferença não está na qualidade do arquivo. Está em onde ele fica</text>
+<rect x="60" y="195" width="700" height="330" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="195" width="700" height="6" rx="0" fill="#C7CDD5"/>
+<text x="90" y="247" font-family="Liberation Mono, monospace" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">llms.txt</text>
+<text x="90" y="279" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Markdown na raiz do domínio</text>
+<text x="90" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="46" font-weight="700" font-style="normal" fill="#8B93A1" text-anchor="start">97%</text>
+<text x="90" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">dos arquivos com zero requisições em maio de 2026</text>
+<text x="90" y="427" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Sem padrão formal. O Google declarou que não</text>
+<text x="90" y="449" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">afeta ranking de busca — e depois o colocou na</text>
+<text x="90" y="471" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">auditoria de navegação agêntica do Lighthouse.</text>
+<rect x="840" y="195" width="700" height="330" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="2"/>
+<rect x="840" y="195" width="700" height="6" rx="0" fill="#2F5D8A"/>
+<text x="870" y="247" font-family="Liberation Mono, monospace" font-size="26" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">AGENTS.md</text>
+<text x="870" y="279" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">Markdown na raiz do repositório</text>
+<text x="870" y="345" font-family="Liberation Sans, Arial, sans-serif" font-size="46" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">60 mil+</text>
+<text x="870" y="375" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">repositórios, contra 20 mil em agosto de 2025</text>
+<text x="870" y="427" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Padrão formalizado por OpenAI, Google, Cursor,</text>
+<text x="870" y="449" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Factory e Sourcegraph. Sob a Agentic AI Foundation.</text>
+<text x="870" y="471" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Lido nativamente por mais de 30 ferramentas.</text>
+<rect x="60" y="563" width="1480" height="130" rx="10" fill="#F5EBDD" stroke="#B8792E" stroke-width="1.5"/>
+<text x="88" y="597" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#B8792E" text-anchor="start">A EXPLICAÇÃO</text>
+<text x="88" y="629" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">O AGENTS.md fica onde o agente já está — dentro do repositório que ele foi encarregado de editar.</text>
+<text x="88" y="655" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">O llms.txt fica onde alguém precisa mandar o agente ir.</text>
+<text x="88" y="681" font-family="Liberation Sans, Arial, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">Legibilidade por máquina não é publicar um artefato legível. É colocá-lo no trajeto que o agente já percorre.</text>
+<line x1="60" y1="714" x2="1540" y2="714" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="740" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Fontes: Ahrefs (137 mil domínios) · Codersera · Search Engine Land e Chrome for Developers (Lighthouse, maio de 2026).</text></svg>

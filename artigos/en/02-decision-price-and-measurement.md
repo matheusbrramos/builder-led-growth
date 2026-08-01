@@ -34,7 +34,7 @@ I went after the chronology and the order is different. Craft Ventures, an inves
 
 Lovable's decision didn't create the default. It ratified a default that already existed.
 
-The numbers from that period give the scale: from 1 million to more than 4.5 million developers in under a year; annual recurring revenue from $16 million in 2024 to $70 million in September 2025, growing 250% year over year with a user base up more than 700%; 15.1 million databases created in 2025 alone, more than every prior year combined; 55% of the most recent Y Combinator batch and more than a thousand YC companies in total on the platform ([Sacra](https://sacra.com/research/supabase-at-70m-arr-growing-250-yoy/)).
+The numbers from that period give the scale: from 1 million to more than 4.5 million developers in under a year; annual recurring revenue from $16 million in 2024 to $70 million in September 2025, growing 250% year over year with a user base up more than 700%; 15.1 million databases created in 2025 alone, more than every prior year combined; 55% of the Y Combinator batch that was most recent at the time of the September 2025 survey, and more than a thousand YC companies in total on the platform ([Sacra](https://sacra.com/research/supabase-at-70m-arr-growing-250-yoy/)).
 
 And there's a line in that account worth more than the numbers, because it's the thesis stated from the inside: *"community is a moat, not a channel."* They describe GEO, community and lifecycle as one combined effort — not three separate marketing initiatives.
 
@@ -92,15 +92,15 @@ The number measures **provenance**: third-party content carries 32.5%, the produ
 
 But there's an intermediate category the data doesn't resolve: **first-person comparative content** — the company publishing, on its own domain, an honest comparison between itself and its competitors. It isn't a planted review, because authorship is declared. It also isn't a commercial page in the sense the study means, because the format is comparative and includes the competitor. Whether that falls into the 5% bucket or captures part of the 32.5% is something I couldn't determine with the material I have.
 
-I record it as an open question because it carries a large practical consequence: if first-person comparative content captures third-party weight, there's a cheap and still uncontested lever. If it doesn't, it's simply a good brand defense page. And over the course of this research, I found at least one company betting on the first hypothesis.
+I am leaving it open, and the practical consequence is large: if first-person comparative content captures third-party weight, there's a cheap and still uncontested lever. If it doesn't, it's simply a good brand defense page. And over the course of this research, I found at least one company betting on the first hypothesis.
 
 **Adoption.** The recommendation becomes a working integration. This is where most products lose without any marketing metric flagging it, because the agent tried, hit three steps that required human intervention, the user got irritated halfway through, and the project moved on with something else.
 
 ![The BLG funnel with the dominant input and mechanism per stage](../../visuais/parte-02/p2-three-stage-funnel-en.png)
 
-## Two recent displacements, and what each one teaches
+## Two displacements, in 2025 and 2026, and what each one teaches
 
-Supabase and shadcn show how a position is won. Two more recent cases show how one is **lost** — and they lose for opposite reasons, which is more instructive than if they confirmed the same thing.
+Supabase and shadcn show how a position is won. Two later cases show how one is **lost** — and they lose for opposite reasons, which is more instructive than if they confirmed the same thing.
 
 ### Drizzle passed Prisma at the early stages
 
@@ -206,7 +206,7 @@ And the bottleneck shows up in a difficult place. In classic PLG, whoever arrive
 
 That suggests price design also has to answer a question of sequence, and not only of value: **when the human is interrupted, will they already have seen enough value to say yes?** If the answer is no, the friction removed at the start reappears — larger — at conversion. Two levers seem to address this: sizing the free quota to cover at least one complete job end to end, so the interruption arrives after a delivered result; and making visible to the human what the agent has already produced with the tool, so the decision to pay is made in front of demonstrated value rather than a limit notice.
 
-I record this as reasoning, not validated practice — I found no one publishing conversion data under that design. But it's the kind of trap that only appears when you look at the whole funnel instead of celebrating the removal of an isolated piece of friction.
+From here on this is my own reasoning: I found no one publishing conversion data under that design. But it's the kind of trap that only appears when you look at the whole funnel instead of celebrating the removal of an isolated piece of friction.
 
 ### Models that serve BLG, and why
 

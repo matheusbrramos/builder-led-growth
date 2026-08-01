@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980"><rect x="0" y="0" width="1600" height="980" fill="#FFFFFF"/><rect x="0" y="0" width="10" height="980" rx="0" fill="#2F5D8A"/>
+<text x="60" y="66" font-family="Liberation Sans, Arial, sans-serif" font-size="14" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHERE AMBIGUITY ACTS</text>
+<text x="60" y="104" font-family="Liberation Sans, Arial, sans-serif" font-size="30" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Four layers, four literatures</text>
+<text x="60" y="136" font-family="Liberation Sans, Arial, sans-serif" font-size="17" font-weight="400" font-style="italic" fill="#5B6472" text-anchor="start">Measured by fields that do not cite each other — which suggests a common mechanism underneath</text>
+<rect x="60" y="186" width="1480" height="134" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="186" width="6" height="134" rx="0" fill="#2F5D8A"/>
+<circle cx="112" cy="228" r="20" fill="#2F5D8A"/>
+<text x="112" y="235" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="150" y="222" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Can the machine use you without erring?</text>
+<text x="150" y="248" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">code generation</text>
+<text x="150" y="290" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">The variable is not familiarity. It is how many valid paths you leave open.</text>
+<line x1="1010" y1="208" x2="1010" y2="298" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1046" y="238" font-family="Liberation Sans, Arial, sans-serif" font-size="25" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">+40 points</text>
+<text x="1046" y="268" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">constrained language over Python, on multi-step tasks</text>
+<rect x="60" y="334" width="1480" height="134" rx="10" fill="#FFFFFF" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="334" width="6" height="134" rx="0" fill="#2F5D8A"/>
+<circle cx="112" cy="376" r="20" fill="#2F5D8A"/>
+<text x="112" y="383" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="150" y="370" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Can the machine tell you from your competitor?</text>
+<text x="150" y="396" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">tool selection</text>
+<text x="150" y="438" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Your distinctness depends on what others named. There is no equivalent to this in PLG.</text>
+<line x1="1010" y1="356" x2="1010" y2="446" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1046" y="386" font-family="Liberation Sans, Arial, sans-serif" font-size="25" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">73%</text>
+<text x="1046" y="416" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">of the servers analyzed have repeated tool names</text>
+<rect x="60" y="482" width="1480" height="134" rx="10" fill="#F7F8FA" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="482" width="6" height="134" rx="0" fill="#2F5D8A"/>
+<circle cx="112" cy="524" r="20" fill="#2F5D8A"/>
+<text x="112" y="531" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="150" y="518" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">Does the machine know who you are?</text>
+<text x="150" y="544" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">entity linking</text>
+<text x="150" y="586" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">The result is not being cited wrongly. It is not being cited — a silent failure.</text>
+<line x1="1010" y1="504" x2="1010" y2="594" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1046" y="534" font-family="Liberation Sans, Arial, sans-serif" font-size="25" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">attribution suppressed</text>
+<text x="1046" y="564" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">when name disambiguation fails</text>
+<rect x="60" y="630" width="1480" height="134" rx="10" fill="#FFFFFF" stroke="#DEE2E7" stroke-width="1"/>
+<rect x="60" y="630" width="6" height="134" rx="0" fill="#2F5D8A"/>
+<circle cx="112" cy="672" r="20" fill="#2F5D8A"/>
+<text x="112" y="679" font-family="Liberation Sans, Arial, sans-serif" font-size="18" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="150" y="666" font-family="Liberation Sans, Arial, sans-serif" font-size="21" font-weight="700" font-style="normal" fill="#16213E" text-anchor="start">What does the machine learn about you?</text>
+<text x="150" y="692" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">corpus quality</text>
+<text x="150" y="734" font-family="Liberation Sans, Arial, sans-serif" font-size="14.5" font-weight="400" font-style="normal" fill="#5B6472" text-anchor="start">Two versions of your API in the corpus teach competing versions of yourself.</text>
+<line x1="1010" y1="652" x2="1010" y2="742" stroke="#DEE2E7" stroke-width="1"/>
+<text x="1046" y="682" font-family="Liberation Sans, Arial, sans-serif" font-size="25" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">intra-memory conflict</text>
+<text x="1046" y="712" font-family="Liberation Sans, Arial, sans-serif" font-size="13" font-weight="400" font-style="italic" fill="#8B93A1" text-anchor="start">incongruity in training becomes inconsistency in the weights</text>
+<rect x="60" y="790" width="1480" height="72" rx="10" fill="#E7EEF4" stroke="#2F5D8A" stroke-width="1.5"/>
+<text x="88" y="820" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="700" font-style="normal" fill="#2F5D8A" text-anchor="start">WHAT AMBIGUITY DOES NOT EXPLAIN</text>
+<text x="88" y="846" font-family="Liberation Sans, Arial, sans-serif" font-size="16" font-weight="400" font-style="normal" fill="#16213E" text-anchor="start">Community, economics and accumulated presence in training data. A variable that explains everything explains nothing.</text>
+<line x1="60" y1="914" x2="1540" y2="914" stroke="#DEE2E7" stroke-width="1"/>
+<text x="60" y="940" font-family="Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="400" font-style="normal" fill="#8B93A1" text-anchor="start">Sources: arXiv 2512.23214 (Anka) · arXiv 2602.18914 (MCP descriptions, preprint) · entity disambiguation literature · arXiv 2403.08319.</text></svg>
