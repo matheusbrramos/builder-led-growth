@@ -1,0 +1,130 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Mede a dispersao do corpus da propria serie.
+
+Por que existe
+--------------
+A parte 5 argumenta que dispersao — quantas formulacoes incompativeis existem
+publicamente para a mesma coisa — e a metrica central do terceiro pilar, e diz
+que ela e "a mais trabalhosa, porque hoje so da para levantar a mao". Este
+script e a tentativa de nao deixar isso como lacuna.
+
+E ele aponta primeiro para dentro. Uma serie de sete artigos em duas linguas
+repete a definicao dos quatro pilares catorze vezes. Se as catorze divergirem,
+a obra produz exatamente o defeito que descreve.
+
+O que ele mede
+--------------
+Para cada conceito ancora, extrai todas as formulacoes que aparecem no corpus e
+separa em duas coisas que nao sao a mesma:
+
+  ANCORA      a sentenca canonica, que deveria ser identica em toda ocorrencia
+  COMPLEMENTO o que vem depois dela, que pode variar com o contexto
+
+Divergencia na ancora e defeito. Variacao no complemento e adequacao ao
+contexto, e nao conta como dispersao — a mesma distincao que a parte 7 faz
+entre ambiguidade na superficie, que se elimina, e no pedido, que se acomoda.
+
+Uso:
+    python scripts/medir-dispersao.py
+    python scripts/medir-dispersao.py --detalhe
+"""
+import glob
+import hashlib
+import io
+import os
+import re
+import sys
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Conceito ancora: (rotulo, regex que captura a formulacao, lingua)
+# A regex captura do marcador ate o fim da frase — a ancora e a primeira
+# sentenca, o resto e complemento.
+ANCORAS = [
+    ("pilar 1 · legibilidade", "pt", r"\*\*Legibilidade por máquina\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pilar 2 · acessibilidade", "pt", r"\*\*Acessibilidade operacional\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pilar 3 · comunidade", "pt", r"\*\*Comunidade e sinal de validação\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pilar 4 · confiança", "pt", r"\*\*Confiança e segurança do modelo\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("limite da tese", "pt", r"(o Builder-Led Growth decide quem entra[^.]*\.)"),
+    ("pillar 1 · legibility", "en", r"\*\*Machine legibility\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pillar 2 · accessibility", "en", r"\*\*Operational accessibility\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pillar 3 · community", "en", r"\*\*Community and validation signal\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("pillar 4 · trust", "en", r"\*\*Model trust and safety\.\*\*\s*(.+?)(?:\n\n|\Z)"),
+    ("thesis limit", "en", r"(Builder-Led Growth decides who gets in[^.]*\.)"),
+]
+
+DIRS = {"pt": "artigos/pt-br/*.md", "en": "artigos/en/*.md"}
+
+
+def sem_comentarios(t):
+    return re.sub(r"<!--.*?-->", "", t, flags=re.S)
+
+
+def primeira_sentenca(t):
+    """A ancora termina no ponto, no travessao ou nos dois-pontos.
+
+    Cortar so no ponto final foi o primeiro erro deste script: ele lia
+    "…vai se alimentar — comparativos, codigo publico" como ancora diferente de
+    "…vai se alimentar.", quando a ancora e a mesma e o travessao so introduz
+    exemplo. Verificador que confunde complemento com divergencia acusa defeito
+    onde nao ha, e treina quem le a ignora-lo.
+    """
+    m = re.match(r"(.+?)(?:[.!?](?:\s|$)|\s+[—–:])", t)
+    return (m.group(1) if m else t).strip().rstrip(".")
+
+
+def h(s):
+    return hashlib.md5(" ".join(s.split()).lower().encode()).hexdigest()[:6]
+
+
+def medir(detalhe=False):
+    total_ancoras = 0
+    total_divergentes = 0
+    print("dispersão do corpus da série — âncora e complemento\n")
+
+    for rotulo, lang, padrao in ANCORAS:
+        ocorr = []
+        for f in sorted(glob.glob(os.path.join(RAIZ, DIRS[lang]))):
+            texto = sem_comentarios(io.open(f, encoding="utf-8").read())
+            for m in re.finditer(padrao, texto, re.S):
+                bruto = " ".join(m.group(1).split())
+                ocorr.append((os.path.basename(f)[:2], primeira_sentenca(bruto), bruto))
+        if not ocorr:
+            continue
+
+        ancoras = {}
+        for parte, anc, bruto in ocorr:
+            ancoras.setdefault(h(anc), (anc, []))[1].append(parte)
+        complementos = {h(b) for _, _, b in ocorr}
+
+        total_ancoras += 1
+        divergente = len(ancoras) > 1
+        total_divergentes += 1 if divergente else 0
+
+        marca = "DIVERGE" if divergente else "estável"
+        print("  [%s] %-28s %d ocorrência(s), %d âncora(s), %d formulação(ões)"
+              % (marca, rotulo, len(ocorr), len(ancoras), len(complementos)))
+
+        if divergente or detalhe:
+            for hh, (anc, partes) in ancoras.items():
+                print("        partes %s: %s" % (",".join(sorted(set(partes))), anc[:110]))
+        print()
+
+    print("-" * 72)
+    print("%d conceitos âncora medidos. %d com âncora divergente." %
+          (total_ancoras, total_divergentes))
+    if total_divergentes == 0:
+        print("\nA âncora canônica está estável em todo o corpus.")
+        print("A variação que existe é de complemento, e ela é adequação ao contexto:")
+        print("a mesma distinção que a parte 7 faz entre ambiguidade na superfície,")
+        print("que se elimina, e no pedido, que se acomoda.")
+    else:
+        print("\nÂncora divergente é defeito. Duas formulações incompatíveis da mesma")
+        print("definição no corpus público é a dispersão que a parte 5 descreve.")
+    return 1 if total_divergentes else 0
+
+
+if __name__ == "__main__":
+    sys.exit(medir("--detalhe" in sys.argv))
