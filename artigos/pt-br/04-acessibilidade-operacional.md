@@ -8,7 +8,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 # Builder-Led Growth, parte 4: quantas vezes o agente precisa chamar um humano
 
-*Quarta parte da série sobre Builder-Led Growth. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão e o papel do preço. A [parte 3]([ler](03-legibilidade-por-maquina.md)) tratou do primeiro pilar, legibilidade por máquina. Esta abre o segundo — e ele se resume a uma pergunta que dá para contar.*
+*Quarta parte da série sobre Builder-Led Growth. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão e o papel do preço. A [parte 3](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/) tratou do primeiro pilar, legibilidade por máquina. Esta abre o segundo — e ele se resume a uma pergunta que dá para contar.*
 
 ## Os quatro pilares, em uma página
 
@@ -72,7 +72,7 @@ Aqui preciso ser rigoroso comigo mesmo, porque a tentação é grande. Não sei 
 
 O que dá para afirmar é mais estreito e ainda assim incômodo: **essa saída existe, é invisível na instrumentação que os produtos têm hoje, e o tamanho dela é desconhecido para quem a sofre.** Você não vê a fila de gente desistindo porque não há fila. Vê um número de ativações que parece razoável, sem denominador.
 
-É a mesma forma de falha silenciosa que a parte 3, [o imposto que a máquina cobra e o humano não vê]([ler](03-legibilidade-por-maquina.md)), encontrou na desambiguação de nome — quando o modelo não resolve a quem um nome se refere, a atribuição some, e nenhuma métrica de erro acusa, porque nada deu errado. Aqui a falha acontece uma camada depois, na execução, e some do mesmo jeito.
+É a mesma forma de falha silenciosa que a parte 3, [o imposto que a máquina cobra e o humano não vê](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/), encontrou na desambiguação de nome — quando o modelo não resolve a quem um nome se refere, a atribuição some, e nenhuma métrica de erro acusa, porque nada deu errado. Aqui a falha acontece uma camada depois, na execução, e some do mesmo jeito.
 
 E há um jeito de medir, ainda que indireto, que trago mais adiante na seção sobre o que acompanhar: instrumentar o lado do agente, e não o seu. Quem opera a frota de agentes vê a desistência que você não vê.
 
@@ -148,7 +148,7 @@ A revisão publicada em 28 de julho de 2026 é a maior mudança que o protocolo 
 
 ***Resource Indicators*.** O token passa a ficar amarrado ao destino para o qual foi emitido. Se vazar, não serve em outro lugar — o que reduz o tamanho do estrago daquele item anterior sobre chaves em código público.
 
-**Cache da listagem de ferramentas.** O `tools/list`, que é como o agente descobre o que existe, passa a poder ser cacheado. Ataca diretamente o custo de contexto medido na parte 3, [o imposto que a máquina cobra e o humano não vê]([ler](03-legibilidade-por-maquina.md)), e que a seção seguinte retoma com números.
+**Cache da listagem de ferramentas.** O `tools/list`, que é como o agente descobre o que existe, passa a poder ser cacheado. Ataca diretamente o custo de contexto medido na parte 3, [o imposto que a máquina cobra e o humano não vê](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/), e que a seção seguinte retoma com números.
 
 [David Soria Parra](https://www.linkedin.com/in/david-soria-parra-4a78b3a), um dos criadores do MCP e hoje seu mantenedor principal na Anthropic, reconhece publicamente o problema de excesso de contexto e descreve a direção do protocolo nos mesmos termos: descoberta progressiva, transporte sem estado, composição por código. Não é uma crítica externa que o protocolo ignora — é o diagnóstico de quem o construiu.
 
@@ -192,7 +192,7 @@ Ainda em abril e maio de 2026 apareceram os trilhos de pagamento: **Stripe Link 
 
 Isso responde diretamente a uma recomendação que a parte 2 fez sem ter como cumprir: ter um caminho de receita que a máquina consiga percorrer. Naquele momento era uma boa ideia sem infraestrutura. Agora a infraestrutura existe.
 
-E há um reconhecimento mais silencioso, que eu acho o mais revelador dos três. A Cloudflare publicou uma superfície de documentação dedicada a agentes, separada da documentação para pessoas, em `developers.cloudflare.com/docs-for-agents/`. É a admissão explícita de que o leitor-agente e o leitor-humano querem visões diferentes do mesmo material — que é a inversão descrita na parte 3, [o imposto que a máquina cobra e o humano não vê]([ler](03-legibilidade-por-maquina.md)), virando estrutura de site.
+E há um reconhecimento mais silencioso, que eu acho o mais revelador dos três. A Cloudflare publicou uma superfície de documentação dedicada a agentes, separada da documentação para pessoas, em `developers.cloudflare.com/docs-for-agents/`. É a admissão explícita de que o leitor-agente e o leitor-humano querem visões diferentes do mesmo material — que é a inversão descrita na parte 3, [o imposto que a máquina cobra e o humano não vê](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/), virando estrutura de site.
 
 ## O que herdamos, e o que acrescentamos
 
@@ -370,7 +370,7 @@ Na parte 5 entra o terceiro pilar, comunidade e sinal de validação. É o pilar
 
 - [Parte 1 — Quando a máquina também é seu cliente](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
 - [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
-- Parte 3 — O imposto que a máquina cobra e o humano não vê: [ler](03-legibilidade-por-maquina.md)
+- Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/
 - Parte 4 — Quantas vezes o agente precisa chamar um humano (este texto)
 
 A série continua. Cada parte aprofunda um pedaço do que a anterior só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.

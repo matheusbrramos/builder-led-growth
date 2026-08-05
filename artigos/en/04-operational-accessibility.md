@@ -8,7 +8,7 @@ Generated from the private working repository. Do not edit here.
 
 # Builder-Led Growth, part 4: how many times the agent has to call a human
 
-*Fourth part of the Builder-Led Growth series. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism and the role of pricing. [Part 3]([read](03-machine-legibility.md)) covered the first pillar, machine legibility. This one opens the second — and it comes down to a question you can actually count.*
+*Fourth part of the Builder-Led Growth series. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism and the role of pricing. [Part 3](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/) covered the first pillar, machine legibility. This one opens the second — and it comes down to a question you can actually count.*
 
 ## The four pillars, on one page
 
@@ -72,7 +72,7 @@ Here I have to be strict with myself, because the temptation is strong. I don't 
 
 What holds up is narrower and still uncomfortable: **this ending exists, it is invisible to the instrumentation products have today, and its size is unknown to whoever it happens to.** You don't see the queue of people giving up, because there is no queue. You see an activation number that looks reasonable, with no denominator.
 
-It's the same shape of silent failure part 3, [the tax the machine charges and the human never sees]([read](03-machine-legibility.md)), found in name disambiguation — when the model can't resolve what a name refers to, the attribution disappears, and no error metric flags it, because nothing went wrong. Here the failure happens one layer later, at execution, and vanishes the same way.
+It's the same shape of silent failure part 3, [the tax the machine charges and the human never sees](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/), found in name disambiguation — when the model can't resolve what a name refers to, the attribution disappears, and no error metric flags it, because nothing went wrong. Here the failure happens one layer later, at execution, and vanishes the same way.
 
 And there is a way to measure it, indirect, which I get to further down in the section on what to track: instrument the agent's side, not yours. Whoever runs the fleet of agents sees the abandonment you can't.
 
@@ -148,7 +148,7 @@ The revision published on 28 July 2026 is the largest change the protocol has ha
 
 ***Resource Indicators*.** The token becomes bound to the destination it was issued for. If it leaks, it doesn't work anywhere else — which shrinks the damage from that earlier item about keys in public code.
 
-**Tool listing cache.** The `tools/list` call, which is how an agent discovers what exists, can now be cached. It attacks directly the context cost measured in part 3, [the tax the machine charges and the human never sees]([read](03-machine-legibility.md)), which the next section picks up with numbers.
+**Tool listing cache.** The `tools/list` call, which is how an agent discovers what exists, can now be cached. It attacks directly the context cost measured in part 3, [the tax the machine charges and the human never sees](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/), which the next section picks up with numbers.
 
 [David Soria Parra](https://www.linkedin.com/in/david-soria-parra-4a78b3a), one of MCP's creators and now its lead maintainer at Anthropic, publicly acknowledges the context-bloat problem and describes the protocol's direction in the same terms: progressive discovery, stateless transport, composition through code. This isn't an outside critique the protocol ignores — it's the diagnosis of the people who built it.
 
@@ -192,7 +192,7 @@ Still in April and May 2026 the payment rails arrived: **Stripe Link Wallet for 
 
 That answers directly a recommendation part 2 made without any way to fulfil it: having a revenue path a machine can walk. At the time it was a good idea with no infrastructure. Now the infrastructure exists.
 
-And there's a quieter acknowledgement, which I find the most revealing of the three. Cloudflare published a documentation surface dedicated to agents, separate from the documentation for people, at `developers.cloudflare.com/docs-for-agents/`. It's the explicit admission that the agent-reader and the human-reader want different views of the same material — which is the inversion described in part 3, [the tax the machine charges and the human never sees]([read](03-machine-legibility.md)), turning into site structure.
+And there's a quieter acknowledgement, which I find the most revealing of the three. Cloudflare published a documentation surface dedicated to agents, separate from the documentation for people, at `developers.cloudflare.com/docs-for-agents/`. It's the explicit admission that the agent-reader and the human-reader want different views of the same material — which is the inversion described in part 3, [the tax the machine charges and the human never sees](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/), turning into site structure.
 
 ## What we inherited, and what we add
 
@@ -370,7 +370,7 @@ Part 5 takes on the third pillar, community and validation signal. It's the pill
 
 - [Part 1 — When the machine is also your customer](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
 - [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
-- Part 3 — The tax the machine charges and the human never sees: [read](03-machine-legibility.md)
+- Part 3 — The tax the machine charges and the human never sees: https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/
 - Part 4 — How many times the agent has to call a human (this piece)
 
 The series continues. Each part goes deeper into something the previous one could only point at, and this block is updated as the next ones come out.

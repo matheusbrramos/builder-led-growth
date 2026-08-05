@@ -2,7 +2,7 @@
 Part 03 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/03-legibilidade-por-maquina.md
-Text frozen. Scheduled for LinkedIn on 5 August 2026.
+Published on LinkedIn on 5 August 2026: https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/
 Generated from the private working repository. Do not edit here.
 -->
 
@@ -62,7 +62,7 @@ Notice what happened. The same company that publicly stated `llms.txt` doesn't a
 
 Part 2 argued that boundary with server logs. Now there's also an act by whoever operates the search engine, with a date attached.
 
-This settles, without rhetoric, the most common confusion about this thesis. GEO and AEO belong to this pillar — optimizing to be cited in generative answers and to be extracted as a direct answer are real, useful practices. But they're a **subset** of it, and they operate on one layer only: retrieval. A product can do well at GEO and remain impossible to use for an agent that needs to integrate it. Different problems.
+This settles, without rhetoric, the most common confusion about this thesis. GEO and AEO, *generative engine optimization* and *answer engine optimization*, belong to this pillar — optimizing to be cited in generative answers and to be extracted as a direct answer are real, useful practices. But they're a **subset** of it, and they operate on one layer only: retrieval. A product can do well at GEO and remain impossible to use for an agent that needs to integrate it. Different problems.
 
 ## Of the three sources of uncertainty, you control one
 
@@ -78,13 +78,7 @@ A 2026 paper proposes decomposing a language model's uncertainty into three dist
 
 The authors' stated motivation is practical: a single score doesn't tell you what to do. The decomposition does. High input uncertainty calls for clarification; high knowledge uncertainty calls for retrieval or more data; high decoding uncertainty calls for adjusting the sampling strategy.
 
-Those three sources map almost directly onto the three decision inputs I proposed in part 2 — and that connection is mine, not the authors'. But what matters here is what the decomposition reveals when you ask *who controls what*:
-
-| Source of uncertainty | Who controls it | On what timeline |
-|---|---|---|
-| Knowledge gaps | you, indirectly | months to years |
-| Decoding randomness | the harness, not you | — |
-| **Input ambiguity** | **you, directly** | **now** |
+Those three sources map almost directly onto the three decision inputs I proposed in part 2 — and that connection is mine, not the authors'. But what matters here is what the decomposition reveals when you ask *who controls what*. Knowledge gaps you control indirectly, on a timeline of months to years. Decoding randomness is controlled by the harness, not by you. **Input ambiguity is yours, directly, and now.**
 
 Of the three reasons a model might get your product wrong, one is entirely in your hands, and it's the only one that responds to a change made today.
 
@@ -96,14 +90,12 @@ Part 2 spoke of "a lag I estimate at 18 to 36 months, accounting for collection,
 
 The gap between a model's cutoff date and its release is considerably smaller, and it has been shrinking:
 
-| Model | Release | Cutoff | Gap |
-|---|---|---|---|
-| GPT-3 | Jun 2020 | Oct 2019 | ~8 months |
-| ChatGPT (GPT-3.5) | Nov 2022 | Sep 2021 | ~14 months |
-| GPT-4 | Mar 2023 | Sep 2021 | ~18 months |
-| GPT-4 Turbo | Nov 2023 | Apr 2023 | ~7 months |
-| Claude Fable 5 | Jun 2026 | Jan 2026 | ~5 months |
-| GPT-5.6 Sol | Jul 2026 | Feb 2026 | ~5 months |
+- **GPT-3**, released June 2020, cutoff October 2019 — about 8 months
+- **ChatGPT (GPT-3.5)**, November 2022, cutoff September 2021 — about 14 months
+- **GPT-4**, March 2023, cutoff September 2021 — about 18 months
+- **GPT-4 Turbo**, November 2023, cutoff April 2023 — about 7 months
+- **Claude Fable 5**, June 2026, cutoff January 2026 — about 5 months
+- **GPT-5.6 Sol**, July 2026, cutoff February 2026 — about 5 months
 
 The curve rises through GPT-4 and falls afterward. Today the typical gap sits between 5 and 8 months ([Otterly](https://otterly.ai/blog/knowledge-cutoff/), [RankScope](https://rankscope.ai/blog/chatgpt-knowledge-cutoff)).
 
@@ -172,7 +164,7 @@ One supporting datapoint shows the size of the effect. Filtering which tools the
 
 Now, what's new here for anyone thinking about growth.
 
-**Your distinctness depends on what everyone else named.** If three servers expose a tool called `search`, none of the three is chosen on merit — the model selects arbitrarily among them. There's no equivalent to this in PLG. There, a bad name costs you. Here, your competitor's name costs you too.
+**Your distinctness depends on what everyone else named.** If three servers expose a tool called `search`, none of the three is chosen on merit — the model selects arbitrarily among them. There's no equivalent to this in PLG, product-led growth, where the product itself pulls adoption. There, a bad name costs you. Here, your competitor's name costs you too.
 
 Worth noting the study's own framing: one of its research questions is the extent to which fixing these problems **enhances the competitive advantage** of an MCP server. That's this article's thesis written in software engineering vocabulary, by people who aren't discussing distribution.
 
@@ -308,7 +300,7 @@ There's also a less-discussed effect: the cost of **responses**. A single call t
 
 "Publish an MCP server" became standard advice. The data suggests a more careful reading: a poorly designed server is a **cost imposed on the user**. It occupies context that would have belonged to that person's work.
 
-And here there's a consequence that closes a circuit with part 2.
+And here there's a consequence that closes a circuit with part 2, which opened the decision and the price.
 
 Part 2 described the hidden cost of removing friction: keyless onboarding makes the agent consume the quota faster and pulls forward the moment someone has to decide about money. Context cost produces the same effect by another route — and this one is harder to see, because **the cost doesn't appear on your invoice, it appears on the user's**.
 
@@ -370,7 +362,7 @@ What it means for the thesis, if it advances: any site — e-commerce, SaaS with
 
 Part 2 dealt with measurement by stage of the decision. Here are the measures specific to legibility, in order of increasing cost.
 
-**Citation accuracy rate.** I proposed this in part 2; now the mechanism is explained. A list of twenty questions about your domain, reviewed manually once a month: when the model mentions you, does it get the package name, the install command, the method right? When it gets it wrong, the cause is usually one of two things we saw here — either it doesn't know who you are and resolved your name to another entity, or it learned two incompatible versions of you and picked the wrong one.
+**Citation accuracy rate.** I proposed this in part 2, when the subject was what to measure; now the mechanism is explained. A list of twenty questions about your domain, reviewed manually once a month: when the model mentions you, does it get the package name, the install command, the method right? When it gets it wrong, the cause is usually one of two things we saw here — either it doesn't know who you are and resolved your name to another entity, or it learned two incompatible versions of you and picked the wrong one.
 
 **Semantic dispersion.** Derived from uncertainty quantification methods: ask the same question about your product several times and measure how far the answers diverge **in meaning**, not in wording. The distinction matters — token-level entropy captures phrasing variation and can't tell that apart from real ambiguity, which is why the literature developed semantic entropy measures. High dispersion about you is an indirect measure of ambiguity in your surface.
 

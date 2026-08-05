@@ -352,7 +352,7 @@ Na parte 6 entra o que Relações Públicas já sabia sobre isto desde 1984 — 
 
 - [Parte 1 — Quando a máquina também é seu cliente](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
 - [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
-- Parte 3 — O imposto que a máquina cobra e o humano não vê: [ler](03-legibilidade-por-maquina.md)
+- Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/
 - Parte 4 — Quantas vezes o agente precisa chamar um humano: [ler](04-acessibilidade-operacional.md)
 - Parte 5 — O poço de onde todos bebem (este texto)
 

@@ -98,7 +98,7 @@ def v1():
         {"t": ["Ambiguidade", "de entrada"],
          "d": ["O que você entrega admite", "mais de uma leitura válida:", "docs, schema, nome, API."],
          "quem": "VOCÊ, diretamente", "prazo": "agora",
-         "acao": "É a única alavanca que", "acao2": "responde nesta semana.",
+         "acao": "É a única alavanca que", "acao2": "responde a uma mudança feita hoje.",
          "cor": ACCENT, "hl": True},
     ]
 

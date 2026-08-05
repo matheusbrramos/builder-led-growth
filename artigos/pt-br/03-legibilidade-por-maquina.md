@@ -2,7 +2,7 @@
 Parte 03 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/03-machine-legibility.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 4 de agosto de 2026.
+Publicada no LinkedIn em 5 de agosto de 2026: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
@@ -62,7 +62,7 @@ Repare no que aconteceu. A mesma empresa que declarou publicamente que o `llms.t
 
 A parte 2 argumentou essa fronteira com log de servidor. Agora existe também um ato de quem opera o buscador, com data.
 
-Isso resolve, sem retórica, a confusão mais comum sobre esta tese. GEO e AEO pertencem a este pilar — otimizar para ser citado em respostas generativas e para ser extraído como resposta direta são práticas reais e úteis. Mas são um **subconjunto** dele, e operam numa camada só: a de recuperação. Um produto pode ir bem em GEO e continuar impossível de usar para um agente que precisa integrá-lo. São problemas diferentes.
+Isso resolve, sem retórica, a confusão mais comum sobre esta tese. GEO e AEO, *generative engine optimization* e *answer engine optimization*, pertencem a este pilar — otimizar para ser citado em respostas generativas e para ser extraído como resposta direta são práticas reais e úteis. Mas são um **subconjunto** dele, e operam numa camada só: a de recuperação. Um produto pode ir bem em GEO e continuar impossível de usar para um agente que precisa integrá-lo. São problemas diferentes.
 
 ## Das três fontes de incerteza, você controla uma
 
@@ -78,13 +78,7 @@ Um trabalho de 2026 propõe decompor a incerteza de um modelo de linguagem em tr
 
 A motivação declarada dos autores é prática: um escore único não diz o que fazer. A decomposição diz. Alta incerteza de entrada pede esclarecimento; alta incerteza de conhecimento pede recuperação ou mais dado; alta incerteza de decodificação pede ajuste de amostragem.
 
-Essas três fontes mapeiam quase diretamente nas três entradas de decisão que propus na parte 2 — e a conexão é minha, não dos autores. Mas o que interessa aqui é o que a decomposição revela quando se pergunta *quem controla o quê*:
-
-| Fonte de incerteza | Quem controla | Em que prazo |
-|---|---|---|
-| Lacuna de conhecimento | você, indiretamente | meses a anos |
-| Aleatoriedade de decodificação | o harness, não você | — |
-| **Ambiguidade de entrada** | **você, diretamente** | **agora** |
+Essas três fontes mapeiam quase diretamente nas três entradas de decisão que propus na parte 2 — e a conexão é minha, não dos autores. Mas o que interessa aqui é o que a decomposição revela quando se pergunta *quem controla o quê*. A lacuna de conhecimento você controla de forma indireta, e em prazo de meses a anos. A aleatoriedade de decodificação quem controla é o harness, não você. **A ambiguidade de entrada é sua, diretamente, e agora.**
 
 Das três razões pelas quais um modelo pode errar sobre o seu produto, uma está inteiramente nas suas mãos, e é a única que responde a uma mudança feita hoje.
 
@@ -96,14 +90,12 @@ A parte 2 falou em "uma defasagem que estimo em 18 a 36 meses, considerando cole
 
 O intervalo entre a data de corte de um modelo e o seu lançamento é bem menor, e vem encolhendo:
 
-| Modelo | Lançamento | Data de corte | Intervalo |
-|---|---|---|---|
-| GPT-3 | jun/2020 | out/2019 | ~8 meses |
-| ChatGPT (GPT-3.5) | nov/2022 | set/2021 | ~14 meses |
-| GPT-4 | mar/2023 | set/2021 | ~18 meses |
-| GPT-4 Turbo | nov/2023 | abr/2023 | ~7 meses |
-| Claude Fable 5 | jun/2026 | jan/2026 | ~5 meses |
-| GPT-5.6 Sol | jul/2026 | fev/2026 | ~5 meses |
+- **GPT-3**, lançado em junho de 2020, corte em outubro de 2019 — cerca de 8 meses
+- **ChatGPT (GPT-3.5)**, novembro de 2022, corte em setembro de 2021 — cerca de 14 meses
+- **GPT-4**, março de 2023, corte em setembro de 2021 — cerca de 18 meses
+- **GPT-4 Turbo**, novembro de 2023, corte em abril de 2023 — cerca de 7 meses
+- **Claude Fable 5**, junho de 2026, corte em janeiro de 2026 — cerca de 5 meses
+- **GPT-5.6 Sol**, julho de 2026, corte em fevereiro de 2026 — cerca de 5 meses
 
 A curva sobe até o GPT-4 e cai depois. Hoje o intervalo típico está entre 5 e 8 meses ([Otterly](https://otterly.ai/blog/knowledge-cutoff/), [RankScope](https://rankscope.ai/blog/chatgpt-knowledge-cutoff)).
 
@@ -172,7 +164,7 @@ Um dado de apoio mostra o tamanho do efeito. Filtrar quais ferramentas o modelo 
 
 Agora, o que isso tem de novo para quem pensa em crescimento.
 
-**A sua distinção depende do que os outros nomearam.** Se três servidores expõem uma ferramenta chamada `search`, nenhum dos três é escolhido por mérito — o modelo seleciona arbitrariamente entre eles. Não existe equivalente disso no PLG. Ali, um nome ruim custa a você. Aqui, o nome do concorrente custa a você também.
+**A sua distinção depende do que os outros nomearam.** Se três servidores expõem uma ferramenta chamada `search`, nenhum dos três é escolhido por mérito — o modelo seleciona arbitrariamente entre eles. Não existe equivalente disso no PLG, o crescimento puxado pelo próprio produto. Ali, um nome ruim custa a você. Aqui, o nome do concorrente custa a você também.
 
 Vale registrar o enquadramento do próprio estudo: uma das perguntas de pesquisa é em que medida corrigir esses problemas **aumenta a vantagem competitiva** de um servidor MCP. É a tese deste artigo escrita em vocabulário de engenharia de software, por gente que não está discutindo distribuição.
 
@@ -308,7 +300,7 @@ Há ainda um efeito menos discutido: o custo das **respostas**. Uma única chama
 
 "Publique um servidor MCP" virou conselho padrão. O dado sugere uma leitura mais cuidadosa: um servidor mal desenhado é um **custo imposto ao usuário**. Ele ocupa contexto que pertenceria ao trabalho da pessoa.
 
-E aqui há uma consequência que fecha um circuito com a parte 2.
+E aqui há uma consequência que fecha um circuito com a parte 2, que abriu a decisão e o preço.
 
 A parte 2 descreveu o custo escondido de remover atrito: onboarding sem chave faz o agente consumir a cota mais rápido e antecipa o momento em que alguém precisa decidir sobre dinheiro. O custo de contexto produz o mesmo efeito por outra via — e essa é mais difícil de enxergar, porque **o custo não aparece na sua fatura, aparece na do usuário**.
 
@@ -370,7 +362,7 @@ O que ele significa para a tese, se avançar: qualquer site — comércio eletr�
 
 A parte 2 tratou de medição por estágio da decisão. Aqui vão as medidas específicas de legibilidade, em ordem de custo crescente.
 
-**Taxa de acerto de citação.** Já propus isso na parte 2; agora o mecanismo está explicado. Uma lista de vinte perguntas sobre o seu domínio, revisadas manualmente uma vez por mês: quando o modelo menciona você, ele acerta o nome do pacote, o comando de instalação, o método? Quando ele erra, a causa costuma estar em uma de duas coisas que vimos aqui — ou ele não sabe quem você é, e resolveu seu nome para outra entidade, ou ele aprendeu duas versões incompatíveis suas e escolheu a errada.
+**Taxa de acerto de citação.** Já propus isso na parte 2, quando o assunto era o que medir; agora o mecanismo está explicado. Uma lista de vinte perguntas sobre o seu domínio, revisadas manualmente uma vez por mês: quando o modelo menciona você, ele acerta o nome do pacote, o comando de instalação, o método? Quando ele erra, a causa costuma estar em uma de duas coisas que vimos aqui — ou ele não sabe quem você é, e resolveu seu nome para outra entidade, ou ele aprendeu duas versões incompatíveis suas e escolheu a errada.
 
 **Dispersão semântica.** Derivado dos métodos de quantificação de incerteza: faça a mesma pergunta sobre o seu produto várias vezes e meça o quanto as respostas divergem **em significado**, não em palavras. A distinção importa — entropia em nível de token captura variação de fraseado e não distingue isso de ambiguidade real, por isso a literatura desenvolveu medidas de entropia semântica. Alta dispersão sobre você é medida indireta de ambiguidade da sua superfície.
 

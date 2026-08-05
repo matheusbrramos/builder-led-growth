@@ -98,7 +98,7 @@ def v1():
         {"t": ["Input", "ambiguity"],
          "d": ["What you hand over admits", "more than one valid reading:", "docs, schema, name, API."],
          "quem": "YOU, directly", "prazo": "now",
-         "acao": "The only lever that", "acao2": "responds this week.",
+         "acao": "The only lever that", "acao2": "responds to a change made today.",
          "cor": ACCENT, "hl": True},
     ]
 

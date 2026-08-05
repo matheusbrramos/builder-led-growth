@@ -25,14 +25,14 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 - **[Part 2 — The decision, the price and what to measure](artigos/en/02-decision-price-and-measurement.md)** — Three inputs to the decision, three stages, the economic limit, pricing design. Cases: Drizzle and Prisma, Better Auth and Clerk, Firecrawl, Tailwind Labs.  
   Published 2026-07-30 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
   · Português: [Parte 2 — A decisão, o preço e o que medir](artigos/pt-br/02-decisao-preco-e-medicao.md) — publicado em 2026-07-30 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
+- **[Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md)** — Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine.  
+  Published 2026-08-05 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/)
+  · Português: [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md) — publicado em 2026-08-05 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md)** — Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine.  
-  LinkedIn: 5 August 2026
-  · Português: [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md) — LinkedIn: 4 de agosto de 2026
 - **[Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md)** — Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run.  
   LinkedIn: 7 August 2026
   · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — LinkedIn: 6 de agosto de 2026
