@@ -286,7 +286,7 @@ Vale marcar as fronteiras, porque muita coisa aqui parece já resolvida por disc
 
 **Contra o design de API clássico:** ali o consumidor é humano — uma pessoa que lê a documentação uma vez e escreve código que persiste, e que acumula familiaridade com o seu produto ao longo do tempo. Aqui o consumidor é a máquina, que decide de novo a cada sessão e não acumula nada entre uma e outra: cada sessão começa do zero, sem memória do que funcionou da última vez. Documentação boa resolve o primeiro caso. Não resolve o segundo.
 
-**Contra o PLG:** o funil de ativação começa no cadastro. Aqui o momento que decide acontece antes de existir conta.
+**Contra o PLG, o crescimento puxado pelo próprio produto:** o funil de ativação começa no cadastro. Aqui o momento que decide acontece antes de existir conta.
 
 **Contra o Agent-Led Growth:** ali existe um comprador com processo de avaliação. Aqui a adoção é subproduto de outra tarefa, e ninguém está avaliando nada.
 

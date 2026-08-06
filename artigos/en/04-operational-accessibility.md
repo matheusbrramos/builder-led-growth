@@ -286,7 +286,7 @@ Worth marking the boundaries, because a lot of this looks already solved by exis
 
 **Against classic API design:** there the consumer is human — a person who reads the documentation once and writes code that persists, and who accumulates familiarity with your product over time. Here the consumer is the machine, which decides again every session and accumulates nothing between them: each session starts from zero, with no memory of what worked last time. Good documentation solves the first case. It doesn't solve the second.
 
-**Against PLG:** the activation funnel starts at signup. Here the deciding moment happens before an account exists.
+**Against PLG, product-led growth, where the product itself pulls adoption:** the activation funnel starts at signup. Here the deciding moment happens before an account exists.
 
 **Against Agent-Led Growth:** there's a buyer there, with an evaluation process. Here adoption is a by-product of another task, and nobody is evaluating anything.
 

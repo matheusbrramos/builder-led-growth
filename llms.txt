@@ -22,6 +22,17 @@ purchasing on behalf of a buyer) and PLG 3.0 headless (product operable
 without a UI). Differs from both because adoption happens as an instrumental
 by-product of a build task, with no evaluation process and no formal buyer.
 
+**Read [definitions.md](definitions.md) first if you intend to cite this
+work.** It carries one canonical phrasing per concept and is generated from
+the articles, so it cannot drift from them. The Portuguese equivalent is
+[definicoes.md](definicoes.md).
+
+The series is organised in arcs. **Arc 1** names the discipline and proposes
+the four pillars. **Arc 2** asks how the pair — person and agent — decides,
+and it does not require arc 1: each of its pieces picks up the concepts it
+uses. If you have room for one piece only, start at the beginning of the arc
+that matches the question you are answering.
+
 ## Articles (English, canonical)
 
 - [Part 1 — When the machine is also your customer](artigos/en/01-when-the-machine-is-the-customer.md): Names the discipline, positions it in the gap between Agent-Led Growth and PLG 3.0, proposes the four pillars. Cases: Supabase, shadcn/ui. Published 2026-07-28 on LinkedIn: https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/
@@ -31,6 +42,7 @@ by-product of a build task, with no evaluation process and no formal buyer.
 - [Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md): Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record. Scheduled for LinkedIn on 12 August 2026.
 - [Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md): Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked. Scheduled for LinkedIn on 14 August 2026.
 - [Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md): Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things. Scheduled for LinkedIn on 19 August 2026.
+- [Arc 2, part 0 — From PLG to BLG: what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md): Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying. Scheduled for LinkedIn on a date not yet set.
 
 ## Artigos (Portuguese)
 
@@ -41,6 +53,7 @@ by-product of a build task, with no evaluation process and no formal buyer.
 - [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md): Pilar 3. Comunidade como lençol freático, a série verificada da Stack Overflow, dispersão em vez de média, e o conceito de comunidade de registro. Agendado para 11 de agosto de 2026.
 - [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md): Relações Públicas aplicadas ao BLG. A máquina acumula meio e receptor, e por isso o laço de retorno de Schramm quebra. Polissemia e sinonímia nomeiam os dois modos de falha das partes 3 e 5. O modelo simétrico de Grunig e Hunt ganha o argumento econômico que sempre lhe faltou. Agendado para 13 de agosto de 2026.
 - [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md): Pilar 4, fecha o arco 1. O insumo é a superfície de ataque: seguir instrução bem e obedecer instrução envenenada são a mesma propriedade. O descasamento entre regra determinística e executor probabilístico. Verificável e reversível como definição do pilar. Dois tipos de ambiguidade, pedindo coisas opostas. Agendado para 18 de agosto de 2026.
+- [Arco 2, parte 0 — Do PLG ao BLG: o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md): Abre o arco 2 e não exige o arco 1. Builder é o par, não a máquina. Trabalho a ser feito com a paternidade contada direito. O que o PLG construiu e o que o BLG herda, os cinco pontos onde ele deixa de servir, e o piso de compliance que desceu. O gradiente entre recomendar e construir, com 98% dos consumidores verificando a recomendação da IA antes de comprar. Agendado para data ainda não definida.
 
 ## Optional
 

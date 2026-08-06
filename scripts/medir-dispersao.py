@@ -53,6 +53,8 @@ ANCORAS = [
     ("pillar 3 · community", "en", r"\*\*Community and validation signal\.\*\*\s*(.+?)(?:\n\n|\Z)"),
     ("pillar 4 · trust", "en", r"\*\*Model trust and safety\.\*\*\s*(.+?)(?:\n\n|\Z)"),
     ("thesis limit", "en", r"(Builder-Led Growth decides who gets in[^.]*\.)"),
+    ("builder é o par", "pt", r"(Builder é o par: a pessoa e o agente juntos)"),
+    ("builder is the pair", "en", r"(A builder is the pair: the person and the agent together)"),
 ]
 
 DIRS = {"pt": "artigos/pt-br/*.md", "en": "artigos/en/*.md"}
@@ -91,7 +93,17 @@ def medir(detalhe=False):
             for m in re.finditer(padrao, texto, re.S):
                 bruto = " ".join(m.group(1).split())
                 ocorr.append((os.path.basename(f)[:2], primeira_sentenca(bruto), bruto))
+        # Ancora com ZERO ocorrencia nao e "nada a medir": e a formulacao
+        # canonica tendo sumido do corpus, ou a lista tendo ficado velha. Pular
+        # em silencio deixa passar o caso pior — alguem reescreve a definicao
+        # central e o medidor aprova. Descoberto em 2026-08-06, quebrando a
+        # ancora do arco 2 de proposito para testar o script de conferencia.
         if not ocorr:
+            total_ancoras += 1
+            total_divergentes += 1
+            print("  [SUMIU  ] %-28s nenhuma ocorrencia no corpus" % rotulo)
+            print("        a formulacao canonica foi reescrita, ou esta lista")
+            print("        precisa ser atualizada. As duas exigem decisao humana.\n")
             continue
 
         ancoras = {}
