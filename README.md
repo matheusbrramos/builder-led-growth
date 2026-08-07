@@ -7,7 +7,7 @@ Whoever gets picked at that moment grows; whoever doesn't, doesn't exist for tha
 project. This series investigates the mechanism, its limits, and what to do about
 it.
 
-By [Matheus Ramos](https://www.linkedin.com/in/matheusbrramos/) · Research and
+By [Matheus Ramos](https://www.linkedin.com/in/matheus-br-ramos/) · Research and
 writing in collaboration with Claude (Anthropic)
 
 *Português: os artigos em PT-BR estão em [`artigos/pt-br/`](artigos/pt-br/). Esta
