@@ -59,9 +59,10 @@ Eu apostava que a pergunta de Ellis perdesse sentido quando quem opera o produto
 uma máquina. Não perdeu. Ela continua funcionando — e quem responde deixou de ser
 quem opera e passou a ser quem recebe o resultado.
 
-O terceiro veio das restrições. Treino, harness, guardrail e regra de compliance
-não agem sobre o agente. Agem sobre o conjunto. Descrevem como o conjunto foi
-montado.
+O terceiro veio das restrições. Treino, *harness* — o andaime que executa o agente
+e delimita o que ele pode chamar e enxergar —, *guardrail* — o limite que barra
+certas ações antes de elas acontecerem — e regra de compliance não agem sobre o
+agente. Agem sobre o conjunto. Descrevem como o conjunto foi montado.
 
 Somados, os três dizem a mesma coisa, e é assim que uso o termo daqui em diante:
 
@@ -109,10 +110,11 @@ resposta, está aprovando uma distribuição de respostas possíveis.
 Aqui entra um conceito que uso ao longo de todo o arco, e ele tem paternidade
 disputada — vale contar direito, porque as linhagens dizem coisas diferentes.
 
-**Tony Ulwick** concebeu a abordagem em 1990, aplicando pensamento de Seis Sigma
-ao processo de inovação, e batizou o método de Inovação Orientada a Resultado em
-1999 ([Strategyn](https://strategyn.com/jobs-to-be-done/history-of-jtbd/)).
-**Bob Moesta**, **Rick Pedi** e **John Palmer** chegaram, na mesma década, à noção de que
+**[Tony Ulwick](https://www.linkedin.com/in/tonyulwick)** concebeu a abordagem em 1990, aplicando pensamento de Seis Sigma
+ao processo de inovação, e batizou o método de *Outcome-Driven Innovation* —
+inovação orientada a resultado — em 1999
+([Strategyn](https://strategyn.com/jobs-to-be-done/history-of-jtbd/)).
+**[Bob Moesta](https://www.linkedin.com/in/bobmoesta)**, **Rick Pedi** e **John Palmer** chegaram, na mesma década, à noção de que
 clientes têm trabalhos a realizar. E **Clayton Christensen** cunhou o termo
 *jobs-to-be-done* em *The Innovator's Solution*, de 2003, sendo quem mais o
 popularizou.
@@ -184,11 +186,12 @@ Agora imagine a mesma construção conduzida por alguém com quinze anos de
 plataforma. Muda tudo: as decisões de arquitetura voltam para o lado humano, o
 agente executa mais e escolhe menos.
 
-**E há dado sustentando que essa diferença é real.** Na pesquisa da Stack Overflow
-com desenvolvedores, a confiança alta na saída da IA é de **6,1% entre quem está
-aprendendo a programar** e cai para **2,5% entre os experientes**. Não é opinião
-sobre a ferramenta: é a metade da confiança desaparecendo com o tempo de estrada.
-E em nenhum grupo, nenhum, ela passa de 6,1%.
+**E há dado sustentando que essa diferença é real.** Na pesquisa de 2025 da Stack
+Overflow com desenvolvedores ([Developer Survey
+2025](https://survey.stackoverflow.co/2025/ai)), a confiança alta na saída da IA é
+de **6,1% entre quem está aprendendo a programar** e cai para **2,5% entre os
+experientes**. Não é opinião sobre a ferramenta: é quase três quintos da confiança
+desaparecendo com o tempo de estrada. E em nenhum grupo, nenhum, ela passa de 6,1%.
 
 O mesmo desloca por ambiente. Onde há pouca governança e pouca regra escrita, o
 agente decide mais. Onde há registro aprovado, comitê e revisão obrigatória, ele
@@ -213,17 +216,19 @@ herda inteiro.
 crescimento na Dropbox, na LogMeIn e na Eventbrite nos anos de inflexão de cada
 uma. A definição dele: alguém cujo norte é crescimento, e que submete tudo o que
 faz ao impacto potencial em crescimento escalável. Em 2017 publicou *Hacking
-Growth* com **Morgan Brown**.
+Growth* com **[Morgan Brown](https://www.linkedin.com/in/morganb/)**.
 
 A contribuição central do livro não é uma lista de truques. É um sistema
 operacional de time: cadência semanal de hipótese, priorização, experimento e
 laço de aprendizado depois de cada teste.
 
 O **PLG** veio em seguida, popularizado em meados da década de 2010 pela OpenView,
-com Blake Bartlett, e codificado em livro por [Wes Bush](https://www.linkedin.com/in/wesbush) em 2019. Dele herdamos
+com [Blake Bartlett](https://www.linkedin.com/in/blakebartlett), e codificado em livro por [Wes Bush](https://www.linkedin.com/in/wesbush) em 2019. Dele herdamos
 quatro instrumentos que continuam de pé:
 
-- **As métricas pirata** — aquisição, ativação, retenção, receita e indicação —,
+- **As métricas pirata**, o AARRR que
+  [Dave McClure](https://www.linkedin.com/in/davemcclure) apresentou em 2007 —
+  aquisição, ativação, retenção, receita e indicação —,
   que dividem a jornada em estágios de comportamento observável.
 - **O lead qualificado pelo produto**: usuário que completou uma ação central e
   viu o valor por conta própria. Troca o sinal declarado pelo sinal
@@ -302,9 +307,11 @@ quem clica. Aqui, quem clica é a máquina e quem julga é a pessoa que só vê 
 Desenhar passa a ser minimizar o que a máquina atravessa e maximizar o que a
 pessoa encontra pronto quando olha.
 
-**A revelação progressiva se inverte.** Mostrar pouco de cada vez, para não
-sobrecarregar, é boa prática consagrada — e para a máquina, informação retida é
-ambiguidade. Repare no que isso significa: a melhor prática de um é o defeito do
+**A revelação progressiva — *progressive disclosure* — se inverte.** Mostrar pouco
+de cada vez, para não sobrecarregar, é prática consagrada em desenho de interface
+desde os anos 1980, e o texto de referência é o de
+[Jakob Nielsen](https://www.nngroup.com/articles/progressive-disclosure/). Para a
+máquina, informação retida é ambiguidade. Repare no que isso significa: a melhor prática de um é o defeito do
 outro. Vale para dica flutuante, estado vazio, tour guiado e lista de primeiros
 passos, que são todos instrumentos de atenção e motivação. A máquina não tem
 nenhuma das duas.
@@ -330,8 +337,9 @@ Com uma ressalva de tamanho que os números impõem, e que trato em detalhe na p
 sobre candidatura: apenas 27% das organizações aplicam governança estrita, e 68%
 não sabem quais ferramentas de IA seus desenvolvedores usam
 ([Northflank](https://northflank.com/blog/enterprise-ai-coding-agent-deployment)).
-O portão é real onde existe e está subindo depressa. Não é condição universal
-hoje.
+O portão é real onde existe, e os dois números descrevem adoção ainda parcial. Não
+achei medida da velocidade com que ele se espalha, então não afirmo direção — o
+que dá para dizer é que ele não é condição universal hoje.
 
 ![As cinco técnicas de PLG que deixam de servir quando quem opera é a máquina](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-onde-plg-para-pt.png)
 
@@ -423,8 +431,8 @@ ganho incremental achata
 É pesquisa de uma área específica, com amostra declarada, e "valor alto realizado"
 é autorrelato.
 
-Atrás disso há uma camada mais antiga e mais durável. **Alfred Rappaport**, em
-*Creating Shareholder Value*, de 1986, propôs sete direcionadores que a gestão
+Atrás disso há uma camada mais antiga e mais durável. **Alfred Rappaport**, em *Creating Shareholder Value*, de 1986, propôs sete
+direcionadores que a gestão
 pode operar para criar valor: crescimento de vendas, margem operacional, alíquota
 efetiva de imposto, investimento em capital de giro, investimento em ativo fixo,
 custo de capital, e — o sétimo — **duração da vantagem competitiva**.
@@ -433,9 +441,12 @@ Os seis primeiros são disputados por todo mundo. O sétimo é o que o BLG opera
 o menos discutido em conversa de crescimento: por quanto tempo o retorno continua
 acima do custo de capital.
 
-E há um fato do próprio modelo que sustenta boa parte deste arco: **até dois
+E há um número do próprio modelo que sustenta boa parte deste arco: **até dois
 terços do valor de um negócio vêm de fluxo de caixa posterior ao horizonte normal
-de planejamento.** A objeção padrão ao BLG é que ele é lento. Se ele é mesmo, ainda está em debate —
+de planejamento.** Antes de usá-lo, vale dizer de onde ele vem: o modelo é de 1986
+e nasce da tradição de valor ao acionista, que tem crítica própria e está longe de
+ser consenso. Uso como vocabulário de finanças, e não como posição sobre para que
+serve uma empresa. A objeção padrão ao BLG é que ele é lento. Se ele é mesmo, ainda está em debate —
 e descobrir quais motores aceleram esse crescimento é justamente o percurso deste
 arco. O que dá para dizer desde já é que o instrumento que a própria firma usa
 coloca a maior parte do valor depois do horizonte que ela planeja.
@@ -479,7 +490,10 @@ soma sem atrito seria desonesto.
 **Terceiro, no argumento de orçamento.** Que 58% das empresas de SaaS operem
 alguma forma de PLG e que cerca de 91% pretendam aumentar o investimento
 ([UserGuiding](https://userguiding.com/blog/state-of-plg-in-saas)) é evidência de
-que o PLG está funcionando para elas, não de que devam desviar verba. O argumento
+que o PLG está funcionando para elas, não de que devam desviar verba. E vale dizer
+de onde vêm esses dois números: são de fornecedor de ferramenta de onboarding e de
+empresa de investimento, ambos com interesse na tese, e não de levantamento
+independente. O argumento
 mais forte para o BLG não é redirecionar orçamento. É que existe um trecho do
 funil que ninguém está medindo, e ele não está na alçada de quem cuida do PLG
 hoje.
@@ -518,7 +532,7 @@ depois deste texto.
 A Linear atingiu avaliação de 1,25 bilhão de dólares numa série C de 82 milhões,
 em junho de 2025
 ([Built In San Francisco](https://www.builtinsf.com/articles/linear-raises-82m-series-c-1b-valuation-20250611)).
-O fundador, Karri Saarinen, publicou os números de operação: retenção líquida de
+O fundador, [Karri Saarinen](https://www.linkedin.com/in/karrisaarinen/), publicou os números de operação: retenção líquida de
 receita acima de 140%, com time de 70 pessoas no sexto aniversário da empresa
 ([no X](https://x.com/karrisaarinen/status/1880314177165869284)). Uso a fonte dele
 porque é primária, e porque agregadores divergem bastante no quadro de pessoal.
@@ -570,8 +584,8 @@ para alguém que nunca soube que estava competindo com você?**
 
 - *Parte 1 — Quando a máquina também é seu cliente: [ler](01-quando-a-maquina-e-cliente.md)*
 - *Parte 2 — A decisão, o preço e o que medir: [ler](02-decisao-preco-e-medicao.md)*
-- *Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/*
-- *Parte 4 — Quantas vezes o agente precisa chamar um humano: https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/*
+- *Parte 3 — O imposto que a máquina cobra e o humano não vê: [ler](03-legibilidade-por-maquina.md)*
+- *Parte 4 — Quantas vezes o agente precisa chamar um humano: [ler](04-acessibilidade-operacional.md)*
 - *Parte 5 — O poço de onde todos bebem: [ler](05-comunidade-e-sinal-de-validacao.md)*
 - *Parte 6 — A máquina é imprensa e leitor ao mesmo tempo: [ler](06-relacoes-publicas.md)*
 - *Parte 7 — O que faz o agente confiar, e por que a competência dele é o

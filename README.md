@@ -1,3 +1,44 @@
+<!--
+caminhos-externos: definicoes.md, definitions.md
+Gerados por publicar.py dentro de _publico/, onde estes links resolvem.
+
+Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
+7 de agosto de 2026 ela foi inserida dentro do proprio `### Published
+
+- **[Part 1 — When the machine is also your customer](artigos/en/01-when-the-machine-is-the-customer.md)** — Names the discipline, positions it in the gap between Agent-Led Growth and PLG 3.0, proposes the four pillars. Cases: Supabase, shadcn/ui.  
+  Published 2026-07-28 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
+  · Português: [Parte 1 — Quando a máquina também é seu cliente](artigos/pt-br/01-quando-a-maquina-e-cliente.md) — publicado em 2026-07-27 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
+- **[Part 2 — The decision, the price and what to measure](artigos/en/02-decision-price-and-measurement.md)** — Three inputs to the decision, three stages, the economic limit, pricing design. Cases: Drizzle and Prisma, Better Auth and Clerk, Firecrawl, Tailwind Labs.  
+  Published 2026-07-30 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
+  · Português: [Parte 2 — A decisão, o preço e o que medir](artigos/pt-br/02-decisao-preco-e-medicao.md) — publicado em 2026-07-30 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
+- **[Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md)** — Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine.  
+  Published 2026-08-05 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/)
+  · Português: [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md) — publicado em 2026-08-05 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/)
+- **[Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md)** — Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run.  
+  Published 2026-08-07 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/)
+  · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — publicado em 2026-08-06 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/)
+
+### Coming next
+
+Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
+
+- **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
+  LinkedIn: 12 August 2026
+  · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — LinkedIn: 11 de agosto de 2026
+- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
+  LinkedIn: 14 August 2026
+  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — LinkedIn: 13 de agosto de 2026
+- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
+  LinkedIn: 19 August 2026
+  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026
+- **[Arc 2, part 0 — From PLG to BLG: what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
+  LinkedIn: not scheduled yet
+  · Português: [Arco 2, parte 0 — Do PLG ao BLG: o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: sem data definida`,
+partindo o marcador em dois. O publicar.py procura a string exata, deixou de
+achar, e o README publico ficou SEM O INDICE DA SERIE por uma tarde inteira --
+na pagina que e a porta de entrada do repositorio publico.
+-->
+
 # Builder-Led Growth
 
 **A growth discipline for when the machine is also the customer.**

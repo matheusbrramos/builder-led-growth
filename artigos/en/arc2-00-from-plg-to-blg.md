@@ -61,9 +61,10 @@ I was betting that Ellis's question would lose its meaning once the one operatin
 the product is a machine. It didn't. It still works — and the respondent stopped
 being whoever operates and became whoever receives the result.
 
-The third came from the constraints. Training, harness, guardrail and compliance
-rule don't act on the agent. They act on the pair. They describe how the pair was
-assembled.
+The third came from the constraints. Training, the harness — the scaffolding that
+runs the agent and bounds what it can call and see —, the guardrail — the limit
+that blocks certain actions before they happen — and the compliance rule don't act
+on the agent. They act on the pair. They describe how the pair was assembled.
 
 Together, the three say the same thing, and this is how I use the term from here
 on:
@@ -112,11 +113,10 @@ answer, you're approving a distribution of possible answers.
 Here comes a concept I use throughout the arc, and its parentage is disputed —
 worth telling properly, because the lineages say different things.
 
-**Tony Ulwick** conceived the approach in 1990, applying
+**[Tony Ulwick](https://www.linkedin.com/in/tonyulwick)** conceived the approach in 1990, applying
 Six Sigma thinking to the innovation process, and named the method Outcome-Driven
 Innovation in 1999
-([Strategyn](https://strategyn.com/jobs-to-be-done/history-of-jtbd/)). **Bob
-Moesta**, **Rick Pedi** and **John
+([Strategyn](https://strategyn.com/jobs-to-be-done/history-of-jtbd/)). **[Bob Moesta](https://www.linkedin.com/in/bobmoesta)**, **Rick Pedi** and **John
 Palmer** arrived, in the same decade, at the notion that
 customers have jobs to get done. And **Clayton Christensen** coined the term
 *jobs-to-be-done* in *The Innovator's Solution*, from 2003, and is the one who
@@ -189,11 +189,12 @@ Now picture the same build run by someone with fifteen years of platform work.
 Everything shifts: the architectural decisions move back to the human side, and
 the agent executes more while choosing less.
 
-**And there is data supporting that this difference is real.** In the Stack
-Overflow developer survey, high trust in AI output runs at **6.1% among those
-learning to code** and drops to **2.5% among the experienced**. It isn't an
-opinion about the tool: it's half the trust disappearing with time on the road.
-And in no group, none, does it clear 6.1%.
+**And there is data supporting that this difference is real.** In Stack Overflow's
+2025 survey of developers ([Developer Survey
+2025](https://survey.stackoverflow.co/2025/ai)), high trust in AI output runs at
+**6.1% among those learning to code** and drops to **2.5% among the experienced**.
+It isn't an opinion about the tool: it's nearly three fifths of the trust
+disappearing with time on the road. And in no group, none, does it clear 6.1%.
 
 The same thing shifts by environment. Where there's little governance and little
 written rule, the agent decides more. Where there's an approved registry, a
@@ -219,17 +220,19 @@ BLG inherits whole.
 2010 post, after running growth at Dropbox, LogMeIn and Eventbrite through each
 company's inflection years. His definition: someone whose true north is growth, and
 who subjects everything they do to its potential impact on scalable growth. In
-2017 he published *Hacking Growth* with **Morgan Brown**.
+2017 he published *Hacking Growth* with **[Morgan Brown](https://www.linkedin.com/in/morganb/)**.
 
 The book's central contribution isn't a list of tricks. It's an operating system
 for a growth team: a weekly cadence of hypothesis, prioritisation, experiment and
 learning loop after each test.
 
-**PLG** came next, popularised in the mid-2010s by OpenView, with Blake Bartlett, and codified in a book by [Wes
+**PLG** came next, popularised in the mid-2010s by OpenView, with [Blake Bartlett](https://www.linkedin.com/in/blakebartlett), and codified in a book by [Wes
 Bush](https://www.linkedin.com/in/wesbush) in 2019. From it we inherit four
 instruments that still stand:
 
-- **The pirate metrics** — acquisition, activation, retention, revenue and referral
+- **The pirate metrics**, the AARRR that
+  [Dave McClure](https://www.linkedin.com/in/davemcclure) presented in 2007 —
+  acquisition, activation, retention, revenue and referral
   — which split the journey into stages of observable behaviour.
 - **The product-qualified lead**: a user who completed a core action and saw the
   value first-hand. Swaps the declared signal for the behavioural one.
@@ -308,8 +311,10 @@ person who only sees the end. Designing becomes minimising what the machine has 
 cross and maximising what the person finds ready when they look.
 
 **Progressive disclosure inverts.** Showing a little at a time, so as not to
-overwhelm, is established good practice — and to the machine, withheld information
-is ambiguity. Look at what that means: one's best practice is the other's defect.
+overwhelm, has been established interface-design practice since the 1980s, and the
+reference text is [Jakob
+Nielsen's](https://www.nngroup.com/articles/progressive-disclosure/). To the
+machine, withheld information is ambiguity. Look at what that means: one's best practice is the other's defect.
 It holds for tooltips, empty states, guided tours and getting-started checklists,
 which are all instruments of attention and motivation. The machine has neither.
 
@@ -335,8 +340,9 @@ With a caveat on scale that the numbers impose, and that I handle in detail in t
 piece on candidacy: only 27% of organisations enforce strict governance, and 68%
 don't know which AI tools their developers use
 ([Northflank](https://northflank.com/blog/enterprise-ai-coding-agent-deployment)).
-The gate is real where it exists and it's going up fast. It isn't a universal
-condition today.
+The gate is real where it exists, and the two numbers describe adoption that is
+still partial. I found no measure of how fast it is spreading, so I won't claim a
+direction — what can be said is that it isn't a universal condition today.
 
 ![The five PLG techniques that stop serving once the machine is the one operating](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-where-plg-stops-en.png)
 
@@ -430,8 +436,8 @@ incremental gain flattens
 It's a survey of one function, with a declared sample, and "high realised value" is
 self-reported.
 
-Behind that sits an older and more durable layer. **Alfred Rappaport**, in
-*Creating Shareholder Value*, from 1986, proposed seven drivers management can
+Behind that sits an older and more durable layer. **Alfred Rappaport**, in *Creating Shareholder Value*, from 1986, proposed
+seven drivers management can
 operate to create value: sales growth, operating margin, effective tax rate,
 working capital investment, fixed asset investment, cost of capital, and — the
 seventh — **the duration of competitive advantage**.
@@ -440,9 +446,13 @@ The first six are contested by everyone. The seventh is the one BLG operates, an
 it's the least discussed in growth conversation: how long the return keeps running
 above the cost of capital.
 
-And there's a fact from the model itself that supports much of this arc: **as much
-as two thirds of a business's value comes from cash flows beyond the normal
-planning horizon.** The standard objection to BLG is that it's slow. Whether it
+And there's a number from the model itself that supports much of this arc: **as
+much as two thirds of a business's value comes from cash flows beyond the normal
+planning horizon.** Before leaning on it, it's worth saying where it comes from:
+the model dates from 1986 and grows out of the shareholder-value tradition, which
+carries its own critique and is far from settled. I use it as finance vocabulary,
+not as a position on what a company is for. The standard objection to BLG is that
+it's slow. Whether it
 actually is remains under debate — and finding which engines accelerate that growth
 is precisely the course of this arc. What can be said already is that the
 instrument the firm itself uses places most of the value beyond the horizon it
@@ -487,7 +497,9 @@ promising a frictionless sum would be dishonest.
 **Third, in the budget argument.** That 58% of SaaS companies run some form of PLG
 and around 91% intend to increase the investment
 ([UserGuiding](https://userguiding.com/blog/state-of-plg-in-saas)) is evidence PLG
-is working for them, not that they should divert funds. The stronger argument for
+is working for them, not that they should divert funds. And it's worth saying where
+those two numbers come from: an onboarding-tool vendor and an investment firm, both
+with a stake in the thesis, rather than independent survey work. The stronger argument for
 BLG isn't redirecting budget. It's that there's a stretch of the funnel nobody is
 measuring, and it doesn't sit with whoever runs PLG today.
 
@@ -524,7 +536,7 @@ idea, that's the conversation I'd most like to have after this piece.
 Linear reached a 1.25 billion dollar valuation in an 82 million Series C, in June
 2025 ([Built In San
 Francisco](https://www.builtinsf.com/articles/linear-raises-82m-series-c-1b-valuation-20250611)).
-The founder, Karri Saarinen, published the operating
+The founder, [Karri Saarinen](https://www.linkedin.com/in/karrisaarinen/), published the operating
 numbers: net revenue retention above 140%, with a team of 70 at the company's sixth
 anniversary ([on X](https://x.com/karrisaarinen/status/1880314177165869284)). I use
 his source because it's primary, and because aggregators diverge widely on
@@ -579,7 +591,7 @@ to someone who never knew they were competing with you?**
 - *Part 1 — When the machine is also your customer: [read](01-when-the-machine-is-the-customer.md)*
 - *Part 2 — The decision, the price and what to measure: [read](02-decision-price-and-measurement.md)*
 - *Part 3 — The tax the machine charges and the human never sees: [read](03-machine-legibility.md)*
-- *Part 4 — How many times the agent has to call a human: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/*
+- *Part 4 — How many times the agent has to call a human: [read](04-operational-accessibility.md)*
 - *Part 5 — The well everyone drinks from: [read](05-community-and-validation-signal.md)*
 - *Part 6 — The machine is press and reader at once: [read](06-public-relations.md)*
 - *Part 7 — What makes an agent trust you, and why its competence is the problem:
