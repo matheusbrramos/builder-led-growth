@@ -579,7 +579,7 @@ to someone who never knew they were competing with you?**
 - *Part 1 — When the machine is also your customer: [read](01-when-the-machine-is-the-customer.md)*
 - *Part 2 — The decision, the price and what to measure: [read](02-decision-price-and-measurement.md)*
 - *Part 3 — The tax the machine charges and the human never sees: [read](03-machine-legibility.md)*
-- *Part 4 — How many times the agent has to call a human: [read](04-operational-accessibility.md)*
+- *Part 4 — How many times the agent has to call a human: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/*
 - *Part 5 — The well everyone drinks from: [read](05-community-and-validation-signal.md)*
 - *Part 6 — The machine is press and reader at once: [read](06-public-relations.md)*
 - *Part 7 — What makes an agent trust you, and why its competence is the problem:

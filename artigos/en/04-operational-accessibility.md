@@ -2,7 +2,7 @@
 Part 04 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/04-acessibilidade-operacional.md
-Text frozen. Scheduled for LinkedIn on 7 August 2026.
+Published on LinkedIn on 7 August 2026: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/
 Generated from the private working repository. Do not edit here.
 -->
 

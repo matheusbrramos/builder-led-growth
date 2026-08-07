@@ -28,14 +28,14 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 - **[Part 3 — The tax the machine charges and the human never sees](artigos/en/03-machine-legibility.md)** — Pillar 1. Ambiguity in four layers, context cost, the inversion between optimising for human and for machine.  
   Published 2026-08-05 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/)
   · Português: [Parte 3 — O imposto que a máquina cobra e o humano não vê](artigos/pt-br/03-legibilidade-por-maquina.md) — publicado em 2026-08-05 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/)
+- **[Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md)** — Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run.  
+  Published 2026-08-07 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/)
+  · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — publicado em 2026-08-06 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 4 — How many times the agent has to call a human](artigos/en/04-operational-accessibility.md)** — Pillar 2. The three endings of every human stop, the credential as the common blocker, the permanent cost of being available, and an open falsification protocol that has not been run.  
-  LinkedIn: 7 August 2026
-  · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — LinkedIn: 6 de agosto de 2026
 - **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
   LinkedIn: 12 August 2026
   · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — LinkedIn: 11 de agosto de 2026

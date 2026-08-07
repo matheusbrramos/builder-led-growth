@@ -350,7 +350,7 @@ Part 7 takes on the fourth pillar — model trust and safety. It is the only one
 - [Part 1 — When the machine is also your customer](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
 - [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
 - Part 3 — The tax the machine charges and the human never sees: https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/
-- Part 4 — How many times the agent has to call a human: [read](04-operational-accessibility.md)
+- Part 4 — How many times the agent has to call a human: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/
 - Part 5 — The well everyone drinks from: [read](05-community-and-validation-signal.md)
 - Part 6 — The machine is press and reader at once (this piece)
 

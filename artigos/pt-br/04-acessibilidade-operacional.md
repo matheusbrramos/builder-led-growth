@@ -2,7 +2,7 @@
 Parte 04 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/04-operational-accessibility.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 6 de agosto de 2026.
+Publicada no LinkedIn em 6 de agosto de 2026: https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 

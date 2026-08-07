@@ -571,7 +571,7 @@ para alguém que nunca soube que estava competindo com você?**
 - *Parte 1 — Quando a máquina também é seu cliente: [ler](01-quando-a-maquina-e-cliente.md)*
 - *Parte 2 — A decisão, o preço e o que medir: [ler](02-decisao-preco-e-medicao.md)*
 - *Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/*
-- *Parte 4 — Quantas vezes o agente precisa chamar um humano: [ler](04-acessibilidade-operacional.md)*
+- *Parte 4 — Quantas vezes o agente precisa chamar um humano: https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/*
 - *Parte 5 — O poço de onde todos bebem: [ler](05-comunidade-e-sinal-de-validacao.md)*
 - *Parte 6 — A máquina é imprensa e leitor ao mesmo tempo: [ler](06-relacoes-publicas.md)*
 - *Parte 7 — O que faz o agente confiar, e por que a competência dele é o
