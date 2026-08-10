@@ -196,6 +196,14 @@ the agent executes more while choosing less.
 It isn't an opinion about the tool: it's nearly three fifths of the trust
 disappearing with time on the road. And in no group, none, does it clear 6.1%.
 
+It's worth saying where that number comes from, because the survey itself leaves a
+piece out. The four published answers add up to 78.5% of respondents — roughly a
+fifth picked something Stack Overflow doesn't disclose, and the percentages are
+figured against the total number of people, not against the four options shown. The
+contrast between the two groups is what matters here, and it holds. The absolute
+level is what asks for care, because there's no telling how that fifth splits
+between the people starting out and the ones with road behind them.
+
 The same thing shifts by environment. Where there's little governance and little
 written rule, the agent decides more. Where there's an approved registry, a
 committee and mandatory review, it decides less and proposes more.

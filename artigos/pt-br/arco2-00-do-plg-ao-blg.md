@@ -193,6 +193,14 @@ de **6,1% entre quem está aprendendo a programar** e cai para **2,5% entre os
 experientes**. Não é opinião sobre a ferramenta: é quase três quintos da confiança
 desaparecendo com o tempo de estrada. E em nenhum grupo, nenhum, ela passa de 6,1%.
 
+Vale dizer de onde vem esse número, porque a própria pesquisa deixa um pedaço de
+fora. As quatro respostas publicadas somam 78,5% de quem respondeu — cerca de um
+quinto escolheu alguma coisa que a Stack Overflow não divulga, e os percentuais
+saem sobre o total de gente, não sobre as quatro opções mostradas. O contraste
+entre os dois grupos é o que interessa aqui, e ele se sustenta. O nível absoluto é
+que pede cuidado, porque não dá para saber como esse quinto se reparte entre quem
+está começando e quem já tem estrada.
+
 O mesmo desloca por ambiente. Onde há pouca governança e pouca regra escrita, o
 agente decide mais. Onde há registro aprovado, comitê e revisão obrigatória, ele
 decide menos e propõe mais.
