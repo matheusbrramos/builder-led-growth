@@ -59,14 +59,20 @@ ANCORAS = [
     # redacao identica em toda peca que use os termos. Sem ancora, a segunda
     # ocorrencia deriva sozinha e o proprio texto produz a polissemia que a serie
     # descreve como defeito.
+    # [\s>]+ entre as palavras, e nao espaco literal. O bloco de citacao ocupa tres
+    # ou quatro linhas conforme a lingua, e a quebra cai onde a largura manda —
+    # entao a ancora nao pode depender de onde ela caiu. Reescrever o texto
+    # deslocou a quebra do ingles em 11 de agosto de 2026 e a ancora "sumiu",
+    # com o portao acusando dispersao onde a frase estava intacta. Achado falso
+    # custa tanto quanto achado perdido.
     ("decisão assistida", "pt",
-     r"(Decisão assistida por IA: a pessoa escolhe entre opções que a máquina reuniu)"),
+     r"(Decisão[\s>]+assistida[\s>]+por[\s>]+IA:[\s>]+a[\s>]+pessoa[\s>]+escolhe[\s>]+entre[\s>]+opções[\s>]+que[\s>]+a[\s>]+máquina[\s>]+reuniu)"),
     ("decisão delegada", "pt",
-     r"(Decisão delegada: a pessoa aceita ou recusa um resultado que a máquina já)"),
+     r"(Decisão[\s>]+delegada:[\s>]+a[\s>]+pessoa[\s>]+aceita[\s>]+ou[\s>]+recusa[\s>]+um[\s>]+resultado[\s>]+que[\s>]+a[\s>]+máquina[\s>]+já)"),
     ("assisted decision", "en",
-     r"(AI-assisted decision: the person chooses among options the machine assembled)"),
+     r"(AI-assisted[\s>]+decision:[\s>]+the[\s>]+person[\s>]+chooses[\s>]+among[\s>]+options[\s>]+the[\s>]+machine[\s>]+assembled)"),
     ("delegated decision", "en",
-     r"(Delegated decision: the person accepts or rejects a result the machine has already)"),
+     r"(Delegated[\s>]+decision:[\s>]+the[\s>]+person[\s>]+accepts[\s>]+or[\s>]+rejects[\s>]+a[\s>]+result[\s>]+the[\s>]+machine[\s>]+has[\s>]+already)"),
 ]
 
 DIRS = {"pt": "artigos/pt-br/*.md", "en": "artigos/en/*.md"}

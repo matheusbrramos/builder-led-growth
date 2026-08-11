@@ -34,4 +34,4 @@ AI-assisted decision: the person chooses among options the machine assembled.
 
 ## delegated decision
 
-Delegated decision: the person accepts or rejects a result the machine has already.
+Delegated decision: the person accepts or rejects a result the machine has > already.
