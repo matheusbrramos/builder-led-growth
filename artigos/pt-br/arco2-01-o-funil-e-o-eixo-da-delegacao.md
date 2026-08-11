@@ -240,7 +240,8 @@ E, depois de terem sido medidas como mais lentas, ainda estimavam ter acelerado 
 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/),
 [arXiv 2507.09089](https://arxiv.org/abs/2507.09089)).
 
-> Vinte pontos de distância entre o que foi medido e o que a pessoa acredita.
+São **vinte pontos de distância entre o que foi medido e o que a pessoa
+acredita**, e é do lado de dentro que a distância não aparece.
 
 A ressalva é dos próprios autores e eu tenho obrigação de reproduzi-la: eles **não**
 afirmam que a IA deixa a maioria dos desenvolvedores mais lenta, e dizem que o

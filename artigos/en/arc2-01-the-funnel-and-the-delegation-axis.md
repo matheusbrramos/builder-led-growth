@@ -241,7 +241,8 @@ after having been measured as slower, they still estimated they had been 20% fas
 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/),
 [arXiv 2507.09089](https://arxiv.org/abs/2507.09089)).
 
-> Twenty points between what was measured and what the person believes.
+That is **twenty points between what was measured and what the person believes**,
+and from the inside the gap is invisible.
 
 The caveat is the authors' own and I am obliged to reproduce it: they do **not**
 claim AI makes most developers slower, and they say the result does not extend beyond
