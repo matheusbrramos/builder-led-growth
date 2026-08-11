@@ -27,3 +27,11 @@ o Builder-Led Growth decide quem entra; a economia humana decide quem fica.
 ## builder é o par
 
 Builder é o par: a pessoa e o agente juntos.
+
+## decisão assistida
+
+Decisão assistida por IA: a pessoa escolhe entre opções que a máquina reuniu.
+
+## decisão delegada
+
+Decisão delegada: a pessoa aceita ou recusa um resultado que a máquina já.

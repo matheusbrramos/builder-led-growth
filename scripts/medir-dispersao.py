@@ -55,6 +55,18 @@ ANCORAS = [
     ("thesis limit", "en", r"(Builder-Led Growth decides who gets in[^.]*\.)"),
     ("builder é o par", "pt", r"(Builder é o par: a pessoa e o agente juntos)"),
     ("builder is the pair", "en", r"(A builder is the pair: the person and the agent together)"),
+    # O par cunhado no arco 2, parte 1. Entra aqui porque cunhar cobra uma coisa:
+    # redacao identica em toda peca que use os termos. Sem ancora, a segunda
+    # ocorrencia deriva sozinha e o proprio texto produz a polissemia que a serie
+    # descreve como defeito.
+    ("decisão assistida", "pt",
+     r"(Decisão assistida por IA: a pessoa escolhe entre opções que a máquina reuniu)"),
+    ("decisão delegada", "pt",
+     r"(Decisão delegada: a pessoa aceita ou recusa um resultado que a máquina já)"),
+    ("assisted decision", "en",
+     r"(AI-assisted decision: the person chooses among options the machine assembled)"),
+    ("delegated decision", "en",
+     r"(Delegated decision: the person accepts or rejects a result the machine has already)"),
 ]
 
 DIRS = {"pt": "artigos/pt-br/*.md", "en": "artigos/en/*.md"}
