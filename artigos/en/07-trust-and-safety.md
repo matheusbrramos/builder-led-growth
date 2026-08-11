@@ -10,7 +10,7 @@ Generated from the private working repository. Do not edit here.
 
 *Seventh and last part of the first arc of this series. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism. Parts 3, 4, 5 and 6 covered legibility, accessibility, community, and what public relations already knew about all of it. This one opens the last pillar — and it is the one that was missing.*
 
-![Cover: part 7 title on navy, with the line "The same competence that makes a model use your tool well is what makes it obey the poisoned instruction" in smaller display type.](../../visuais/parte-07/parte-07/p7-cover-en.png)
+![Cover: part 7 title on navy, with the line "The same competence that makes a model use your tool well is what makes it obey the poisoned instruction" in smaller display type.](../../visuais/parte-07/p7-cover-en.png)
 
 ## What this chapter is about
 
@@ -92,7 +92,7 @@ When part 5 dealt with the public material that feeds recommendation, the centra
 
 **It is the same phenomenon, at two points on the same chain.** The variation that scatters the corpus and the variation that pushes away the experienced developer are the same thing: **variation where reproduction was expected.** One feels it on the way in, the other on the way out.
 
-![Diagram: the same "variation where reproduction is expected" appearing at two points — in the corpus (dispersion, part 5) and in the output (senior developer distrust). An arrow linking the two.](../../visuais/parte-07/parte-07/p7-variation-two-points-en.png)
+![Diagram: the same "variation where reproduction is expected" appearing at two points — in the corpus (dispersion, part 5) and in the output (senior developer distrust). An arrow linking the two.](../../visuais/parte-07/p7-variation-two-points-en.png)
 
 ## The inversion: what gets you chosen is what exposes you
 
@@ -140,7 +140,7 @@ And here an organisational gap appears that is worth naming. This pillar has fou
 | Compliance | can I answer for this to a third party? | legal |
 | **Brand safety** | **can someone speak for me without my knowing?** | **nobody** |
 
-![The four dimensions of trust as a table, with the "brand safety" row highlighted in amber and the "who answers" cell empty.](../../visuais/parte-07/parte-07/p7-four-dimensions-en.png)
+![The four dimensions of trust as a table, with the "brand safety" row highlighted in amber and the "who answers" cell empty.](../../visuais/parte-07/p7-four-dimensions-en.png)
 
 The bottom row is what this piece is about, and it is not on the org chart of almost any company. Is it brand's? Security's? Product's? Until that is decided, nobody is watching.
 
@@ -192,7 +192,7 @@ The result: the deterministic rule crosses the probabilistic system and what com
 
 Add that, in most cases, the set of rules is not even well established — it lives in someone's head, scattered across conversations, or written for a human to read rather than a machine to satisfy. **The distrust those numbers measure does not come from the machine being bad. It comes from that mismatch.**
 
-![Diagram: a deterministic rule entering a probabilistic system and coming out as a distribution of results; the frustration point marked where a single outcome was expected.](../../visuais/parte-07/parte-07/p7-mismatch-en.png)
+![Diagram: a deterministic rule entering a probabilistic system and coming out as a distribution of results; the frustration point marked where a single outcome was expected.](../../visuais/parte-07/p7-mismatch-en.png)
 
 ### So what the correction proposes
 
@@ -206,7 +206,7 @@ So the pillar's formulation has two parts:
 
 > **Verifiable enough that supervision can be automated. And reversible enough that the error which slips through is not expensive.**
 
-![The three versions of the pillar definition, stacked, with what was missing in each. The third highlighted.](../../visuais/parte-07/parte-07/p7-three-versions-en.png)
+![The three versions of the pillar definition, stacked, with what was missing in each. The third highlighted.](../../visuais/parte-07/p7-three-versions-en.png)
 
 The second part exists because the first is not enough, and the reason is the same aquifer.
 
@@ -327,7 +327,7 @@ There is a second judge, with entirely different criteria, and a product can pas
 | Evidence it accepts | behaviour at execution | documents and certification |
 | Decision horizon | seconds | quarters |
 
-![The two doors of trust side by side, with the question, the evidence accepted and the horizon of each.](../../visuais/parte-07/parte-07/p7-two-doors-en.png)
+![The two doors of trust side by side, with the question, the evidence accepted and the horizon of each.](../../visuais/parte-07/p7-two-doors-en.png)
 
 On the buyer's side, **ISO/IEC 42001** — published in December 2023, the first international standard for AI management systems — has become a purchasing reference. Large companies have been announcing certification publicly since early 2025, and the standard appears with growing frequency on vendor requirement lists.
 
@@ -373,7 +373,7 @@ Now consider the other side. Someone asks the agent to *"make this faster"*. The
 
 So the answer to the question is double, and the two halves point opposite ways:
 
-![Two mirrored panels: on the left, ambiguity in the product's surface marked as a defect to remove; on the right, ambiguity in the user's request marked as raw material to accommodate. Between them, the dividing line of what you control.](../../visuais/parte-07/parte-07/p7-two-kinds-ambiguity-en.png)
+![Two mirrored panels: on the left, ambiguity in the product's surface marked as a defect to remove; on the right, ambiguity in the user's request marked as raw material to accommodate. Between them, the dividing line of what you control.](../../visuais/parte-07/p7-two-kinds-ambiguity-en.png)
 
 | Where | What to do |
 |---|---|

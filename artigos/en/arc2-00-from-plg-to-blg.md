@@ -81,7 +81,7 @@ And forgive me the terrible pun: the BLG customer is, literally, a superhuman. T
 case I just cited is Superhuman, and the coincidence was too good to let pass. Joke
 made, I'll stick with "builder".
 
-![A builder is the pair: the agent selects, the person validates, and neither decides alone](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-the-pair-en.png)
+![A builder is the pair: the agent selects, the person validates, and neither decides alone](../../visuais/arco2-parte-00/a2p0-the-pair-en.png)
 
 ## The human-machine hybrid is not an invention of this decade
 
@@ -217,7 +217,7 @@ different criteria depending on who's on the other side. Whoever delegates almos
 everything judges by the result that appeared. Whoever delegates little judges by
 the decision they would have made alone — and asks you to explain yourself.
 
-![High trust in AI output: 6.1% among those learning to code against 2.5% among the experienced](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-weight-tips-en.png)
+![High trust in AI output: 6.1% among those learning to code against 2.5% among the experienced](../../visuais/arco2-parte-00/a2p0-weight-tips-en.png)
 
 ## What came before: growth hacking, and what PLG built
 
@@ -352,7 +352,7 @@ The gate is real where it exists, and the two numbers describe adoption that is
 still partial. I found no measure of how fast it is spreading, so I won't claim a
 direction — what can be said is that it isn't a universal condition today.
 
-![The five PLG techniques that stop serving once the machine is the one operating](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-where-plg-stops-en.png)
+![The five PLG techniques that stop serving once the machine is the one operating](../../visuais/arco2-parte-00/a2p0-where-plg-stops-en.png)
 
 ## Two phenomena that look alike and aren't the same
 
@@ -426,7 +426,7 @@ What shifts along the gradient is the rest of the funnel. At the recommendation
 end, your work finishes when the person clicks. At the construction end, it starts
 there.
 
-![The gradient between recommending and building, and the finding that 98% verify the AI recommendation before buying](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-gradient-en.png)
+![The gradient between recommending and building, and the finding that 98% verify the AI recommendation before buying](../../visuais/arco2-parte-00/a2p0-gradient-en.png)
 
 ## What the buyer calls value
 
@@ -474,7 +474,7 @@ Out of that comes a repositioning that changes how you ask for budget for this:
 > at growth rate. Whoever presents only the growth half is leaving half the
 > argument on the table.
 
-![The competitive set defined by the job: another database, the bundled service, the local file, the existing instance, and the agent writing it themselves](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-competitive-set-en.png)
+![The competitive set defined by the job: another database, the bundled service, the local file, the existing instance, and the agent writing it themselves](../../visuais/arco2-parte-00/a2p0-competitive-set-en.png)
 
 ## Adding the two approaches isn't free
 

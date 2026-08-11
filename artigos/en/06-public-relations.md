@@ -10,7 +10,7 @@ Generated from the private working repository. Do not edit here.
 
 *Sixth part of the series on Builder-Led Growth. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism and the role of price. Part 3 covered machine legibility, part 4 operational accessibility, and part 5 the community that feeds both. This one goes thirty years back, because some of what we are discovering already had a name.*
 
-![Cover: part 6 title on navy, with the line "Advertising is you talking about yourself. Public relations is getting others to talk about you." in smaller display type.](../../visuais/parte-06/parte-06/p6-cover-en.png)
+![Cover: part 6 title on navy, with the line "Advertising is you talking about yourself. Public relations is getting others to talk about you." in smaller display type.](../../visuais/parte-06/p6-cover-en.png)
 
 ## The four pillars, in one page
 
@@ -86,7 +86,7 @@ That kind of channel is also already known, and the discipline that studies it i
 
 That is the same condition as the machine, and so the instrument is the same: **you work the input, because the output is not yours.**
 
-![Three-column comparison: Customer, Press, Model. The Model column's cells that stack "yes" from the two preceding columns are highlighted in amber, showing the accumulation of roles visually.](../../visuais/parte-06/parte-06/p6-customer-press-model-en.png)
+![Three-column comparison: Customer, Press, Model. The Model column's cells that stack "yes" from the two preceding columns are highlighted in amber, showing the accumulation of roles visually.](../../visuais/parte-06/p6-customer-press-model-en.png)
 
 |  | Customer | Press | Model |
 |---|---|---|---|
@@ -164,7 +164,7 @@ When part 4 dealt with the stops where an agent needs a human, it separated thre
 
 **The third, and this is what changes the nature of the risk: the loop did not vanish, it closed somewhere else.** Whoever runs the model has a record of the whole session — what was tried, what failed, what needed a second attempt, where the person got annoyed. The feedback exists. It is being collected. And it is being collected by an organization that is not yours.
 
-![Two stacked loops: on top, the classical loop (product → user → product, closed). Below, the loop under BLG: product → agent ⇄ user, the session record going to whoever runs the model, and the arrow back to the product cut. Amber highlight on where the loop closes outside.](../../visuais/parte-06/parte-06/p6-broken-feedback-en.png)
+![Two stacked loops: on top, the classical loop (product → user → product, closed). Below, the loop under BLG: product → agent ⇄ user, the session record going to whoever runs the model, and the arrow back to the product cut. Amber highlight on where the loop closes outside.](../../visuais/parte-06/p6-broken-feedback-en.png)
 
 **Why this is a product risk, and not only a communication one.** A product that loses feedback does not stop being judged. The decision to recommend or not recommend keeps happening every day, fed by information you cannot see. And the interval between your quality dropping and your finding out stops being measured in support days: it becomes measured in how long it takes you to notice a curve falling without knowing why.
 
@@ -194,7 +194,7 @@ That sentence is a functional description of a language model. It receives signs
 
 Two classical relations between signs cover, one each way, the two failure modes this series described in different parts:
 
-![Two mirrored diagrams: on the left, one signifier with three arrows pointing to different meanings (polysemy); on the right, three signifiers with arrows converging on one meaning (synonymy). Under each, the corresponding problem from the series.](../../visuais/parte-06/parte-06/p6-polysemy-synonymy-en.png)
+![Two mirrored diagrams: on the left, one signifier with three arrows pointing to different meanings (polysemy); on the right, three signifiers with arrows converging on one meaning (synonymy). Under each, the corresponding problem from the series.](../../visuais/parte-06/p6-polysemy-synonymy-en.png)
 
 | Relation | What it is | Where the series described it |
 |---|---|---|
@@ -270,7 +270,7 @@ I should say that this table is organised reasoning, not a literature review. I 
 
 In 1984, James Grunig and Todd Hunt published *Managing Public Relations* and proposed four models describing how organizations practise the discipline. Four decades on, it remains the field's most-taught framework.
 
-![Grunig and Hunt's four models as a table, with the symmetrical one highlighted in amber and a column for what the machine receives from each. Visible credit: Grunig & Hunt, 1984.](../../visuais/parte-06/parte-06/p6-four-models-en.png)
+![Grunig and Hunt's four models as a table, with the symmetrical one highlighted in amber and a column for what the machine receives from each. Visible credit: Grunig & Hunt, 1984.](../../visuais/parte-06/p6-four-models-en.png)
 
 | Model | How it works | Today's equivalent | What the machine receives |
 |---|---|---|---|

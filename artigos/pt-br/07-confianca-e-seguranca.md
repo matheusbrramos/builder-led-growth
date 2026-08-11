@@ -10,7 +10,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 *Sétima e última parte do primeiro arco desta série. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão. As partes 3, 4, 5 e 6 trataram da legibilidade, da acessibilidade, da comunidade e do que Relações Públicas já sabia sobre tudo isso. Esta abre o último pilar — e ele é o que estava faltando.*
 
-![Capa: título da parte 7 sobre fundo navy, com a frase "A mesma competência que faz o modelo usar bem sua ferramenta é a que faz ele obedecer à instrução envenenada" em destaque menor.](../../visuais/parte-07/parte-07/p7-capa-pt.png)
+![Capa: título da parte 7 sobre fundo navy, com a frase "A mesma competência que faz o modelo usar bem sua ferramenta é a que faz ele obedecer à instrução envenenada" em destaque menor.](../../visuais/parte-07/p7-capa-pt.png)
 
 ## Do que trata este capítulo
 
@@ -92,7 +92,7 @@ Quando a parte 5 tratou do material público que alimenta a recomendação, o pr
 
 **É o mesmo fenômeno, em dois pontos da mesma cadeia.** A variação que espalha o corpus e a variação que afasta o desenvolvedor experiente são a mesma coisa: **variação onde se esperava reprodução.** Um sente na entrada, o outro sente na saída.
 
-![Diagrama: a mesma "variação onde se espera reprodução" aparecendo em dois pontos — no corpus (dispersão, parte 5) e na saída (desconfiança do sênior). Uma seta ligando os dois.](../../visuais/parte-07/parte-07/p7-variacao-dois-pontos-pt.png)
+![Diagrama: a mesma "variação onde se espera reprodução" aparecendo em dois pontos — no corpus (dispersão, parte 5) e na saída (desconfiança do sênior). Uma seta ligando os dois.](../../visuais/parte-07/p7-variacao-dois-pontos-pt.png)
 
 ## A inversão: o que faz você ser escolhido é o que te expõe
 
@@ -140,7 +140,7 @@ E aqui aparece uma lacuna organizacional que vale nomear. O quarto pilar tem qua
 | Conformidade | consigo responder por isto perante um terceiro? | jurídico |
 | **Segurança de marca** | **alguém consegue falar por mim sem que eu saiba?** | **ninguém** |
 
-![As quatro dimensões da confiança em quadro, com a linha de "segurança de marca" destacada em âmbar e a coluna "quem responde" vazia.](../../visuais/parte-07/parte-07/p7-quatro-dimensoes-pt.png)
+![As quatro dimensões da confiança em quadro, com a linha de "segurança de marca" destacada em âmbar e a coluna "quem responde" vazia.](../../visuais/parte-07/p7-quatro-dimensoes-pt.png)
 
 A linha de baixo é a que este artigo trata, e ela não está no organograma de quase nenhuma empresa. É de marca? De segurança? De produto? Enquanto não se decide, ninguém está olhando.
 
@@ -192,7 +192,7 @@ Resultado: a regra determinística atravessa o sistema probabilístico e o que s
 
 Some-se a isso que, na maioria dos casos, o conjunto de regras nem sequer está bem estabelecido — está na cabeça de alguém, espalhado em conversas, ou escrito para humano ler e não para máquina cumprir. **A desconfiança que os números medem não nasce da máquina ser ruim. Nasce desse descasamento.**
 
-![Diagrama: regra determinística entrando num sistema probabilístico e saindo como distribuição de resultados; o ponto de frustração marcado onde a expectativa era um resultado único.](../../visuais/parte-07/parte-07/p7-descasamento-pt.png)
+![Diagrama: regra determinística entrando num sistema probabilístico e saindo como distribuição de resultados; o ponto de frustração marcado onde a expectativa era um resultado único.](../../visuais/parte-07/p7-descasamento-pt.png)
 
 ### Então o que a correção propõe
 
@@ -206,7 +206,7 @@ Por isso a formulação do pilar tem duas partes:
 
 > **Verificável o bastante para que a supervisão seja automatizável. E reversível o bastante para que o erro que passa não seja caro.**
 
-![As três versões da definição do pilar, empilhadas, com o que faltava em cada uma. A terceira destacada.](../../visuais/parte-07/parte-07/p7-tres-versoes-pt.png)
+![As três versões da definição do pilar, empilhadas, com o que faltava em cada uma. A terceira destacada.](../../visuais/parte-07/p7-tres-versoes-pt.png)
 
 A segunda parte existe porque a primeira não basta, e o motivo é o mesmo aquífero.
 
@@ -327,7 +327,7 @@ Existe um segundo julgador, com critérios completamente diferentes, e um produt
 | Evidência que aceita | comportamento na execução | documento e certificação |
 | Prazo da decisão | segundos | trimestres |
 
-![As duas portas da confiança lado a lado, com a pergunta, a evidência aceita e o prazo de cada uma.](../../visuais/parte-07/parte-07/p7-duas-portas-pt.png)
+![As duas portas da confiança lado a lado, com a pergunta, a evidência aceita e o prazo de cada uma.](../../visuais/parte-07/p7-duas-portas-pt.png)
 
 Do lado do comprador, a **ISO/IEC 42001** — publicada em dezembro de 2023, primeiro padrão internacional de sistema de gestão de inteligência artificial — virou referência de compra. Empresas grandes vêm anunciando certificação publicamente desde o início de 2025, e a norma aparece com frequência crescente nas listas de exigência de fornecedor.
 
@@ -373,7 +373,7 @@ Agora considere o outro lado. Uma pessoa pede ao agente *"faz isso ficar mais r�
 
 Então a resposta à pergunta é dupla, e as duas metades apontam para lados opostos:
 
-![Dois painéis espelhados: à esquerda, ambiguidade na superfície do produto marcada como defeito a eliminar; à direita, ambiguidade no pedido do usuário marcada como matéria-prima a acomodar. Entre os dois, a linha divisória do que se controla.](../../visuais/parte-07/parte-07/p7-dois-tipos-ambiguidade-pt.png)
+![Dois painéis espelhados: à esquerda, ambiguidade na superfície do produto marcada como defeito a eliminar; à direita, ambiguidade no pedido do usuário marcada como matéria-prima a acomodar. Entre os dois, a linha divisória do que se controla.](../../visuais/parte-07/p7-dois-tipos-ambiguidade-pt.png)
 
 | Onde | O que fazer |
 |---|---|

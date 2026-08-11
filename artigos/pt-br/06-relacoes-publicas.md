@@ -10,7 +10,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 *Sexta parte da série sobre Builder-Led Growth. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão e o papel do preço. A parte 3 tratou da legibilidade por máquina, a parte 4 da acessibilidade operacional, e a parte 5 da comunidade que alimenta as duas. Esta volta trinta anos para trás, porque parte do que estamos descobrindo já tinha nome.*
 
-![Capa: título da parte 6 sobre fundo navy, com a frase "Publicidade é falar de si. Relações Públicas é fazer os outros falarem de você" em destaque menor.](../../visuais/parte-06/parte-06/p6-capa-pt.png)
+![Capa: título da parte 6 sobre fundo navy, com a frase "Publicidade é falar de si. Relações Públicas é fazer os outros falarem de você" em destaque menor.](../../visuais/parte-06/p6-capa-pt.png)
 
 ## Os quatro pilares, em uma página
 
@@ -86,7 +86,7 @@ Esse tipo de canal também já é conhecido, e a disciplina que o estuda tem qua
 
 É a mesma condição da máquina, e por isso o instrumento é o mesmo: **você trabalha a entrada, porque a saída não é sua.**
 
-![Tabela comparativa de três colunas: Cliente, Imprensa, Modelo. Destacar em âmbar as células da coluna Modelo que acumulam "sim" das duas colunas anteriores, mostrando visualmente o acúmulo de papéis.](../../visuais/parte-06/parte-06/p6-cliente-imprensa-modelo-pt.png)
+![Tabela comparativa de três colunas: Cliente, Imprensa, Modelo. Destacar em âmbar as células da coluna Modelo que acumulam "sim" das duas colunas anteriores, mostrando visualmente o acúmulo de papéis.](../../visuais/parte-06/p6-cliente-imprensa-modelo-pt.png)
 
 |  | Cliente | Imprensa | Modelo |
 |---|---|---|---|
@@ -164,7 +164,7 @@ Quando a parte 4 tratou das paradas em que o agente precisa de um humano, ela se
 
 **O terceiro, que é o que muda a natureza do risco: o laço não sumiu, ele fechou em outro lugar.** Quem opera o modelo tem registro da sessão inteira — o que foi tentado, o que falhou, o que exigiu segunda tentativa, onde a pessoa se irritou. O retorno existe. Está sendo coletado. E está sendo coletado por uma organização que não é a sua.
 
-![Diagrama de dois laços: em cima, o laço clássico (produto → usuário → produto, fechado). Embaixo, o laço sob BLG: produto → agente → usuário → agente → operador do modelo, com a seta de volta ao produto cortada. Destacar em âmbar o ponto onde o laço fecha fora.](../../visuais/parte-06/parte-06/p6-feedback-quebrado-pt.png)
+![Diagrama de dois laços: em cima, o laço clássico (produto → usuário → produto, fechado). Embaixo, o laço sob BLG: produto → agente → usuário → agente → operador do modelo, com a seta de volta ao produto cortada. Destacar em âmbar o ponto onde o laço fecha fora.](../../visuais/parte-06/p6-feedback-quebrado-pt.png)
 
 **Por que isso é risco de produto, e não só de comunicação.** Um produto que perde o retorno não para de ser julgado. A decisão de recomendar ou não recomendar continua acontecendo todos os dias, alimentada por informação a que você não tem acesso. E o intervalo entre a sua qualidade piorar e você descobrir que piorou deixa de ser medido em dias de suporte: passa a ser medido em quanto tempo você leva para notar uma curva caindo sem saber o porquê.
 
@@ -194,7 +194,7 @@ Essa frase é uma descrição funcional de um modelo de linguagem. Ele recebe si
 
 Duas relações clássicas entre signos cobrem, uma para cada lado, os dois modos de falha que esta série descreveu em partes diferentes:
 
-![Dois diagramas espelhados: à esquerda, um significante com três setas apontando para significados diferentes (polissemia); à direita, três significantes com setas convergindo para um significado (sinonímia). Abaixo de cada um, a referência ao problema correspondente da série.](../../visuais/parte-06/parte-06/p6-polissemia-sinonimia-pt.png)
+![Dois diagramas espelhados: à esquerda, um significante com três setas apontando para significados diferentes (polissemia); à direita, três significantes com setas convergindo para um significado (sinonímia). Abaixo de cada um, a referência ao problema correspondente da série.](../../visuais/parte-06/p6-polissemia-sinonimia-pt.png)
 
 | Relação | O que é | Onde a série descreveu |
 |---|---|---|
@@ -270,7 +270,7 @@ Devo dizer que essa tabela é organização de raciocínio, não levantamento bi
 
 Em 1984, James Grunig e Todd Hunt publicaram *Managing Public Relations* e propuseram quatro modelos para descrever como as organizações praticam a disciplina. Quatro décadas depois, continua sendo o arcabouço mais ensinado da área.
 
-![Os quatro modelos de Grunig e Hunt em quadro, com o simétrico destacado em âmbar e uma seta indicando "o que a máquina mais pondera". Crédito visível: Grunig & Hunt, 1984.](../../visuais/parte-06/parte-06/p6-quatro-modelos-pt.png)
+![Os quatro modelos de Grunig e Hunt em quadro, com o simétrico destacado em âmbar e uma seta indicando "o que a máquina mais pondera". Crédito visível: Grunig & Hunt, 1984.](../../visuais/parte-06/p6-quatro-modelos-pt.png)
 
 | Modelo | Como funciona | O equivalente hoje | O que a máquina recebe |
 |---|---|---|---|

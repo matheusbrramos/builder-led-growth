@@ -78,7 +78,7 @@ E perdoe-me o trocadilho infame: o cliente do BLG é, literalmente, um
 super-humano. O caso que acabei de citar é o Superhuman, e a coincidência era boa
 demais para deixar passar. Feita a brincadeira, sigo com "builder".
 
-![Builder é o par: o agente seleciona, a pessoa valida, e nenhum dos dois decide sozinho](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-o-par-pt.png)
+![Builder é o par: o agente seleciona, a pessoa valida, e nenhum dos dois decide sozinho](../../visuais/arco2-parte-00/a2p0-o-par-pt.png)
 
 ## O híbrido de máquina e humano não é invenção desta década
 
@@ -213,7 +213,7 @@ critérios diferentes conforme quem está do outro lado. Quem delega quase tudo
 julga pelo resultado que apareceu. Quem delega pouco julga pela decisão que teria
 tomado sozinho — e cobra explicação.
 
-![Confiança alta na saída da IA: 6,1% entre quem está aprendendo a programar contra 2,5% entre experientes](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-peso-pende-pt.png)
+![Confiança alta na saída da IA: 6,1% entre quem está aprendendo a programar contra 2,5% entre experientes](../../visuais/arco2-parte-00/a2p0-peso-pende-pt.png)
 
 ## O que veio antes: growth hacking, e o que o PLG construiu
 
@@ -349,7 +349,7 @@ O portão é real onde existe, e os dois números descrevem adoção ainda parci
 achei medida da velocidade com que ele se espalha, então não afirmo direção — o
 que dá para dizer é que ele não é condição universal hoje.
 
-![As cinco técnicas de PLG que deixam de servir quando quem opera é a máquina](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-onde-plg-para-pt.png)
+![As cinco técnicas de PLG que deixam de servir quando quem opera é a máquina](../../visuais/arco2-parte-00/a2p0-onde-plg-para-pt.png)
 
 ## Dois fenômenos que se parecem e não são o mesmo
 
@@ -422,7 +422,7 @@ não recomenda nem escolhe.
 O que muda ao longo do gradiente é o resto do funil. Na ponta da recomendação, seu
 trabalho termina quando a pessoa clica. Na ponta da construção, ele começa aí.
 
-![O gradiente entre recomendar e construir, e o dado de que 98% verificam a recomendação da IA antes de comprar](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-gradiente-pt.png)
+![O gradiente entre recomendar e construir, e o dado de que 98% verificam a recomendação da IA antes de comprar](../../visuais/arco2-parte-00/a2p0-gradiente-pt.png)
 
 ## O que o comprador chama de valor
 
@@ -467,7 +467,7 @@ Daí sai um reposicionamento que muda como se pede orçamento para isso:
 > de crescimento. Quem só apresenta a parte de crescimento está deixando metade
 > do argumento na mesa.
 
-![O conjunto competitivo definido pelo trabalho: outro banco, o serviço incluso, o arquivo local, a instância existente, e o agente escrevendo por conta própria](../../visuais/arco2-parte-00/arco2-parte-00/a2p0-conjunto-competitivo-pt.png)
+![O conjunto competitivo definido pelo trabalho: outro banco, o serviço incluso, o arquivo local, a instância existente, e o agente escrevendo por conta própria](../../visuais/arco2-parte-00/a2p0-conjunto-competitivo-pt.png)
 
 ## A soma das duas abordagens não é de graça
 
