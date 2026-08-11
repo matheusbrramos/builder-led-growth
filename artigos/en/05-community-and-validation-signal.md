@@ -196,24 +196,15 @@ A forum is neither good nor bad for this pillar. It's the format that depends mo
 
 Almost every comparison of community tooling looks at engagement, retention and ease of moderation. The missing column is convergence.
 
-| Tool | Recordability | Convergence | Durability |
-|---|---|---|---|
-| **GitHub Discussions** | high | high — marked answer, next to the code | high — versioned with the repository |
-| Own forum | high | medium — there's a solved marker, but the canonical sits far from the code | medium — depends on active curation |
-| Discord and Slack | zero by default | zero | zero |
-| Stack Overflow | high | high | the old archive keeps teaching |
-| Changelog and release notes | high | high | the highest of all |
-| Cookbook of examples | high | the highest of all | high |
+![Community tools judged by recordability, convergence and durability](../../visuais/parte-05/p5-tools-three-properties-en.png)
 
-Two rows in that table deserve attention because they usually stay out of the community conversation.
+Two of these tools deserve attention because they usually stay out of the community conversation.
 
 **The changelog** solves durability better than any forum, and almost nobody treats it as a community asset. It's dated by nature, short, canonical and written in chronological order — which is exactly what a forum archive lacks. A well-kept changelog is the cheapest mechanism there is for retiring old information without deleting anything.
 
 **The cookbook of canonical examples** is the most direct convergence mechanism that exists, and the reason is almost silly: **whoever copies doesn't invent a variant.** A repository of examples that work, kept current, turns every person who uses it into a replicator of the same formulation. It's the exact opposite of what happens when someone has to figure it out alone and then writes it up their own way.
 
 On Discord and Slack, the highest-return mitigation for anyone who already has a large community in a closed channel is simple and off-the-shelf: publish the resolved thread to a public archive. It isn't abandoning the channel — it's stopping the loss of what happens in it.
-
-![Community tools judged by recordability, convergence and durability](../../visuais/parte-05/p5-tools-three-properties-en.png)
 
 ## Who already does this, and the mechanism they share
 
@@ -239,12 +230,11 @@ Here a confession about the path: I started looking for what quality management 
 
 **ISO 9001**, in requirement 7.5, deals with what it calls documented information. The mapping to this pillar is almost term for term:
 
-| What the standard requires | The equivalent here |
-|---|---|
-| Review before release | Reduce dispersion at the source |
-| Available at the point of use | Put the artifact on the path the agent already walks, which is the formulation of machine legibility |
-| Legible | Machine legibility, which was the subject of part 3 |
-| Protection against use of obsolete versions | Closing the version loop |
+- **Review before release** — reduce dispersion at the source.
+- **Available at the point of use** — put the artifact on the path the agent
+  already walks, which is the formulation of machine legibility.
+- **Legible** — machine legibility, which was the subject of part 3.
+- **Protection against use of obsolete versions** — closing the version loop.
 
 That last item has been an auditable requirement since the 2008 edition. While the conversation about content for AI discovers that stale material gets in the way, quality management had been requiring a procedure against it for nearly two decades.
 

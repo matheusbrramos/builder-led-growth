@@ -196,24 +196,15 @@ Fórum não é bom nem ruim para este pilar. É o formato que mais depende de go
 
 Quase toda comparação de ferramenta de comunidade olha para engajamento, retenção e facilidade de moderação. A coluna que falta é convergência.
 
-| Ferramenta | Registrabilidade | Convergência | Durabilidade |
-|---|---|---|---|
-| **GitHub Discussions** | alta | alta — resposta marcada, ao lado do código | alta — versionada com o repositório |
-| Fórum próprio | alta | média — há marcador de resolvido, mas o canônico fica longe do código | média — depende de curadoria ativa |
-| Discord e Slack | nula por padrão | nula | nula |
-| Stack Overflow | alta | alta | o acervo antigo continua ensinando |
-| Changelog e notas de versão | alta | alta | a mais alta de todas |
-| Receituário de exemplos | alta | a mais alta de todas | alta |
+![As ferramentas de comunidade avaliadas por registrabilidade, convergência e durabilidade](../../visuais/parte-05/p5-ferramentas-tres-propriedades-pt.png)
 
-Duas linhas dessa tabela merecem atenção porque costumam ficar de fora da conversa sobre comunidade.
+Duas dessas ferramentas merecem atenção porque costumam ficar de fora da conversa sobre comunidade.
 
 **O changelog** resolve durabilidade melhor que qualquer fórum, e quase ninguém o trata como ativo de comunidade. Ele é datado por natureza, curto, canônico e escrito em ordem cronológica — que é exatamente o que falta ao acervo de fórum. Um changelog bem mantido é o mecanismo mais barato de aposentar informação velha sem apagar nada.
 
 **O receituário de exemplos canônicos** é o mecanismo mais direto de convergência que existe, e a razão é quase boba: **quem copia não inventa variante.** Um repositório de exemplos que funcionam, mantido atualizado, converte cada pessoa que o usa num replicador da mesma formulação. É o oposto exato do que acontece quando alguém precisa descobrir sozinho como fazer e depois escreve do próprio jeito.
 
 Sobre Discord e Slack, a mitigação de maior retorno para quem já tem comunidade grande em canal fechado é simples e existe pronta: publicar a thread resolvida num arquivo público. Não é abandonar o canal — é parar de perder o que acontece nele.
-
-![As ferramentas de comunidade avaliadas por registrabilidade, convergência e durabilidade](../../visuais/parte-05/p5-ferramentas-tres-propriedades-pt.png)
 
 ## Quem já faz isso, e o mecanismo comum entre elas
 
@@ -239,12 +230,11 @@ Aqui vale uma confissão de percurso: comecei procurando o que a gestão da qual
 
 A **ISO 9001**, no requisito 7.5, trata do que ela chama de informação documentada. O mapeamento com este pilar é quase termo a termo:
 
-| O que a norma exige | O equivalente aqui |
-|---|---|
-| Análise crítica antes da divulgação | Reduzir dispersão na origem |
-| Disponível no local de uso | Colocar o artefato no caminho que o agente já percorre, que é a formulação da legibilidade por máquina |
-| Legível | Legibilidade por máquina, que foi o assunto da parte 3 |
-| Proteção contra uso de versão obsoleta | Fechar o loop de versão |
+- **Análise crítica antes da divulgação** — reduzir dispersão na origem.
+- **Disponível no local de uso** — colocar o artefato no caminho que o agente já
+  percorre, que é a formulação da legibilidade por máquina.
+- **Legível** — legibilidade por máquina, que foi o assunto da parte 3.
+- **Proteção contra uso de versão obsoleta** — fechar o loop de versão.
 
 Esse último item é requisito auditável desde a versão de 2008. Enquanto a discussão sobre conteúdo para IA descobre que material desatualizado atrapalha, a gestão da qualidade já exigia procedimento contra isso havia quase duas décadas.
 
