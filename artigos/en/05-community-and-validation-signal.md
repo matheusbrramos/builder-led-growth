@@ -8,7 +8,7 @@ Generated from the private working repository. Do not edit here.
 
 # Builder-Led Growth, part 5: the well everyone drinks from
 
-*Fifth part of the Builder-Led Growth series. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism and the role of pricing. Part 3 covered machine legibility and part 4, operational accessibility. This one is about the third pillar — and it's the only one that isn't yours.*
+*Fifth part of the Builder-Led Growth series. [Part 1](01-when-the-machine-is-the-customer.md) named the discipline and proposed four pillars. [Part 2](02-decision-price-and-measurement.md) opened up the decision mechanism and the role of pricing. [Part 3](03-machine-legibility.md) covered machine legibility and [part 4](04-operational-accessibility.md), operational accessibility. This one is about the third pillar — and it's the only one that isn't yours.*
 
 ## The four pillars, on one page
 
@@ -340,10 +340,10 @@ Part 6 takes up what Public Relations already knew about this in 1984 — and wh
 
 **The Builder-Led Growth series**
 
-- [Part 1 — When the machine is also your customer](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
-- [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
-- Part 3 — The tax the machine charges and the human never sees: https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/
-- Part 4 — How many times the agent has to call a human: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/
+- [Part 1 — When the machine is also your customer](01-when-the-machine-is-the-customer.md)
+- [Part 2 — The decision, the price and what to measure](02-decision-price-and-measurement.md)
+- [Part 3 — The tax the machine charges and the human never sees](03-machine-legibility.md)
+- [Part 4 — How many times the agent has to call a human](04-operational-accessibility.md)
 - Part 5 — The well everyone drinks from (this piece)
 
 The series continues. Each part goes deeper into something the previous one could only point at, and this block is updated as the next ones come out.

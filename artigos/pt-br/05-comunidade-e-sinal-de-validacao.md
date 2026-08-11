@@ -2,13 +2,13 @@
 Parte 05 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/05-community-and-validation-signal.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 11 de agosto de 2026.
+Publicada no LinkedIn em 11 de agosto de 2026: https://www.linkedin.com/pulse/builder-led-growth-parte-5-o-po%C3%A7o-de-onde-todos-bebem-matheus-e8ndf/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
 # Builder-Led Growth, parte 5: o poço de onde todos bebem
 
-*Quinta parte da série sobre Builder-Led Growth. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão e o papel do preço. A parte 3 tratou da legibilidade por máquina e a parte 4, da acessibilidade operacional. Esta trata do terceiro pilar — e ele é o único que não é seu.*
+*Quinta parte da série sobre Builder-Led Growth. A [parte 1](01-quando-a-maquina-e-cliente.md) nomeou a disciplina e propôs quatro pilares. A [parte 2](02-decisao-preco-e-medicao.md) abriu o mecanismo da decisão e o papel do preço. A [parte 3](03-legibilidade-por-maquina.md) tratou da legibilidade por máquina e a [parte 4](04-acessibilidade-operacional.md), da acessibilidade operacional. Esta trata do terceiro pilar — e ele é o único que não é seu.*
 
 ## Os quatro pilares, em uma página
 
@@ -340,10 +340,10 @@ Na parte 6 entra o que Relações Públicas já sabia sobre isto desde 1984 — 
 
 **Série Builder-Led Growth**
 
-- [Parte 1 — Quando a máquina também é seu cliente](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
-- [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
-- Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/
-- Parte 4 — Quantas vezes o agente precisa chamar um humano: https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/
+- [Parte 1 — Quando a máquina também é seu cliente](01-quando-a-maquina-e-cliente.md)
+- [Parte 2 — A decisão, o preço e o que medir](02-decisao-preco-e-medicao.md)
+- [Parte 3 — O imposto que a máquina cobra e o humano não vê](03-legibilidade-por-maquina.md)
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
 - Parte 5 — O poço de onde todos bebem (este texto)
 
 A série continua. Cada parte aprofunda um pedaço do que a anterior só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.
