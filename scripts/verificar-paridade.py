@@ -216,7 +216,7 @@ def comparar(parte, arq_en, arq_pt):
             % (n_en, n_pt, razao)
         )
 
-    print("Parte %s  --  EN %d palavras / PT %d palavras" % (parte, n_en, n_pt))
+    print("%s  --  EN %d palavras / PT %d palavras" % (rotulo(parte), n_en, n_pt))
     if problemas:
         print("\n".join(problemas))
     else:
@@ -225,14 +225,55 @@ def comparar(parte, arq_en, arq_pt):
     return len(problemas)
 
 
+# Pareamento por nome de arquivo, e ele precisa cobrir duas convencoes.
+#
+# Ate 11 de agosto de 2026 o padrao era `(\d\d)-.*\.md$`, que casa `04-...` e
+# NAO casa `arco2-00-...` nem `arc2-00-...`. Consequencia: o arco 2 inteiro
+# ficou fora desta verificacao, em silencio -- e nem como orfao aparecia,
+# porque orfao so existe para peca que ENTROU no pareamento.
+#
+# A parte 0 do arco 2 foi escrita, revisada e dada como pronta sem nunca ter
+# tido os numeros conferidos entre as duas linguas. O portao dizia
+# "Nenhuma divergencia entre as versoes pareadas" e estava tecnicamente certo:
+# aquele par nunca foi uma versao pareada.
+#
+# Mesma familia do achado do verificar-caminhos no mesmo dia -- instrumento que
+# passa por NAO OLHAR, e diz EM DIA do mesmo jeito.
+#
+# A assimetria do prefixo e deliberada e vem da convencao da casa: o portugues
+# escreve `arco2-`, o ingles `arc2-`. O `arco?` cobre os dois numa expressao so,
+# como o para-linkedin.py ja fazia com [LINK-PARTE?-n].
+RE_PECA = re.compile(r"^(?:arco?(\d+)-)?(\d\d)-.*\.md$")
+
+
+def chave_da_peca(nome):
+    """`04-slug.md` -> '04'.  `arco2-00-slug.md` e `arc2-00-slug.md` -> 'a2-00'.
+
+    A chave do arco segue a forma do manifesto, que ja chama a peca de 'a2-00'.
+    """
+    m = RE_PECA.match(nome)
+    if not m:
+        return None
+    arco, numero = m.group(1), m.group(2)
+    return "a%s-%s" % (arco, numero) if arco else numero
+
+
+def rotulo(chave):
+    """Chave de pareamento -> nome legivel, no vocabulario do repositorio."""
+    if "-" in chave:
+        arco, numero = chave.lstrip("a").split("-")
+        return "Arco %s, parte %s" % (arco, numero.lstrip("0") or "0")
+    return "Parte %s" % chave
+
+
 def main():
     filtro = sys.argv[1] if len(sys.argv) > 1 else None
     por_parte = {}
     for d, chave in ((DIR_EN, "en"), (DIR_PT, "pt")):
         for nome in sorted(os.listdir(d)):
-            m = re.match(r"(\d\d)-.*\.md$", nome)
-            if m:
-                por_parte.setdefault(m.group(1), {})[chave] = os.path.join(d, nome)
+            peca = chave_da_peca(nome)
+            if peca:
+                por_parte.setdefault(peca, {})[chave] = os.path.join(d, nome)
 
     total = 0
     orfaos = []
@@ -242,7 +283,7 @@ def main():
         par = por_parte[parte]
         if "en" not in par or "pt" not in par:
             falta = "EN" if "en" not in par else "PT"
-            orfaos.append("Parte %s: falta a versao %s" % (parte, falta))
+            orfaos.append("%s: falta a versao %s" % (rotulo(parte), falta))
             continue
         total += comparar(parte, par["en"], par["pt"])
 
