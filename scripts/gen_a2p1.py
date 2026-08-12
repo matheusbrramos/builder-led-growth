@@ -216,43 +216,41 @@ def v1(t, lang):
 
 # ------------------------------------------------ v2: a remocao
 def v2(t, lang):
-    H = 840
+    """Os quatro mecanismos que encolhem o conjunto conforme a delegacao sobe.
+
+    Este visual mostrava "tres opcoes existiam, uma entrou no codigo". A cena
+    continua no texto, mas o achado que a explica ficou mais forte que ela: nao e
+    so que a pessoa deixa de escolher, e que o CONJUNTO de onde se escolheria
+    encolhe — e ha quatro mecanismos medidos empurrando nessa direcao.
+    """
+    H = 880
     b = []
     header(b, t["v2_kicker"], t["v2_titulo"], t["v2_sub"], H)
 
-    # Esquerda: as tres que existiam. Direita: uma no codigo, duas fora --
-    # e o ponto do visual e que as duas NAO foram recusadas.
-    bx, by, bw, bh = 120, 236, 560, 300
-    b.append(rect(bx, by, bw, bh, PANEL, rx=14))
-    b.append(txt(bx + 30, by + 46, t["v2_esq_tit"], 19, "700", NAVY))
-    for i in range(3):
-        yy = by + 78 + i * 68
-        b.append(rect(bx + 30, yy, bw - 60, 54, WHITE, BORDER, 1.5, rx=10))
-        b.append(circle(bx + 62, yy + 27, 9, MUTED))
-        b.append(txt(bx + 88, yy + 33, t["v2_opc%d" % i], 17, "400", NAVY))
+    cw, gap = 355, 20
+    x0 = (W - (cw * 4 + gap * 3)) / 2
+    cy, ch = 246, 330
+    cores = [ACCENT, AMBER, GREEN, RED]
+    softs = [ACCENT_SOFT, AMBER_SOFT, GREEN_SOFT, RED_SOFT]
 
-    b.append(arrow(bx + bw + 34, by + bh / 2, bx + bw + 128, by + bh / 2, MUTED, 3))
+    for i in range(4):
+        cx = x0 + i * (cw + gap)
+        b.append(rect(cx, cy, cw, ch, softs[i], rx=14))
+        b.append(rect(cx, cy, cw, ch, "none", cores[i], 2, rx=14))
+        b.append(rect(cx, cy, cw, 6, cores[i], rx=0))
+        b.append(txt(cx + 24, cy + 52, t["v2_m%d_rot" % i], 13, "700", cores[i],
+                     sp="1.5"))
+        b.append(txt(cx + 24, cy + 100, t["v2_m%d_num" % i], 34, "700", cores[i]))
+        for j, l in enumerate(t["v2_m%d_txt" % i].split("\n")):
+            b.append(txt(cx + 24, cy + 142 + j * 23, l, 14.5, "400", NAVY))
+        b.append(txt(cx + 24, cy + ch - 26, t["v2_m%d_fonte" % i], 12.5, "400",
+                     GRAY_LIGHT))
 
-    dx = bx + bw + 162
-    dw = W - 120 - dx
-    b.append(rect(dx, by, dw, bh, WHITE, BORDER, 1.5, rx=14))
-    b.append(txt(dx + 30, by + 46, t["v2_dir_tit"], 19, "700", NAVY))
-
-    b.append(rect(dx + 30, by + 78, dw - 60, 54, GREEN_SOFT, GREEN, 2, rx=10))
-    b.append(circle(dx + 62, by + 105, 9, GREEN))
-    b.append(txt(dx + 88, by + 111, t["v2_entrou"], 17, "700", GREEN))
-
-    for i in range(2):
-        yy = by + 146 + i * 68
-        b.append(rect(dx + 30, yy, dw - 60, 54, WHITE, BORDER, 1.5, rx=10, op="0.5"))
-        b.append(circle(dx + 62, yy + 27, 9, MUTED))
-        b.append(txt(dx + 88, yy + 33, t["v2_fora%d" % i], 17, "400", GRAY_LIGHT))
-    b.append(txt(dx + 30, by + bh - 22, t["v2_dir_nota"], 15, "700", RED))
-
-    yb = 570
-    b.append(rect(120, yb, W - 240, 78, NAVY, rx=14))
-    b.append(txt(W / 2, yb + 34, t["v2_barra1"], 25, "700", WHITE, anchor="middle"))
-    b.append(txt(W / 2, yb + 62, t["v2_barra2"], 16.5, "400", "#AEB6C2", anchor="middle"))
+    yb = cy + ch + 34
+    b.append(rect(60, yb, W - 120, 78, NAVY, rx=14))
+    b.append(txt(W / 2, yb + 34, t["v2_barra1"], 24, "700", WHITE, anchor="middle"))
+    b.append(txt(W / 2, yb + 62, t["v2_barra2"], 16, "400", "#AEB6C2",
+                 anchor="middle"))
 
     fecho(b, H, t["v2_faixa"])
     footer(b, W, H, t["v2_rodape"])
@@ -262,108 +260,97 @@ def v2(t, lang):
 
 # ------------------------------------------------ v3: funil, roda e camadas
 def v3(t, lang):
-    H = 860
+    """As tres camadas do que atravessa de uma decisao para a outra.
+
+    Tinha o funil e a roda em dois planos, a esquerda. O debate funil-contra-roda
+    saiu do texto por decisao de Mat — o funil ja esta resolvido como figura e
+    relitiga-lo so confundia. Sobra o que interessa: a camada do meio e a unica
+    com dono, e e o freio que a pessoa controla.
+    """
+    H = 900
     b = []
     header(b, t["v3_kicker"], t["v3_titulo"], t["v3_sub"], H)
 
-    # Plano de baixo, a esquerda: o funil dentro da sessao.
-    fx, fy = 120, 250
-    fw = 560
-    b.append(rect(fx, fy, fw, 300, ACCENT_SOFT, rx=14))
-    b.append(rect(fx, fy, fw, 300, "none", ACCENT, 2, rx=14))
-    b.append(txt(fx + 28, fy + 42, t["v3_funil_tit"], 19, "700", ACCENT))
-
-    larguras = [420, 300, 180]
-    for i, lw in enumerate(larguras):
-        yy = fy + 74 + i * 66
-        cx = fx + fw / 2
-        b.append(rect(cx - lw / 2, yy, lw, 50, WHITE, ACCENT, 1.5, rx=8))
-        b.append(txt(cx, yy + 32, t["v3_etapa%d" % i], 16.5, "700", NAVY,
-                     anchor="middle"))
-    b.append(txt(fx + 28, fy + 284, t["v3_funil_nota"], 15, "400", GRAY,
-                 style="italic"))
-
-    # Plano de cima, a direita: as tres camadas, com a coluna de dono.
-    cx0 = fx + fw + 60
-    cw = W - 120 - cx0
-    b.append(rect(cx0, fy, cw, 300, PANEL, rx=14))
-    b.append(txt(cx0 + 28, fy + 42, t["v3_camadas_tit"], 19, "700", NAVY))
-
     camadas = [
-        (t["v3_c0"], t["v3_c0_dono"], MUTED, WHITE),
-        (t["v3_c1"], t["v3_c1_dono"], AMBER, AMBER_SOFT),
-        (t["v3_c2"], t["v3_c2_dono"], GRAY_LIGHT, WHITE),
+        (t["v3_c0"], t["v3_c0_dono"], t["v3_c0_txt"], MUTED, WHITE),
+        (t["v3_c1"], t["v3_c1_dono"], t["v3_c1_txt"], AMBER, AMBER_SOFT),
+        (t["v3_c2"], t["v3_c2_dono"], t["v3_c2_txt"], GRAY_LIGHT, WHITE),
     ]
-    for i, (nome, dono, cor, soft) in enumerate(camadas):
-        yy = fy + 74 + i * 66
-        b.append(rect(cx0 + 28, yy, cw - 56, 50, soft, cor, 2, rx=8))
-        b.append(rect(cx0 + 28, yy, 6, 50, cor, rx=0))
-        b.append(txt(cx0 + 56, yy + 31, nome, 16.5, "700", NAVY))
-        b.append(txt(cx0 + cw - 56, yy + 31, dono, 14.5, "400",
+    cy, ch = 246, 116
+    for i, (nome, dono, txt_, cor, soft) in enumerate(camadas):
+        yy = cy + i * (ch + 18)
+        b.append(rect(120, yy, W - 240, ch, soft, cor, 2, rx=12))
+        b.append(rect(120, yy, 7, ch, cor, rx=0))
+        b.append(txt(156, yy + 46, nome, 26, "700", NAVY))
+        b.append(txt(156, yy + 82, txt_, 15.5, "400", GRAY))
+        b.append(txt(W - 156, yy + 46, dono, 17, "700",
                      NAVY if i == 1 else GRAY_LIGHT, anchor="end"))
-    b.append(txt(cx0 + 28, fy + 284, t["v3_camadas_nota"], 15, "400", GRAY,
-                 style="italic"))
+        if i == 1:
+            b.append(txt(W - 156, yy + 78, t["v3_c1_marca"], 14, "400", AMBER,
+                         anchor="end", style="italic"))
 
-    yb = 596
-    b.append(rect(120, yb, W - 240, 84, NAVY, rx=14))
-    b.append(txt(W / 2, yb + 38, t["v3_barra1"], 26, "700", WHITE, anchor="middle"))
-    b.append(txt(W / 2, yb + 68, t["v3_barra2"], 16.5, "400", "#AEB6C2",
+    yb = cy + 3 * (ch + 18) + 12
+    b.append(rect(120, yb, W - 240, 76, NAVY, rx=14))
+    b.append(txt(W / 2, yb + 34, t["v3_barra1"], 24, "700", WHITE, anchor="middle"))
+    b.append(txt(W / 2, yb + 62, t["v3_barra2"], 15.5, "400", "#AEB6C2",
                  anchor="middle"))
 
     fecho(b, H, t["v3_faixa"])
     footer(b, W, H, t["v3_rodape"])
-    assert yb + 84 < H - 152, "v3 encosta no fecho"
+    assert yb + 76 < H - 152, "v3 encosta no fecho"
     return doc(W, H, "".join(b))
 
 
 # ------------------------------------------------ v4: etapas contra o eixo
 def v4(t, lang):
-    """As tres condicoes contra os TRES regimes de delegacao.
+    """As tres etapas do funil, com o custo de remocao subindo.
 
-    Eram duas colunas — assistida e delegada — ate 11 de agosto de 2026. Mat
-    apontou que o texto misturava tres situacoes distintas como se fossem uma:
-    desenvolvimento governado, lista curta, e a decisao removida do campo de
-    visao. Duas colunas nao comportam tres regimes, e o visual estava ajudando a
-    esconder a mistura em vez de mostra-la.
+    Terceira forma deste visual. Foi "assistida contra delegada" em duas colunas,
+    depois "tres condicoes contra tres regimes" numa grade — e nenhuma das duas
+    servia, porque a lista de etapas estava errada. Mat reclassificou recomendacao
+    de etapa para forca dentro da candidatura, e as etapas passaram a ser
+    candidatura, construcao e adocao. O que o visual precisa mostrar agora e outra
+    coisa: onde o produto esta, e quanto custa tira-lo de la.
     """
-    H = 980
+    H = 880
     b = []
     header(b, t["v4_kicker"], t["v4_titulo"], t["v4_sub"], H)
 
-    colx = [60, 376, 778, 1180]
-    colw = [290, 376, 376, 360]
+    colx = [60, 570, 1080]
+    cw = 460
     cores = [GREEN, AMBER, ACCENT]
     softs = [GREEN_SOFT, AMBER_SOFT, ACCENT_SOFT]
-    ytop = 246
+    cy, ch = 250, 300
 
-    for k in range(3):
-        b.append(txt(colx[k + 1] + colw[k + 1] / 2, ytop, t["v4_col%d" % k], 15,
-                     "700", cores[k], anchor="middle", sp="1.5"))
-    b.append(txt(colx[0] + colw[0] / 2, ytop, t["v4_eixo"], 13.5, "400",
-                 GRAY_LIGHT, anchor="middle", style="italic"))
-
-    ry, rh = ytop + 28, 150
     for i in range(3):
-        yy = ry + i * (rh + 18)
-        b.append(rect(colx[0], yy, colw[0], rh, NAVY, rx=12))
-        b.append(txt(colx[0] + 24, yy + 52, t["v4_e%d" % i], 24, "700", WHITE))
+        cx = colx[i]
+        b.append(rect(cx, cy, cw, ch, softs[i], rx=14))
+        b.append(rect(cx, cy, cw, ch, "none", cores[i], 2, rx=14))
+        b.append(rect(cx, cy, cw, 7, cores[i], rx=0))
+        b.append(txt(cx + 30, cy + 66, t["v4_e%d" % i], 34, "700", NAVY))
         for j, l in enumerate(t["v4_e%d_def" % i].split("\n")):
-            b.append(txt(colx[0] + 24, yy + 84 + j * 21, l, 13.5, "400", "#AEB6C2"))
+            b.append(txt(cx + 30, cy + 106 + j * 24, l, 16, "400", GRAY))
 
-        for k in range(3):
-            cx, cwd = colx[k + 1], colw[k + 1]
-            b.append(rect(cx, yy, cwd, rh, softs[k], rx=12))
-            b.append(rect(cx, yy, cwd, rh, "none", cores[k], 2, rx=12))
-            b.append(rect(cx, yy, 5, rh, cores[k], rx=0))
-            quem = t["v4_e%d_r%d_quem" % (i, k)]
-            b.append(txt(cx + 22, yy + 40, quem, 15, "700", cores[k]))
-            for j, l in enumerate(t["v4_e%d_r%d" % (i, k)].split("\n")):
-                b.append(txt(cx + 22, yy + 70 + j * 23, l, 14.5, "400", NAVY))
+        # O custo de remocao e a espinha do visual: e a unica coisa que sobe de
+        # forma monotonica ao longo das tres, e e o que faz disto um funil.
+        b.append(line(cx + 30, cy + 196, cx + cw - 30, cy + 196, cores[i], 1.5))
+        b.append(txt(cx + 30, cy + 226, t["v4_custo_rot"], 13, "700", cores[i],
+                     sp="1.5"))
+        b.append(txt(cx + 30, cy + 264, t["v4_e%d_custo" % i], 24, "700", cores[i]))
 
-    yfim = ry + 3 * (rh + 18)
+        if i < 2:
+            b.append(arrow(cx + cw + 14, cy + ch / 2, cx + cw + 42, cy + ch / 2,
+                           MUTED, 3))
+
+    # A barra da delegacao, embaixo: e ela que diz a velocidade da travessia.
+    yb = cy + ch + 46
+    b.append(rect(60, yb, W - 120, 76, NAVY, rx=14))
+    b.append(txt(92, yb + 34, t["v4_barra1"], 22, "700", WHITE))
+    b.append(txt(92, yb + 62, t["v4_barra2"], 15.5, "400", "#AEB6C2"))
+
     fecho(b, H, t["v4_faixa"])
     footer(b, W, H, t["v4_rodape"])
-    assert yfim < H - 152, "v4 encosta no fecho"
+    assert yb + 76 < H - 152, "v4 encosta no fecho"
     return doc(W, H, "".join(b))
 
 
@@ -478,79 +465,67 @@ T = {
         "v1_rodape": "Builder-Led Growth, arco 2 · Gartner (mai/2026) · Idea Grove (2026) · IDC (jan/2026)",
 
         "v2_nome": "a2p1-remocao-pt",
-        "v2_kicker": "A DECISÃO QUE NINGUÉM TOMOU",
-        "v2_titulo": "Elas não foram recusadas. Não foram apresentadas",
-        "v2_sub": "Por que a pergunta “em que momento as outras saíram?” não tem resposta",
-        "v2_esq_tit": "TRÊS OPÇÕES EXISTIAM",
-        "v2_opc0": "Provedor A",
-        "v2_opc1": "Provedor B",
-        "v2_opc2": "Provedor C",
-        "v2_dir_tit": "O QUE CHEGOU À PESSOA",
-        "v2_entrou": "Virou dependência no código",
-        "v2_fora0": "nunca mencionado",
-        "v2_fora1": "nunca mencionado",
-        "v2_dir_nota": "Sem recusa, sem comparação, sem rastro",
-        "v2_barra1": "A decisão não foi delegada. Foi removida do campo de visão",
-        "v2_barra2": "Ninguém responde “quem escolheu?” sobre uma escolha que nunca lhe foi apresentada",
-        "v2_faixa": "E quando é delegada, ela converge: bibliotecas populares em até %d%% dos casos, Python em %d%%." % (CONVERGE_LIB, CONVERGE_PY),
-        "v2_rodape": "Builder-Led Growth, arco 2 · Supabase (jun/2026) · Neon via Databricks (jan/2026) · arXiv 2503.17181 (ACL 2026)",
+        "v2_kicker": "O QUE A DELEGAÇÃO FAZ COM O CONJUNTO",
+        "v2_titulo": "Não é só que a pessoa deixa de escolher",
+        "v2_sub": "Quatro mecanismos medidos encolhem o conjunto de onde a escolha sairia",
+        "v2_m0_rot": "O RECUPERADOR",
+        "v2_m0_num": "1,4 ou 7,4",
+        "v2_m0_txt": "Quantos candidatos o modelo\nchega a ver, sobre os MESMOS\ndados. Trocar uma peça de\ninfraestrutura muda isso",
+        "v2_m0_fonte": "arXiv 2605.24660 · escopo: se a certa aparece",
+        "v2_m1_rot": "O TAMANHO DO CATÁLOGO",
+        "v2_m1_num": "95% → 20%",
+        "v2_m1_txt": "Acurácia de selecionar a certa:\n84-95% com ~50 ferramentas,\n41-83% com 200, e 0-20% na\nmaioria dos modelos com 740",
+        "v2_m1_fonte": "arXiv 2510.00307 · laboratório, catálogo sintético",
+        "v2_m2_rot": "A ORDEM",
+        "v2_m2_num": "13% a 85%",
+        "v2_m2_txt": "O quanto a ordem sozinha move\no desempenho. No meio de lista\nlonga, a ferramenta certa é\nescolhida em 22% a 52%",
+        "v2_m2_fonte": "arXiv 2510.00307 · mesma ressalva",
+        "v2_m3_rot": "A BUSCA QUE NÃO ACONTECE",
+        "v2_m3_num": "57,8%",
+        "v2_m3_txt": "Das repetições não acionaram\nbusca na web. Sem busca, o\nconjunto vem inteiro do que o\nmodelo já traz de fábrica",
+        "v2_m3_fonte": "arXiv 2604.07585 · via citação em revisão",
+        "v2_barra1": "A delegação encolhe o conjunto de onde a escolha sairia",
+        "v2_barra2": "Quem já é padrão de categoria ganha. Quem disputa o segundo lugar não é escolhido nem comparado",
+        "v2_faixa": "Medido no comportamento: bibliotecas populares em até %d%% dos casos, Python em %d%%." % (CONVERGE_LIB, CONVERGE_PY),
+        "v2_rodape": "Builder-Led Growth, arco 2 · arXiv 2605.24660 · BiasBusters (ICLR 2026) · arXiv 2604.07585 · arXiv 2503.17181 (ACL 2026)",
 
         "v3_nome": "a2p1-funil-e-camadas-pt",
-        "v3_kicker": "DOIS PLANOS DO MESMO FENÔMENO",
-        "v3_titulo": "Funil dentro da sessão, flywheel entre sessões",
-        "v3_sub": "E o que atravessa de uma sessão para a outra vive em três camadas",
-        "v3_funil_tit": "DENTRO DA SESSÃO",
-        "v3_etapa0": "Candidatura",
-        "v3_etapa1": "Recomendação",
-        "v3_etapa2": "Adoção",
-        "v3_funil_nota": "A eliminação é irreversível e monotônica: perde-se opção e não se recupera",
-        "v3_camadas_tit": "ENTRE SESSÕES",
+        "v3_kicker": "O QUE ATRAVESSA DE UMA DECISÃO PARA A OUTRA",
+        "v3_titulo": "Três camadas, e só a do meio tem dono",
+        "v3_sub": "E é ela o freio que quem constrói controla",
         "v3_c0": "A sessão",
+        "v3_c0_txt": "Onde a eliminação acontece. Ninguém se reforça nela",
         "v3_c0_dono": "sem dono · efêmera",
         "v3_c1": "A memória do projeto",
+        "v3_c1_txt": "Especificação, registro de decisão, arquivo de instrução para o agente",
         "v3_c1_dono": "quem constrói controla",
+        "v3_c1_marca": "lida no começo de toda sessão",
         "v3_c2": "O corpus público",
+        "v3_c2_txt": "O material que treina o modelo seguinte. Sobe devagar e desce devagar",
         "v3_c2_dono": "sem dono · sofre erosão",
-        "v3_camadas_nota": "Só a do meio tem dono — e é a que era lida no começo de toda sessão",
-        "v3_barra1": "O funil opera no nível da decisão, não no da sessão",
-        "v3_barra2": "As decisões que importam são as registradas, porque essas pararam de ser decididas",
-        "v3_faixa": "Roda que perde energia para de girar. O que se acumula entre sessões também evapora.",
-        "v3_rodape": "Builder-Led Growth, arco 2 · a figura do funil: atribuição disputada, Lewis (1898), Sheldon, e a sigla AIDA em 1921",
+        "v3_barra1": "A decisão escrita no arquivo deixa de ser decisão e vira premissa",
+        "v3_barra2": "Não exige treino de modelo nem código escrito — exige uma linha num arquivo",
+        "v3_faixa": "Estar inscrito ali é posição mais durável que o dado de treino, e mais barata que o custo de troca.",
+        "v3_rodape": "Builder-Led Growth, arco 2 · corrige uma afirmação da parte 4 sobre a sessão começar do zero",
 
         "v4_nome": "a2p1-etapas-pt",
-        "v4_kicker": "UM FUNIL, TRÊS REGIMES DE DELEGAÇÃO",
-        "v4_titulo": "As três condições são sempre as mesmas. Quem as satisfaz, não",
-        "v4_sub": "Não são três funis — é a mesma decisão com a delegação em pontos diferentes",
-        "v4_eixo": "as três condições",
-        "v4_col0": "DESENVOLVIMENTO GOVERNADO",
-        "v4_col1": "LISTA CURTA",
-        "v4_col2": "DECISÃO REMOVIDA",
+        "v4_kicker": "O FUNIL DO BUILDER",
+        "v4_titulo": "Três etapas, e o custo de tirar você sobe em cada uma",
+        "v4_sub": "As etapas dizem onde o produto está, não o que acontece com ele",
+        "v4_custo_rot": "CUSTO DE REMOÇÃO",
         "v4_e0": "Candidatura",
-        "v4_e0_def": "estar no conjunto\nde onde se escolhe",
-        "v4_e0_r0_quem": "REGRA ESCRITA ANTES",
-        "v4_e0_r0": "O registro de ferramentas\naprovadas restringe o conjunto\nantes de a máquina olhar",
-        "v4_e0_r1_quem": "MÁQUINA",
-        "v4_e0_r1": "Ela reúne três ou quatro\nnomes e mostra a lista",
-        "v4_e0_r2_quem": "MÁQUINA, SEM EXIBIR",
-        "v4_e0_r2": "O conjunto se forma dentro\ndo processo e nunca aparece",
-        "v4_e1": "Recomendação",
-        "v4_e1_def": "ser o escolhido\ndentro do conjunto",
-        "v4_e1_r0_quem": "HUMANO, COM CRITÉRIO",
-        "v4_e1_r0": "Escolha documentada, e\nhá a quem perguntar por quê",
-        "v4_e1_r1_quem": "HUMANO",
-        "v4_e1_r1": "Vê as alternativas lado a\nlado e aplica critério próprio",
-        "v4_e1_r2_quem": "MÁQUINA",
-        "v4_e1_r2": "Não há comparação: há um\nresultado, e ele converge\npara o que é familiar",
+        "v4_e0_def": "Você está no conjunto de onde\nse escolhe. É conhecido,\nencontrável, e ninguém\nprecisou de você ainda",
+        "v4_e0_custo": "zero",
+        "v4_e1": "Construção",
+        "v4_e1_def": "Você saiu do corpus e entrou\nno código de algo que está\nsendo feito. Começa na\nprimeira linha que te chama",
+        "v4_e1_custo": "algumas horas",
         "v4_e2": "Adoção",
-        "v4_e2_def": "sobreviver à\nintegração e ao uso",
-        "v4_e2_r0_quem": "O PAR, COM REVISÃO",
-        "v4_e2_r0": "A integração é acompanhada\npor quem aprovou",
-        "v4_e2_r1_quem": "O PAR",
-        "v4_e2_r1": "Integra-se o que se escolheu,\nsabendo o que se escolheu",
-        "v4_e2_r2_quem": "O PAR, TARDE",
-        "v4_e2_r2": "Integra-se o que apareceu, e\na primeira olhada com atenção\ncostuma ser quando quebra",
-        "v4_faixa": "Falhar em qualquer uma das três zera aquela decisão — e só aquela.",
-        "v4_rodape": "Builder-Led Growth, arco 2 · numa configuração medida, %.1f%% das repetições não acionaram busca na web (arXiv 2604.07585)" % SEM_BUSCA,
+        "v4_e2_def": "Você virou premissa do que\nfoi entregue. Há dados no seu\nformato e gente usando sem\nsaber que você existe",
+        "v4_e2_custo": "um projeto",
+        "v4_barra1": "Quanto mais o par delega, mais rápido um produto atravessa as três",
+        "v4_barra2": "Recomendação não é etapa: é uma das forças que agem dentro da candidatura",
+        "v4_faixa": "Chegar à adoção cria uma barreira competitiva que não foi conquistada em comparação.",
+        "v4_rodape": "Builder-Led Growth, arco 2 · a separação entre decisão e implementação já estava em Rogers",
 
         "v5_nome": "a2p1-veto-pt",
         "v5_kicker": "O VETO MUDA DE NATUREZA",
@@ -601,79 +576,67 @@ T = {
         "v1_rodape": "Builder-Led Growth, arc 2 · Gartner (May 2026) · Idea Grove (2026) · IDC (Jan 2026)",
 
         "v2_nome": "a2p1-removal-en",
-        "v2_kicker": "THE DECISION NOBODY MADE",
-        "v2_titulo": "They weren't rejected. They weren't presented",
-        "v2_sub": "Why “at what moment did the others drop out?” has no answer",
-        "v2_esq_tit": "THREE OPTIONS EXISTED",
-        "v2_opc0": "Provider A",
-        "v2_opc1": "Provider B",
-        "v2_opc2": "Provider C",
-        "v2_dir_tit": "WHAT REACHED THE PERSON",
-        "v2_entrou": "Became a dependency in the code",
-        "v2_fora0": "never mentioned",
-        "v2_fora1": "never mentioned",
-        "v2_dir_nota": "No rejection, no comparison, no trace",
-        "v2_barra1": "The decision was not delegated. It was removed from view",
-        "v2_barra2": "Nobody answers “who chose?” about a choice never put in front of them",
-        "v2_faixa": "And when it is delegated, it converges: popular libraries in up to %d%% of cases, Python in %d%%." % (CONVERGE_LIB, CONVERGE_PY),
-        "v2_rodape": "Builder-Led Growth, arc 2 · Supabase (Jun 2026) · Neon via Databricks (Jan 2026) · arXiv 2503.17181 (ACL 2026)",
+        "v2_kicker": "WHAT DELEGATION DOES TO THE SET",
+        "v2_titulo": "It is not only that the person stops choosing",
+        "v2_sub": "Four measured mechanisms shrink the set the choice would come from",
+        "v2_m0_rot": "THE RETRIEVER",
+        "v2_m0_num": "1.4 or 7.4",
+        "v2_m0_txt": "How many candidates the model\ngets to see, over the SAME data.\nSwapping one piece of\ninfrastructure changes it",
+        "v2_m0_fonte": "arXiv 2605.24660 · scope: whether the right one appears",
+        "v2_m1_rot": "CATALOGUE SIZE",
+        "v2_m1_num": "95% → 20%",
+        "v2_m1_txt": "Accuracy at selecting the right\none: 84-95% with ~50 tools,\n41-83% with 200, and 0-20% for\nmost models with 740",
+        "v2_m1_fonte": "arXiv 2510.00307 · lab, synthetic catalogue",
+        "v2_m2_rot": "ORDER",
+        "v2_m2_num": "13% to 85%",
+        "v2_m2_txt": "How much ordering alone moves\nperformance. Mid-way down a long\nlist, the right tool is picked in\n22% to 52% of cases",
+        "v2_m2_fonte": "arXiv 2510.00307 · same caveat",
+        "v2_m3_rot": "THE SEARCH THAT NEVER HAPPENS",
+        "v2_m3_num": "57.8%",
+        "v2_m3_txt": "Of repetitions triggered no web\nsearch. Without one, the set comes\nentirely from what the model\nalready carries",
+        "v2_m3_fonte": "arXiv 2604.07585 · via citation in a review",
+        "v2_barra1": "Delegation shrinks the set the choice would have come from",
+        "v2_barra2": "The category default gains. Whoever fights for second place is neither chosen nor compared",
+        "v2_faixa": "Measured in behaviour: popular libraries in up to %d%% of cases, Python in %d%%." % (CONVERGE_LIB, CONVERGE_PY),
+        "v2_rodape": "Builder-Led Growth, arc 2 · arXiv 2605.24660 · BiasBusters (ICLR 2026) · arXiv 2604.07585 · arXiv 2503.17181 (ACL 2026)",
 
         "v3_nome": "a2p1-funnel-and-layers-en",
-        "v3_kicker": "TWO PLANES OF THE SAME PHENOMENON",
-        "v3_titulo": "Funnel within the session, flywheel between sessions",
-        "v3_sub": "And what crosses from one session to the next lives in three layers",
-        "v3_funil_tit": "WITHIN THE SESSION",
-        "v3_etapa0": "Candidacy",
-        "v3_etapa1": "Recommendation",
-        "v3_etapa2": "Adoption",
-        "v3_funil_nota": "Elimination is irreversible and monotonic: options are lost and not recovered",
-        "v3_camadas_tit": "BETWEEN SESSIONS",
+        "v3_kicker": "WHAT CROSSES FROM ONE DECISION TO THE NEXT",
+        "v3_titulo": "Three layers, and only the middle one has an owner",
+        "v3_sub": "And it is the brake whoever builds controls",
         "v3_c0": "The session",
+        "v3_c0_txt": "Where elimination happens. Nobody strengthens a position in it",
         "v3_c0_dono": "no owner · ephemeral",
-        "v3_c1": "The project's memory",
+        "v3_c1": "The project memory",
+        "v3_c1_txt": "Specifications, decision records, instruction files for the agent",
         "v3_c1_dono": "whoever builds controls it",
+        "v3_c1_marca": "read at the start of every session",
         "v3_c2": "The public corpus",
+        "v3_c2_txt": "The material that trains the next model. Rises slowly and falls slowly",
         "v3_c2_dono": "no owner · erodes",
-        "v3_camadas_nota": "Only the middle one has an owner — and it is read at the start of every session",
-        "v3_barra1": "The funnel operates at the level of the decision, not the session",
-        "v3_barra2": "The decisions that matter are the recorded ones, because those stopped being decided",
-        "v3_faixa": "A wheel that loses energy stops turning. What accumulates between sessions also evaporates.",
-        "v3_rodape": "Builder-Led Growth, arc 2 · the funnel figure: disputed attribution, Lewis (1898), Sheldon, and the AIDA acronym in 1921",
+        "v3_barra1": "A decision written into the file stops being a decision and becomes a premise",
+        "v3_barra2": "It needs neither model training nor code written — it needs one line in a file",
+        "v3_faixa": "Being written there is a more durable position than the training data, and cheaper than switching cost.",
+        "v3_rodape": "Builder-Led Growth, arc 2 · corrects a claim in part 4 about the session starting from zero",
 
         "v4_nome": "a2p1-stages-en",
-        "v4_kicker": "ONE FUNNEL, THREE DELEGATION REGIMES",
-        "v4_titulo": "The three conditions never change. Who satisfies them does",
-        "v4_sub": "Not three funnels — the same decision with delegation sitting in different places",
-        "v4_eixo": "the three conditions",
-        "v4_col0": "GOVERNED DEVELOPMENT",
-        "v4_col1": "SHORTLIST",
-        "v4_col2": "DECISION REMOVED",
+        "v4_kicker": "THE BUILDER FUNNEL",
+        "v4_titulo": "Three stages, and the cost of removing you rises at each",
+        "v4_sub": "The stages say where the product is, not what happens to it",
+        "v4_custo_rot": "COST OF REMOVAL",
         "v4_e0": "Candidacy",
-        "v4_e0_def": "being in the set\nthat gets chosen from",
-        "v4_e0_r0_quem": "A RULE WRITTEN EARLIER",
-        "v4_e0_r0": "The approved-tools registry\nnarrows the set before the\nmachine even looks",
-        "v4_e0_r1_quem": "THE MACHINE",
-        "v4_e0_r1": "It gathers three or four\nnames and shows the list",
-        "v4_e0_r2_quem": "THE MACHINE, UNSEEN",
-        "v4_e0_r2": "The set forms inside the\nprocess and never appears",
-        "v4_e1": "Recommendation",
-        "v4_e1_def": "being the one chosen\nwithin the set",
-        "v4_e1_r0_quem": "THE HUMAN, ON CRITERIA",
-        "v4_e1_r0": "A documented choice, with\nsomeone to ask why",
-        "v4_e1_r1_quem": "THE HUMAN",
-        "v4_e1_r1": "Sees the alternatives side by\nside and applies own criteria",
-        "v4_e1_r2_quem": "THE MACHINE",
-        "v4_e1_r2": "No comparison: there is a\nresult, and it converges\ntoward the familiar",
+        "v4_e0_def": "You are in the set that gets\nchosen from. Known, findable,\nand nobody has needed you\nyet",
+        "v4_e0_custo": "zero",
+        "v4_e1": "Construction",
+        "v4_e1_def": "You left the corpus and entered\nthe code of something being\nmade. It starts at the first\nline that calls you",
+        "v4_e1_custo": "a few hours",
         "v4_e2": "Adoption",
-        "v4_e2_def": "surviving integration\nand use",
-        "v4_e2_r0_quem": "THE PAIR, REVIEWED",
-        "v4_e2_r0": "Integration is watched by\nwhoever approved it",
-        "v4_e2_r1_quem": "THE PAIR",
-        "v4_e2_r1": "You integrate what you chose,\nknowing what you chose",
-        "v4_e2_r2_quem": "THE PAIR, LATE",
-        "v4_e2_r2": "You integrate what turned up,\nand the first close look tends\nto happen when it breaks",
-        "v4_faixa": "Failing any one of the three zeroes that decision — and only that one.",
-        "v4_rodape": "Builder-Led Growth, arc 2 · in one measured configuration, %.1f%% of repetitions did not trigger a web search (arXiv 2604.07585)" % SEM_BUSCA,
+        "v4_e2_def": "You became a premise of what\nshipped. There is data in your\nformat and people using it\nwithout knowing you exist",
+        "v4_e2_custo": "a project",
+        "v4_barra1": "The more the pair delegates, the faster a product crosses all three",
+        "v4_barra2": "Recommendation is not a stage: it is one of the forces acting inside candidacy",
+        "v4_faixa": "Reaching adoption creates a competitive barrier that was never won in a comparison.",
+        "v4_rodape": "Builder-Led Growth, arc 2 · the split between decision and implementation was already in Rogers",
 
         "v5_nome": "a2p1-veto-en",
         "v5_kicker": "THE VETO CHANGES IN KIND",
