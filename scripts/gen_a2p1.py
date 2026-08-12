@@ -318,39 +318,47 @@ def v3(t, lang):
 
 # ------------------------------------------------ v4: etapas contra o eixo
 def v4(t, lang):
-    H = 940
+    """As tres condicoes contra os TRES regimes de delegacao.
+
+    Eram duas colunas — assistida e delegada — ate 11 de agosto de 2026. Mat
+    apontou que o texto misturava tres situacoes distintas como se fossem uma:
+    desenvolvimento governado, lista curta, e a decisao removida do campo de
+    visao. Duas colunas nao comportam tres regimes, e o visual estava ajudando a
+    esconder a mistura em vez de mostra-la.
+    """
+    H = 980
     b = []
     header(b, t["v4_kicker"], t["v4_titulo"], t["v4_sub"], H)
 
-    colx = [120, 520, 1060]
-    colw = [380, 520, 420]
-    ytop = 236
+    colx = [60, 376, 778, 1180]
+    colw = [290, 376, 376, 360]
+    cores = [GREEN, AMBER, ACCENT]
+    softs = [GREEN_SOFT, AMBER_SOFT, ACCENT_SOFT]
+    ytop = 246
 
-    b.append(txt(colx[1] + colw[1] / 2, ytop, t["v4_col1"], 16, "700", GREEN,
-                 anchor="middle", sp="2"))
-    b.append(txt(colx[2] + colw[2] / 2, ytop, t["v4_col2"], 16, "700", ACCENT,
-                 anchor="middle", sp="2"))
+    for k in range(3):
+        b.append(txt(colx[k + 1] + colw[k + 1] / 2, ytop, t["v4_col%d" % k], 15,
+                     "700", cores[k], anchor="middle", sp="1.5"))
+    b.append(txt(colx[0] + colw[0] / 2, ytop, t["v4_eixo"], 13.5, "400",
+                 GRAY_LIGHT, anchor="middle", style="italic"))
 
-    linhas = [
-        (t["v4_e0"], t["v4_e0_a"], t["v4_e0_d"]),
-        (t["v4_e1"], t["v4_e1_a"], t["v4_e1_d"]),
-        (t["v4_e2"], t["v4_e2_a"], t["v4_e2_d"]),
-    ]
-    ry, rh = ytop + 26, 140
-    for i, (etapa, assistida, delegada) in enumerate(linhas):
+    ry, rh = ytop + 28, 150
+    for i in range(3):
         yy = ry + i * (rh + 18)
         b.append(rect(colx[0], yy, colw[0], rh, NAVY, rx=12))
-        b.append(txt(colx[0] + 28, yy + 56, etapa, 26, "700", WHITE))
-        b.append(txt(colx[0] + 28, yy + 92, t["v4_e%d_def" % i], 14.5, "400",
-                     "#AEB6C2"))
+        b.append(txt(colx[0] + 24, yy + 52, t["v4_e%d" % i], 24, "700", WHITE))
+        for j, l in enumerate(t["v4_e%d_def" % i].split("\n")):
+            b.append(txt(colx[0] + 24, yy + 84 + j * 21, l, 13.5, "400", "#AEB6C2"))
 
-        for k, (texto, cor, soft, cx, cwd) in enumerate((
-                (assistida, GREEN, GREEN_SOFT, colx[1], colw[1]),
-                (delegada, ACCENT, ACCENT_SOFT, colx[2], colw[2]))):
-            b.append(rect(cx, yy, cwd, rh, soft, rx=12))
-            b.append(rect(cx, yy, cwd, rh, "none", cor, 2, rx=12))
-            for j, l in enumerate(texto.split("\n")):
-                b.append(txt(cx + 26, yy + 44 + j * 26, l, 16.5, "400", NAVY))
+        for k in range(3):
+            cx, cwd = colx[k + 1], colw[k + 1]
+            b.append(rect(cx, yy, cwd, rh, softs[k], rx=12))
+            b.append(rect(cx, yy, cwd, rh, "none", cores[k], 2, rx=12))
+            b.append(rect(cx, yy, 5, rh, cores[k], rx=0))
+            quem = t["v4_e%d_r%d_quem" % (i, k)]
+            b.append(txt(cx + 22, yy + 40, quem, 15, "700", cores[k]))
+            for j, l in enumerate(t["v4_e%d_r%d" % (i, k)].split("\n")):
+                b.append(txt(cx + 22, yy + 70 + j * 23, l, 14.5, "400", NAVY))
 
     yfim = ry + 3 * (rh + 18)
     fecho(b, H, t["v4_faixa"])
@@ -466,7 +474,7 @@ T = {
         "v1_3_tit": "validam com uma pessoa",
         "v1_3_txt": "Compradores B2B. É preferência\nDECLARADA, não comportamento\nGartner, mai/2026, n=645",
         "v1_quarta": "E uma quarta população na mesma direção: %d%% dos consumidores verificam a recomendação da IA antes de comprar" % VERIFICA_ANTES,
-        "v1_faixa": "A máquina entra na composição do conjunto e sai antes da decisão.",
+        "v1_faixa": "Este é o regime da lista curta. A máquina monta o conjunto e sai antes da decisão.",
         "v1_rodape": "Builder-Led Growth, arco 2 · Gartner (mai/2026) · Idea Grove (2026) · IDC (jan/2026)",
 
         "v2_nome": "a2p1-remocao-pt",
@@ -510,24 +518,38 @@ T = {
         "v3_rodape": "Builder-Led Growth, arco 2 · a figura do funil: atribuição disputada, Lewis (1898), Sheldon, e a sigla AIDA em 1921",
 
         "v4_nome": "a2p1-etapas-pt",
-        "v4_kicker": "AS TRÊS ETAPAS AO LONGO DO EIXO",
-        "v4_titulo": "A mesma etapa muda de forma conforme a delegação sobe",
-        "v4_sub": "Candidatura, recomendação e adoção nas duas pontas do eixo",
-        "v4_col1": "DECISÃO ASSISTIDA",
-        "v4_col2": "DECISÃO DELEGADA",
+        "v4_kicker": "UM FUNIL, TRÊS REGIMES DE DELEGAÇÃO",
+        "v4_titulo": "As três condições são sempre as mesmas. Quem as satisfaz, não",
+        "v4_sub": "Não são três funis — é a mesma decisão com a delegação em pontos diferentes",
+        "v4_eixo": "as três condições",
+        "v4_col0": "DESENVOLVIMENTO GOVERNADO",
+        "v4_col1": "LISTA CURTA",
+        "v4_col2": "DECISÃO REMOVIDA",
         "v4_e0": "Candidatura",
-        "v4_e0_def": "estar no conjunto de onde se escolhe",
-        "v4_e0_a": "Uma lista que a pessoa lê —\ne lista lida é auditável:\nquem lê percebe uma ausência",
-        "v4_e0_d": "O conjunto se forma dentro\ndo processo e nunca é exibido.\nNinguém percebe ausência",
+        "v4_e0_def": "estar no conjunto\nde onde se escolhe",
+        "v4_e0_r0_quem": "REGRA ESCRITA ANTES",
+        "v4_e0_r0": "O registro de ferramentas\naprovadas restringe o conjunto\nantes de a máquina olhar",
+        "v4_e0_r1_quem": "MÁQUINA",
+        "v4_e0_r1": "Ela reúne três ou quatro\nnomes e mostra a lista",
+        "v4_e0_r2_quem": "MÁQUINA, SEM EXIBIR",
+        "v4_e0_r2": "O conjunto se forma dentro\ndo processo e nunca aparece",
         "v4_e1": "Recomendação",
-        "v4_e1_def": "ser o escolhido dentro do conjunto",
-        "v4_e1_a": "A pessoa vê alternativas lado\na lado e aplica critério próprio",
-        "v4_e1_d": "Não há comparação: há um\nresultado — e ele converge\npara o que é familiar",
+        "v4_e1_def": "ser o escolhido\ndentro do conjunto",
+        "v4_e1_r0_quem": "HUMANO, COM CRITÉRIO",
+        "v4_e1_r0": "Escolha documentada, e\nhá a quem perguntar por quê",
+        "v4_e1_r1_quem": "HUMANO",
+        "v4_e1_r1": "Vê as alternativas lado a\nlado e aplica critério próprio",
+        "v4_e1_r2_quem": "MÁQUINA",
+        "v4_e1_r2": "Não há comparação: há um\nresultado, e ele converge\npara o que é familiar",
         "v4_e2": "Adoção",
-        "v4_e2_def": "sobreviver à integração e ao uso",
-        "v4_e2_a": "Integra-se o que se escolheu,\nsabendo o que se escolheu",
-        "v4_e2_d": "Integra-se o que apareceu, e a\nprimeira olhada com atenção\ncostuma ser quando quebra",
-        "v4_faixa": "A visibilidade da perda cresce descendo o funil, e a capacidade de agir cai junto.",
+        "v4_e2_def": "sobreviver à\nintegração e ao uso",
+        "v4_e2_r0_quem": "O PAR, COM REVISÃO",
+        "v4_e2_r0": "A integração é acompanhada\npor quem aprovou",
+        "v4_e2_r1_quem": "O PAR",
+        "v4_e2_r1": "Integra-se o que se escolheu,\nsabendo o que se escolheu",
+        "v4_e2_r2_quem": "O PAR, TARDE",
+        "v4_e2_r2": "Integra-se o que apareceu, e\na primeira olhada com atenção\ncostuma ser quando quebra",
+        "v4_faixa": "Falhar em qualquer uma das três zera aquela decisão — e só aquela.",
         "v4_rodape": "Builder-Led Growth, arco 2 · numa configuração medida, %.1f%% das repetições não acionaram busca na web (arXiv 2604.07585)" % SEM_BUSCA,
 
         "v5_nome": "a2p1-veto-pt",
@@ -575,7 +597,7 @@ T = {
         "v1_3_tit": "validate with a person",
         "v1_3_txt": "B2B buyers. This is STATED\npreference, not measured behaviour\nGartner, May 2026, n=645",
         "v1_quarta": "And a fourth population pointing the same way: %d%% of consumers verify the AI recommendation before buying" % VERIFICA_ANTES,
-        "v1_faixa": "The machine enters the composition of the set and exits before the decision.",
+        "v1_faixa": "This is the shortlist regime. The machine assembles the set and leaves before the decision.",
         "v1_rodape": "Builder-Led Growth, arc 2 · Gartner (May 2026) · Idea Grove (2026) · IDC (Jan 2026)",
 
         "v2_nome": "a2p1-removal-en",
@@ -619,24 +641,38 @@ T = {
         "v3_rodape": "Builder-Led Growth, arc 2 · the funnel figure: disputed attribution, Lewis (1898), Sheldon, and the AIDA acronym in 1921",
 
         "v4_nome": "a2p1-stages-en",
-        "v4_kicker": "THE THREE STAGES ALONG THE AXIS",
-        "v4_titulo": "The same stage changes shape as delegation rises",
-        "v4_sub": "Candidacy, recommendation and adoption at both ends of the axis",
-        "v4_col1": "ASSISTED DECISION",
-        "v4_col2": "DELEGATED DECISION",
+        "v4_kicker": "ONE FUNNEL, THREE DELEGATION REGIMES",
+        "v4_titulo": "The three conditions never change. Who satisfies them does",
+        "v4_sub": "Not three funnels — the same decision with delegation sitting in different places",
+        "v4_eixo": "the three conditions",
+        "v4_col0": "GOVERNED DEVELOPMENT",
+        "v4_col1": "SHORTLIST",
+        "v4_col2": "DECISION REMOVED",
         "v4_e0": "Candidacy",
-        "v4_e0_def": "being in the set that gets chosen from",
-        "v4_e0_a": "A list a person reads — and a\nlist that is read is auditable:\nthe reader notices an absence",
-        "v4_e0_d": "The set forms inside the process\nand is never displayed.\nNobody notices any absence",
+        "v4_e0_def": "being in the set\nthat gets chosen from",
+        "v4_e0_r0_quem": "A RULE WRITTEN EARLIER",
+        "v4_e0_r0": "The approved-tools registry\nnarrows the set before the\nmachine even looks",
+        "v4_e0_r1_quem": "THE MACHINE",
+        "v4_e0_r1": "It gathers three or four\nnames and shows the list",
+        "v4_e0_r2_quem": "THE MACHINE, UNSEEN",
+        "v4_e0_r2": "The set forms inside the\nprocess and never appears",
         "v4_e1": "Recommendation",
-        "v4_e1_def": "being the one chosen within the set",
-        "v4_e1_a": "The person sees alternatives side\nby side and applies own criteria",
-        "v4_e1_d": "There is no comparison: there is\na result — and it converges\ntoward the familiar",
+        "v4_e1_def": "being the one chosen\nwithin the set",
+        "v4_e1_r0_quem": "THE HUMAN, ON CRITERIA",
+        "v4_e1_r0": "A documented choice, with\nsomeone to ask why",
+        "v4_e1_r1_quem": "THE HUMAN",
+        "v4_e1_r1": "Sees the alternatives side by\nside and applies own criteria",
+        "v4_e1_r2_quem": "THE MACHINE",
+        "v4_e1_r2": "No comparison: there is a\nresult, and it converges\ntoward the familiar",
         "v4_e2": "Adoption",
-        "v4_e2_def": "surviving integration and use",
-        "v4_e2_a": "You integrate what you chose,\nknowing what you chose",
-        "v4_e2_d": "You integrate what turned up, and\nthe first close look usually\nhappens when it breaks",
-        "v4_faixa": "Visibility of loss grows down the funnel, and the ability to act on it falls in step.",
+        "v4_e2_def": "surviving integration\nand use",
+        "v4_e2_r0_quem": "THE PAIR, REVIEWED",
+        "v4_e2_r0": "Integration is watched by\nwhoever approved it",
+        "v4_e2_r1_quem": "THE PAIR",
+        "v4_e2_r1": "You integrate what you chose,\nknowing what you chose",
+        "v4_e2_r2_quem": "THE PAIR, LATE",
+        "v4_e2_r2": "You integrate what turned up,\nand the first close look tends\nto happen when it breaks",
+        "v4_faixa": "Failing any one of the three zeroes that decision — and only that one.",
         "v4_rodape": "Builder-Led Growth, arc 2 · in one measured configuration, %.1f%% of repetitions did not trigger a web search (arXiv 2604.07585)" % SEM_BUSCA,
 
         "v5_nome": "a2p1-veto-en",

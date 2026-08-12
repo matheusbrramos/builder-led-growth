@@ -9,18 +9,17 @@ Generated from the private working repository. Do not edit here.
 # It isn't who decides. It's how much was delegated
 
 *Second piece of the second arc of this series. It doesn't require the earlier
-ones. The opening piece established that the one choosing is a pair, a
-person and a machine. This one is about the funnel — what it is, why it survives
-when the machine is the selector, and what happens at each stage as more gets
-delegated.*
+ones. The opening piece established that the one choosing is a pair, a person and
+a machine. This one is about the funnel: what it is, what survives of it when the
+decider is a pair, and what happens at each stage as more gets delegated.*
 
 ---
 
 ## The database I didn't choose
 
 I ask an AI build platform to put an application together. I describe what it has
-to do: store people's details, let those people sign in with a password, and
-accept file uploads.
+to do: store people's details, let those people sign in with a password, and accept
+file uploads.
 
 It builds it. It works.
 
@@ -43,34 +42,48 @@ it is worth reading with that in mind. But whoever wrote it sits on the side tha
 can see: it is the vendor, not the user, who can count decisions the decider never
 saw.
 
-So the practical question, and it organises the whole piece: **where along the way
-was that choice actually made?**
+## Three situations that are not the same thing
 
-## What I thought, and where it didn't hold
+Before talking about funnels I need to separate three things — and separating them
+is half the work of this piece, because treating them as one produces confusion
+immediately.
 
-I started this arc with a position, and it came from a correction I made to an
-earlier draft. Saying the machine chooses is false, because the human chooses just
-as much. Outside this theory that is plain — someone picking bread at a bakery has
-delegated nothing. And inside it too: deciding which problem to attack, which
-progress to chase, and then asking the machine for help, is a human decision from
-end to end.
+**The first: governed development.** The company keeps a registry of approved
+tools. When the team needs a messaging service, the set it chooses from arrives
+already narrowed, by a rule written earlier and by somebody who isn't in that room.
+The choice within that set is human, documented, and there is someone to ask why.
 
-I kept investigating, and the position held about halfway.
+**The second: the shortlist.** Nothing was narrowed in advance. The person asks,
+the machine gathers three or four names with a reason for each, and the person
+picks. They compare, apply their own criteria, and decide.
 
-**Where it holds:** wherever a choice is in view, the human still chooses. Every
-survey I found confirms that, and some of them appear further down.
+**The third: the removed decision.** There was no list, no comparison and no
+choice — there was a result. That is my database.
 
-**Where it doesn't:** when the choice never comes into existence for the person.
-In the database case there was no delegation — there was absence. I didn't hand a
-decision to the machine; the decision simply never passed through me. Saying I
-chose as much as it did would be false.
+All three happen in the same market, sometimes in the same company, sometimes in
+the same week. And the size of each isn't guesswork: **only 27% of organisations
+enforce strict governance over AI tool adoption, and 68% have no visibility into
+which AI tools their developers use**
+([Northflank](https://northflank.com/blog/enterprise-ai-coding-agent-deployment)).
+That is vendor material, not an independent survey, and it is worth knowing. What
+it says is that the first situation is real and in the minority, and that in two
+thirds of cases nobody even knows which of the other two is happening.
 
-Which is why the right framing isn't about who decides, but about **how much was
-delegated**. Delegation is a degree, and the degree has two ends that need names:
+### What varies across the three
+
+Not the problem. Not the type of product. Not the size of the company.
+
+**It is how much of the decision was delegated** — and delegation is a degree, with
+two ends that need names:
 
 > **AI-assisted decision: the person chooses among options the machine assembled.
 > Delegated decision: the person accepts or rejects a result the machine has
 > already built.**
+
+Governed development sits at the low-delegation end, with a wrinkle: whoever
+removed the delegation wasn't the person in that room, it was a rule written
+earlier. The shortlist sits in the middle. The removed decision sits at the other
+end.
 
 I looked for an existing name before coining one. **Conversational commerce** was
 coined by [Chris Messina](https://www.linkedin.com/in/factoryjoe/) in 2015 and
@@ -80,18 +93,41 @@ scale by [Rand Fishkin](https://www.linkedin.com/in/randfishkin/) from 13 August
 optimisation** was coined on 16 November 2023
 ([arXiv 2311.09735](https://arxiv.org/abs/2311.09735)) and names what publishers
 do. And the **Agentic Commerce Protocol**, from Stripe and OpenAI in September 2025
-([openai.com](https://openai.com/index/buy-it-in-chatgpt/)), names the far end
-where the agent buys on its own. None names the common case, which is the machine
-in the middle with the human decision intact. If someone coined an equivalent
-before me, the credit is theirs and I will swap mine for it.
+([openai.com](https://openai.com/index/buy-it-in-chatgpt/)), names the far end where
+the agent buys on its own. None names the middle case, which is the machine
+mediating with the human decision intact. If someone coined an equivalent before
+me, the credit is theirs and I will swap mine for it.
 
-One fence before moving on. An organisation deciding to start building with AI is
-a big switch, with a committee and a budget. The already-formed pair choosing which
-tool to use mid-build is another. This piece is about the second.
+### Where I was wrong
 
-## The funnel, properly
+I started this arc with a position: saying the machine chooses is false, because
+the human chooses just as much. I kept investigating, and it held about halfway.
 
-Now the main subject.
+In the first two situations it holds entirely. There is a choice in view, and a
+person makes it.
+
+In the third it does not. There was no delegation — there was absence. I didn't
+hand a decision to the machine; the decision simply never passed through me. Saying
+I chose as much as it did would be false.
+
+## One funnel, and it belongs to the pair
+
+Now the main subject. And it starts with a question it took me two attempts to
+answer: if the decision belongs to a pair, are there two funnels — one for the
+machine, one for the human — or just one?
+
+**Two funnels don't close**, and the reason is easy to check. Two funnels require a
+join point: you have to say where the output of one becomes the input of the other.
+Under governance, the human comes after. In the shortlist, the two interleave. In
+the removed decision, the human funnel never runs. Three different topologies for
+the same phenomenon, and a model that needs one drawing per case isn't describing
+anything.
+
+**One funnel for the pair does close**, and it is what this piece uses. It has
+three stages, always the same, and what changes across the three situations is
+**who satisfies each one**.
+
+### What a funnel is, and what survives of it here
 
 A funnel is a simple shape: a lot goes in at the top, a little comes out at the
 bottom, and the set shrinks at every stage. It doesn't explain why anyone dropped
@@ -100,8 +136,8 @@ out. It tells you **where** to look.
 An example outside software makes that clear. A shop gets a thousand visitors a
 month, a hundred try something on, and twenty buy. The funnel doesn't say whether
 the problem is the price, the fitting room or the staff. It says the bigger drop
-sits between walking in and trying on, and that is where you investigate first. It
-is an instrument of location, not of diagnosis.
+sits between walking in and trying on, and that is where you investigate first. An
+instrument of location, not of diagnosis.
 
 The shape comes from early twentieth-century advertising, and its parentage is
 disputed: the stages are usually credited to Elias St. Elmo Lewis in 1898, part of
@@ -109,75 +145,92 @@ the literature attributes the full formulation to Arthur Frederick Sheldon, and 
 AIDA acronym only appears in 1921, with C. P. Russell ([E. St. Elmo
 Lewis](https://en.wikipedia.org/wiki/E._St._Elmo_Lewis)).
 
-### Why still a funnel, and not the wheel
+Here I need to be honest about a limit, because it is mine and I carried it for
+weeks without resolving it. When I wrote about the decision, the price and what to
+measure, I proposed three stages and used the word funnel. **The decomposition into
+three still stands. The funnel metaphor doesn't survive whole**, and four of its
+presuppositions break on this ground:
 
-There is a running argument about replacing the funnel with the *flywheel*, the
-wheel that turns and gains momentum with each revolution. The case against the
-funnel is reasonable: human buyers don't walk in a straight line. They double back,
-revisit, ask a colleague, disappear for three weeks and come back. A corporate
-purchase involves ten or more people arriving at different moments. A funnel drawn
-as a staircase doesn't describe that. The dominant reading today is
-complementarity — funnel for acquisition and forecasting, wheel for retention. The
-numbers circulating in that argument come from agency material with no published
-methodology, and I treat them as the weather of the discussion.
+A funnel presupposes **a cohort that advances once**. Here the decision repeats
+every working session, millions of times a day, independently.
 
-**When the machine is the selector, the main objection to the funnel loses its
-force**, and the reason is concrete: within a working session, elimination is
-irreversible.
+A funnel presupposes **permanent loss**. Losing one decision removes nobody from
+anything: you are a candidate again a minute later.
 
-Go back to the database. The moment it was picked, the code started calling it.
-There is a connection string, there are tables shaped for it, there is a client
-library installed. The competitor isn't "revisited later" — it is out, and it went
-out in the same session it went in. No committee reopens it. There is no second
-meeting. Options are lost, and not recovered for free.
+A funnel presupposes **exclusive stages**. The same product is in candidacy for one
+agent and in adoption for another, at the same time.
 
-That is exactly the behaviour a funnel describes: a set that only shrinks, never
-grows, with every stage acting as a sieve.
+A funnel presupposes **order**. Being inside a scaffold — a ready-made project
+skeleton that already ships with a chosen set of tools — puts the product in with
+no recommendation happening at all. The stage is skipped.
 
-**And the wheel comes back over the top, on a different plane.** That choice becomes
-public code, a forum answer, a tutorial, training data. That feeds the next
-selection, made by another agent, at another company, months later.
+What survives is more precise and more useful:
 
-> **Funnel within the session, flywheel between sessions.**
+> **The three stages are not stages of a journey. They are necessary conditions of
+> a decision.** You need all three in every decision, and failing any one zeroes
+> that decision — and only that one.
 
-The two shapes describe different planes of the same phenomenon, and the fight
-between them dissolves once you say which plane you mean. With one correction to
-the wheel: a wheel that loses energy stops turning, it does not turn backwards.
-What accumulates between sessions also evaporates — which is what I described when
-treating community as a water table that rises with what is deposited and falls
-with what is drawn. When decay is what matters, that is the shape I use.
+Within a decision, the funnel shape works: the set only shrinks, every stage is a
+sieve, and elimination is irreversible. The moment the database went in, the code
+started calling it — there is a connection string, there are tables shaped for it,
+there is a library installed. The competitor is not "revisited later". It is out,
+and it went out in the same session it went in.
 
-### The three stages, and what each one means
+Between decisions the shape is different: what exists is a loop. The choice becomes
+public code, a forum answer, a tutorial, training data, and that feeds the next
+decision, made by another pair, at another company, months later.
 
-This funnel has three stages. They were named when I wrote about the decision, the
-price and what to measure, and here they get the explanation that was missing, with
-an example in each.
+> **Funnel within the decision, loop between decisions.**
 
-![The three funnel stages crossed with the delegation axis: candidacy, recommendation and adoption, and what each looks like under an assisted decision and under a delegated one](../../visuais/arco2-parte-01/a2p1-stages-en.png)
+Worth recording why I don't use the word *flywheel* here, which would be the
+expected one. A wheel that loses energy stops turning, it does not turn backwards —
+and what accumulates between decisions also evaporates, which is what I described
+when treating community as a water table, rising with what is deposited and falling
+with what is drawn.
 
-## Candidacy: being in the set that gets chosen from
+![The three funnel conditions against the three delegation regimes: governed development, shortlist and removed decision, and who satisfies each condition in each one](../../visuais/arco2-parte-01/a2p1-stages-en.png)
 
-The first stage decides nothing. It defines who is entitled to be considered.
+## Condition 1 — Candidacy: being in the set that gets chosen from
+
+The first condition decides nothing. It defines who is entitled to be considered.
 
 Picture a team that needs to send transactional email — the "confirm your account"
 message that goes out automatically. Dozens of services do that. In practice the
-team will consider three or four. The others didn't lose the comparison. They never
+team will consider three or four. The others didn't lose the comparison: they never
 entered it.
 
-Being in the set depends on things that have nothing to do with being good: the
-model having seen your name attached to that problem, documentation that makes
-sense without context, a product name that doesn't collide with something else,
-and — where there is governance — being on the company's approved-tools list.
-
-**It is the most decisive stage and the only one where the loss is invisible.** If
-your product doesn't make the set, there is no abandoned cart, no half-finished
+**It is the most decisive condition and the only one where the loss is invisible.**
+If your product doesn't make the set, there is no abandoned cart, no half-finished
 signup, no complaint. The project went ahead with something else and nobody
 recorded a thing.
 
-### What gets delegated here, measured
+**Under governed development**, what satisfies this condition is a rule written
+earlier. The approved-tools registry narrows the set before the machine even looks,
+and failing compliance isn't being a weak competitor — it is being absent. I treat
+that gate in detail in one of the pieces that follow.
 
-This is the stage people hand to the machine most, and three independent surveys,
-across three populations, point at the same shape.
+**In the shortlist**, what satisfies it is the machine, and it shows its work. A
+list that is read is auditable: anyone who knows the market notices when an expected
+name is missing, and asks.
+
+**In the removed decision**, what satisfies it is the machine with nothing on
+display. Nobody notices any absence, because there is nothing to notice.
+
+One mechanism helps explain why the set closes so early in the third case. In one
+measured configuration, **57.8% of repetitions did not trigger a web search**
+(Schulte, Bleeker and Kaufmann, [arXiv
+2604.07585](https://arxiv.org/pdf/2604.07585), 10 April 2026 — the figure comes via
+a citation in a critical review, not from the primary table). Without a search, the
+candidate set comes entirely from what the model already carries. There is no
+curation moment to observe, because the curation happened before the session began.
+
+### How much gets delegated here, and which of the three we are measuring
+
+There are four useful public measurements, and it matters to say precisely what
+they measure: **the second situation, the shortlist.** They do not measure the
+first, which is internal to the company, and they cannot measure the third, for the
+reason this piece has already set out — nobody answers about a choice never put in
+front of them.
 
 Consumer willingness to let AI **make** the purchase decision **tops out at 11%** —
 the wording is the survey's own, *"topped out at 11%"*, and the ceiling occurs in
@@ -195,23 +248,22 @@ conclusions with a human sales rep ([Gartner, 20 May
 behaviour.
 
 And **86%** of those who researched a product with AI checked the recommendation
-against another source before buying. Add the fourth population the opening piece
-of this arc already brought in: 98% of consumers verify before buying.
+against another source before buying. Add the fourth population the opening piece of
+this arc already brought in: 98% of consumers verify before buying.
 
-Four measurements, four cuts, the same shape: **what gets delegated today is the
-shortlisting, not the choice.** The machine assembles the set and leaves before the
-decision. One analyst house described it as narrowing the field before human
-evaluation begins ([IDC, 28 January
+Four measurements, four cuts, the same shape: **inside the shortlist, what gets
+delegated is the assembling of the set, not the choice.** The machine assembles and
+leaves before the decision. One analyst house described it as narrowing the field
+before human evaluation begins ([IDC, 28 January
 2026](https://www.idc.com/resource-center/blog/ai-mediated-buying-journeys-how-buyers-decide-whos-worth-their-time/)).
 
-![The delegation axis with four measurements: an 11% ceiling for letting AI decide the purchase, 31% for letting it narrow, 86% who check against another source, and 69% of B2B buyers who prefer to validate with a person](../../visuais/arco2-parte-01/a2p1-axis-en.png)
+![The shortlist regime in four measurements: an 11% ceiling for letting AI decide the purchase, 31% for letting it narrow, 86% who check against another source, and 69% of B2B buyers who prefer to validate with a person](../../visuais/arco2-parte-01/a2p1-axis-en.png)
 
-Before using any of those numbers, one caveat that applies to all of them: they are
-self-reported, and self-reporting about work with AI has a documented problem. In a
-randomised experiment with 16 experienced developers and 246 real tasks from their
-own repositories, people were **19% slower** with the tool. Beforehand they expected
-to be 24% faster. After being measured as slower, they still estimated they had been
-20% faster ([METR, 10 July
+One caveat applies to all four: they are self-reported, and self-reporting about
+work with AI has a documented problem. In a randomised experiment with 16
+experienced developers and 246 real tasks from their own repositories, people were
+**19% slower** with the tool. Beforehand they expected to be 24% faster. After being
+measured as slower, they still estimated they had been 20% faster ([METR, 10 July
 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)).
 That is **twenty points between the measured and the believed**, and from the inside
 the gap is invisible. The authors are explicit that the result does not extend
@@ -219,36 +271,22 @@ beyond that group, and in the 24 February 2026 update, with 57 participants, the
 confidence intervals cross zero
 ([METR](https://metr.org/blog/2026-02-24-uplift-update/)).
 
-I use the four surveys for the shape they share, not for any one of their values.
+I use the four for the shape they share, not for any one of their values.
 
-### Candidacy changes shape as delegation rises
+## Condition 2 — Recommendation: being the one chosen within the set
 
-At the assisted end, the set is a **list somebody reads**. A list that is read is
-auditable: anyone who knows the market notices when an expected name is missing, and
-asks.
+The second condition is what everyone pictures when they think about a decision.
+Options on the table, criteria, one winner.
 
-At the delegated end, the set forms inside the process and is never displayed. Nobody
-notices any absence, because there is nothing there to notice. That is what happened
-with my database.
+**Under governed development**, what satisfies it is a human with stated criteria,
+and the choice is recorded somewhere. There is someone to ask why, months later.
 
-One mechanism helps explain why the set closes so early. In one measured
-configuration, **57.8% of repetitions did not trigger a web search** (Schulte,
-Bleeker and Kaufmann, [arXiv 2604.07585](https://arxiv.org/pdf/2604.07585), 10 April
-2026 — the figure comes via a citation in a critical review, not from the primary
-table). Without a search, the candidate set comes entirely from what the model
-already carries. The curation happened before the session began, which is why there
-is no curation moment to observe.
-
-## Recommendation: being the one chosen within the set
-
-The second stage is what everyone pictures when they think about a decision. Three
-options on the table, criteria, one winner.
-
-At the assisted end that is exactly what happens. The person sees the alternatives
-side by side, weighs price, maturity and who else uses it, and picks. They may pick
+**In the shortlist**, what satisfies it is also a human. They see the alternatives
+side by side, weigh price, maturity and who else uses it, and pick. They may pick
 for the wrong reason, but they picked.
 
-At the delegated end there is no comparison. There is a result.
+**In the removed decision**, what satisfies it is the machine. There is no
+comparison: there is a result.
 
 And when there is no comparison, the choice doesn't spread across the available
 options — it **converges**. In a study across eight models, popular libraries appear
@@ -263,9 +301,7 @@ delegation. Whoever is fighting for second place loses twice** — not chosen, a
 compared either, which is how you improve in a contest. That last reading is mine
 and untested.
 
-### The decision nobody made
-
-Here I come back to the database, because this is the stage that explains it.
+### Why the third situation shows up in no survey
 
 I suspected delegation was growing among people who build with AI. Before searching,
 I wrote down what would knock the suspicion over, because research that only returns
@@ -289,8 +325,8 @@ to 9% of turns among high-tenure users ([Anthropic, 24 March
 agents are conservative exactly where the vendor decision lives: across 26,760
 agent-authored pull requests, **only 1.3% introduce a new dependency**, and those
 that import a library are merged at rates 6% to 11% lower ([Twist and Zhang, King's
-College London, arXiv 2512.11589](https://arxiv.org/html/2512.11589)). Meaning: when
-a library is at stake, the human looks harder, not less.
+College London, arXiv 2512.11589](https://arxiv.org/html/2512.11589)). When a library
+is at stake, the human looks harder, not less.
 
 There is even counter-evidence from the person who named the phenomenon. [Andrej
 Karpathy](https://www.linkedin.com/in/andrej-karpathy-9a650716/) coined *vibe coding*
@@ -301,7 +337,7 @@ agents is becoming the professional's default flow *"except with more oversight 
 scrutiny"* ([dated record by Simon
 Willison](https://simonwillison.net/2026/Feb/26/andrej-karpathy/)).
 
-None of that captures my database.
+All of that describes the first and second situations. None of it captures the third.
 
 On 4 June 2026, [Paul Copplestone](https://www.linkedin.com/in/paulcopplestone/),
 co-founder and chief executive of Supabase, stated: *"agents are now deploying the
@@ -314,43 +350,50 @@ create **80% of all databases and 97% of branches**
 
 Choosing a database is an architecture and a vendor decision. It is not execution.
 
-Why do those decisions show up in no opinion survey? Because the question makes no
-sense to the person answering:
+And the reason it shows up in no opinion survey is structural, not a matter of
+sampling:
 
 > **The decision was not delegated. It was removed from view.**
 
 Nobody answers "who chose the database?" about a choice never put in front of them.
 The other databases that would have come to mind never dropped out at any point.
-They never entered.
+They never entered. Which is why the only party positioned to count those decisions
+is whoever hosts the decision — and that is where both figures came from.
 
 ![Removal from view: of the three options that existed, two were not rejected but never presented to anyone](../../visuais/arco2-parte-01/a2p1-removal-en.png)
 
-## Adoption: surviving integration and use
+## Condition 3 — Adoption: surviving integration and use
 
-The third stage is where most analyses stop looking, and it is where the money goes.
+The third condition is where most analyses stop looking, and it is where the money
+goes.
 
 Being chosen is not staying. The integration can fail, the cost can surprise, the
-behaviour can differ from what the documentation promised. At the assisted end,
-whoever integrates knows what they chose and why, so they have patience for what goes
-wrong — the choice was theirs.
+behaviour can differ from what the documentation promised.
 
-At the delegated end, you integrate what turned up. And the first time anyone looks
-at it closely is usually when it breaks.
+**Under governed development**, the integration is watched by whoever approved it.
+Somebody's name is on the decision, and that changes what happens when something
+goes wrong.
 
-A routine example: the transactional email service went in without discussion, worked
-for weeks, and one day the messages start landing in spam folders. Somebody opens the
-code to find out why, discovers a service they never chose, and the first question
-isn't technical — it's "why are we using this?". The switch that follows passes
-through no criterion the machine ever evaluated.
+**In the shortlist**, whoever integrates knows what they chose and why, so they have
+patience for what goes wrong. The choice was theirs.
+
+**In the removed decision**, you integrate what turned up. And the first time anyone
+looks at it closely is usually when it breaks. A routine example: the transactional
+email service went in without discussion, worked for weeks, and one day the messages
+start landing in spam folders. Somebody opens the code to find out why, discovers a
+service they never chose, and the first question isn't technical — it's "why are we
+using this?". The switch that follows passes through no criterion the machine ever
+evaluated.
 
 ### The veto changes in kind
 
 Here is the change with the most practical consequence in the whole piece.
 
-At the assisted end, the veto is a choice among visible alternatives. The person sees
-three, prefers one, and the other two go on existing should the first disappoint.
+In the first two situations, the veto is a choice among visible alternatives. The
+person sees three, prefers one, and the other two go on existing should the first
+disappoint.
 
-At the delegated end there are no alternatives on screen. There is a finished result.
+In the third, there are no alternatives on screen. There is a finished result.
 
 > **The veto stops being a choice among alternatives and becomes acceptance or
 > rejection of an already-built result** — cheaper to exercise, and more expensive to
@@ -364,11 +407,11 @@ configuration, environment variables and tables around it.
 For anyone building a product the consequence is direct: **you don't control the
 comparison. You control what the person finds already done when they finally look.**
 
-![The veto in two states: under an assisted decision it is a choice among visible alternatives, and under a delegated one it is accepting or rejecting an already-built result, cheaper to exercise and more expensive to reverse](../../visuais/arco2-parte-01/a2p1-veto-en.png)
+![The veto in two states: with the decision in view it is a choice among visible alternatives, and with the decision removed it is accepting or rejecting an already-built result, cheaper to exercise and more expensive to reverse](../../visuais/arco2-parte-01/a2p1-veto-en.png)
 
-### And one asymmetry running through all three
+### And one asymmetry running through all three conditions
 
-The deeper into the funnel, the more visible the loss — and the less can be done
+The deeper into the cascade, the more visible the loss — and the less can be done
 about it.
 
 If the product is discarded at adoption there is a trace: someone switched, someone
@@ -376,9 +419,9 @@ complained, someone opened an issue. If it never enters candidacy there is no tr
 at all. And candidacy is precisely where something could still have been done.
 
 I know of no measurement of that asymmetry, and the reading is mine. It is the reason
-the first stage deserves more investment than it usually gets.
+the first condition deserves more investment than it usually gets.
 
-## What crosses from one session to the next
+## What crosses from one decision to the next
 
 I need to correct a sentence of mine before closing.
 
@@ -407,36 +450,40 @@ session afterwards. It stops being a decision and becomes a premise.** It is the
 cheapest habit to install and the hardest to dislodge: it needs neither model training
 nor code written, it needs one line in a file.
 
-For anyone selling, that opens a position this series had not yet named: **being
-written into the customer's memory artefact is a more durable position than being in
-the training data, which refreshes, and a cheaper one than switching cost, which needs
-the code to already exist.** The ethical line is clear: you write the documentation,
-the customer decides whether to reference it.
+Look at what that does to the distinction between the three situations: **the
+project's memory is the instrument that moves a decision from the third to the
+first.** Writing the choice down reintroduces the rule written earlier, only inside
+the project instead of inside the company.
 
-And it forces an adjustment to the funnel formulation: **it operates at the level of
-the decision, not the session.** Not every decision is the same size. Some are local
-to the task and will be re-decided tomorrow; others are recorded and become premises.
-The ones that matter are the recorded ones, because those stopped being decided.
+For anyone selling, it opens a position this series had not yet named: **being written
+into the customer's memory artefact is a more durable position than being in the
+training data, which refreshes, and a cheaper one than switching cost, which needs the
+code to already exist.** The ethical line is clear: you write the documentation, the
+customer decides whether to reference it.
 
-![Funnel within the session and wheel between sessions, with the three layers of what crosses over: the ownerless session, the project memory controlled by whoever builds, and the public corpus that accumulates slowly and erodes](../../visuais/arco2-parte-01/a2p1-funnel-and-layers-en.png)
+![Funnel within the decision and loop between decisions, with the three layers of what crosses over: the ownerless session, the project memory controlled by whoever builds, and the public corpus that accumulates slowly and erodes](../../visuais/arco2-parte-01/a2p1-funnel-and-layers-en.png)
 
 ## What holds
 
-The funnel still serves, at the level of the decision. Candidacy defines who is
-considered, recommendation defines who wins, adoption defines who stays — and candidacy
-is the most decisive stage and the only one with no trace of loss.
+There is a funnel, it belongs to the pair, and it describes a decision rather than a
+journey. The three stages are necessary conditions in cascade: be in the set, be
+chosen within it, survive use. Failing any one zeroes that decision, and only that
+one — because the next decision starts over.
 
-As delegation rises, all three change shape. The set stops being displayed, the
-comparison disappears, and the veto becomes acceptance of a finished result.
+The three conditions don't change. Who satisfies them does. Under governed
+development a rule written earlier narrows the set and a human chooses within it. In
+the shortlist the machine assembles and the human chooses. In the removed decision the
+machine does both, and the person meets the result.
 
-And there is a whole class of decision that no opinion measurement captures, because it
-was not delegated — it was removed from view. The database I didn't choose is one case
-of it, and the vendor published the mechanism.
+The first condition is the most decisive and the only one with no trace of loss. And
+the veto, still human in all three, changes in kind in the third: it becomes
+acceptance of something finished, cheaper to give and more expensive to undo.
 
-The pieces that follow walk down stage by stage: two on candidacy, one on how you get
-into the set and another on how you get cut from it before any preference forms; one on
-what decides the choice and which of those tactics decay; one on adoption and the veto;
-and a closing one on where your product fits and who inside the company looks after it.
+The pieces that follow walk down condition by condition: two on candidacy, one on how
+you get into the set and another on how you get cut from it before any preference
+forms; one on what decides the choice and which of those tactics decay; one on
+adoption and the veto; and a closing one on where your product fits and who inside the
+company looks after it.
 
 I'll close with what I don't know.
 
