@@ -37,14 +37,14 @@ E não é impressão minha. O fornecedor de infraestrutura publicou o mecanismo 
 todas as letras, em 29 de setembro de 2025: *"todo builder de IA usando a Lovable
 já está usando a Supabase, saiba ele disso ou não"*
 ([Supabase](https://supabase.com/blog/lovable-cloud-launch)). É declaração de
-empresa com interesse comercial em enfatizar a própria penetração, e vale ler com
+empresa com interesse comercial em enfatizar a própria penetração. Vale ler com
 isso em mente. Mas quem escreveu está do lado que enxerga: é o fornecedor, não o
 usuário, quem consegue contar decisões que o decisor nunca viu.
 
 Este texto é sobre esse percurso — quais são as etapas dele, e o que faz um produto
 andar mais rápido ou mais devagar entre elas.
 
-## O funil tem três etapas, e eu tinha proposto as erradas
+## Recomendação não é uma etapa do funil
 
 Quando escrevi sobre a decisão, o preço e o que medir, propus candidatura,
 recomendação e adoção. Continuei investigando, e uma das três estava classificada
@@ -99,11 +99,10 @@ comparação: nunca entraram nela.
 no conjunto, não existe carrinho abandonado, não existe cadastro incompleto, não
 existe reclamação. O projeto seguiu com outra coisa e ninguém registrou nada.
 
-### As forças que agem aqui, e recomendação é uma delas
+### As forças que agem na candidatura
 
-Não vou detalhar as táticas neste texto — elas são o assunto da peça seguinte, que
-entra só nesta etapa. O que cabe aqui é dizer quais forças estão em jogo, para
-ficar claro do que a próxima peça vai tratar:
+As táticas de cada uma dessas forças ficam para as próximas peças desta série, que
+tratam de candidatura em detalhe. Aqui basta saber quais forças existem:
 
 **Estar no corpus.** O material público que treinou o modelo determina se o seu
 nome aparece associado ao problema que ele está resolvendo.
@@ -112,7 +111,7 @@ nome aparece associado ao problema que ele está resolvendo.
 consistente em toda parte, que se entende sem contexto.
 
 **A comunidade.** O material que terceiros escrevem sobre você é a matéria-prima de
-tudo isso, e é o assunto que tratei ao descrever a comunidade como o poço de onde
+tudo isso. Tratei desse assunto ao descrever a comunidade como o poço de onde
 todos bebem ([Parte 5](05-comunidade-e-sinal-de-validacao.md)).
 
 **AEO e GEO** — otimização para motor de resposta e para motor generativo, o
@@ -124,10 +123,11 @@ construção. Quanto melhor a candidatura, mais rápida e mais precisa ela é.
 
 ### Quanto se delega nesta etapa, medido
 
-Existem quatro medições públicas úteis, e vale dizer o que elas medem: **a situação
-em que a máquina monta uma lista curta e a pessoa escolhe.** Elas não medem o caso
-em que a empresa restringiu o conjunto por política, e não conseguem medir o caso
-em que ninguém viu conjunto nenhum — sobre esse, ninguém tem o que responder.
+Quatro medições públicas ajudam aqui. Todas descrevem a mesma situação: **a máquina
+monta uma lista curta e a pessoa escolhe.** Nenhuma delas alcança o caso em que a
+empresa restringiu o conjunto por política. E nenhuma consegue alcançar o caso em
+que ninguém viu conjunto nenhum — sobre esse, quem responderia não tem o que
+dizer.
 
 A disposição do consumidor de deixar a IA **tomar** a decisão de compra tem **teto
 em 11%** — a palavra é do próprio levantamento, *"topped out at 11%"*, e o teto
@@ -164,8 +164,8 @@ não aparece. Volto a esse estudo no fim, porque ele diz mais uma coisa.
 
 ## Construção: estar dentro do que está sendo feito
 
-A segunda etapa começa num ponto material, e é bom fixá-lo porque a fronteira errada
-foi o que me confundiu antes: **a construção começa quando existe a primeira linha
+A segunda etapa começa num ponto material. Vale fixá-lo, porque errar essa
+fronteira foi o que me confundiu antes: **a construção começa quando existe a primeira linha
 de código que chama o seu produto.**
 
 Antes disso, por menor que seja a lista, você continua candidato. Estar numa lista
@@ -202,8 +202,9 @@ pessoa.
 
 ### O que ajuda a converter aqui
 
-Também não vou detalhar — é assunto de peça própria. Mas as forças desta etapa são
-diferentes das da candidatura, e vale nomeá-las:
+As táticas também ficam para depois: a construção ganha peça própria mais adiante
+nesta série. O que importa agora é que as forças aqui são outras, diferentes das
+que agem na candidatura. São quatro:
 
 **Documentação familiar, organizada e legível por máquina.** Não é a mesma coisa que
 ter documentação boa para humano: aqui o que conta é ser recuperável, inequívoca, e
@@ -237,8 +238,8 @@ contrárias a qualquer troca. Sob o BLG ela é mais forte do que no software
 tradicional, e por um motivo específico: o produto não está apenas no fluxo de
 trabalho de alguém, está na obra que essa pessoa entregou e pela qual ela responde.
 
-Daí sai a consequência mais valiosa desta etapa para quem vende, e ela é
-desconfortável de escrever:
+Daí sai a consequência mais valiosa desta etapa para quem vende. É desconfortável
+de escrever:
 
 > **Chegar à adoção cria uma barreira competitiva que não foi conquistada em
 > comparação.** O concorrente pode ser melhor e não ser considerado, porque o custo
@@ -263,7 +264,7 @@ que a pessoa aceita, aquilo já está escrito no código.
 
 ## A delegação é o acelerador
 
-Agora a parte que amarra as três etapas, e é a tese deste texto.
+Agora a parte que amarra as três etapas. É a tese deste texto.
 
 Delegação é grau, não é interruptor, e as duas pontas desse grau precisam de nome:
 
@@ -272,7 +273,7 @@ Delegação é grau, não é interruptor, e as duas pontas desse grau precisam d
 > construiu.**
 
 Procurei nome de mercado antes de cunhar. Comércio conversacional descreve compra
-por aplicativo de mensagem, e é anterior aos modelos de linguagem. Busca sem clique
+por aplicativo de mensagem, anterior aos modelos de linguagem. Busca sem clique
 descreve a ausência do clique. Otimização para motor generativo nomeia o que faz
 quem publica. E o Agentic Commerce Protocol, da Stripe e da OpenAI
 ([openai.com](https://openai.com/index/buy-it-in-chatgpt/)), nomeia o extremo em que
@@ -286,15 +287,35 @@ escolheria fica menor, e concentra no que já é familiar.
 
 Quatro mecanismos independentes empurram nessa direção.
 
-**O primeiro é o que mais me surpreendeu, porque mostra que o tamanho da lista curta
-é decisão de engenharia, não do mercado.** Num trabalho que mede quantas ferramentas
-um agente deve enxergar antes de escolher, sobre os mesmos dados de bancada, a
-profundidade aprendida foi de **1,4 candidatos com um recuperador de embeddings e
-7,4 com outro método** ([arXiv 2605.24660](https://arxiv.org/abs/2605.24660)).
-Trocar uma peça de infraestrutura muda de cerca de um para cerca de sete quantos
-produtos o modelo chega a ver — sem que nada mude no produto, no mercado ou na
-pergunta feita. Os autores declaram o limite: o escopo é se a ferramenta certa
-aparece no conjunto, não se ela é usada corretamente depois.
+**O primeiro mecanismo é o que mais me surpreendeu. Ele merece uma explicação com
+calma.**
+
+Antes de o agente escolher qualquer coisa, alguma peça do sistema precisa decidir o
+que ele vai sequer enxergar. Existem centenas ou milhares de ferramentas
+disponíveis, e todas não cabem — nem na janela de contexto do modelo, nem no tempo
+que a resposta tem para acontecer. Quem faz essa triagem é um componente chamado
+**recuperador**: dada a tarefa, ele devolve os candidatos mais parecidos com o
+pedido. Só esses chegam ao modelo. Os outros não existem naquela decisão.
+
+Quantos candidatos ele devolve é um número com nome próprio: profundidade.
+Num trabalho que mede qual seria a profundidade certa, **sobre exatamente os mesmos
+dados de bancada, a profundidade aprendida foi de 1,4 candidatos com um tipo de
+recuperador e 7,4 com outro** ([arXiv
+2605.24660](https://arxiv.org/abs/2605.24660)).
+
+Traduzindo para o que isso significa do lado de fora: um time de engenharia troca o
+componente de busca — decisão técnica, tomada por motivos técnicos, sem ninguém na
+sala discutindo fornecedores — e o número de produtos que chegam a ser considerados
+sai de cerca de um para cerca de sete. **Nada mudou no seu produto, no seu mercado,
+nem na pergunta que a pessoa fez.** Mudou quantas cadeiras havia na sala.
+
+Se você é o quarto candidato mais relevante para aquele problema, existe uma
+configuração em que você é considerado e outra em que você não chega a aparecer — e
+as duas são defensáveis do ponto de vista de quem montou o sistema. Ninguém decidiu
+te excluir.
+
+Os autores declaram o limite do trabalho: o escopo é se a ferramenta certa aparece
+no conjunto, não se ela é usada corretamente depois.
 
 **O segundo é a degradação por tamanho de catálogo.** Com cerca de 50 ferramentas
 disponíveis, a acurácia de selecionar a certa fica entre 84% e 95%. Com 200, cai
@@ -362,10 +383,10 @@ Preciso corrigir uma frase minha antes de fechar.
 Ao tratar de acessibilidade operacional, escrevi que a máquina decide de novo a cada
 sessão e não acumula nada entre uma e outra — que cada sessão começa do zero. **A
 parte sobre a máquina é verdadeira. A parte sobre o par não é**, e é o par que
-decide. Continuei investigando e vi que aquilo vale para uma camada só, e é a camada
-errada para quem quer entender este assunto.
+decide. Continuei investigando e vi que aquilo vale para uma camada só — a camada errada
+para quem quer entender este assunto.
 
-São três camadas, e eu vinha operando com duas.
+São três camadas. Eu vinha operando com duas.
 
 A **sessão** é onde a eliminação acontece. Efêmera, sem dono, e ninguém se reforça
 nela.
@@ -373,9 +394,9 @@ nela.
 O **corpus público** — o material que treina o modelo seguinte — acumula devagar,
 não tem dono, e sofre erosão.
 
-A do meio é a que faltava, e é a única com dono: a **memória do projeto**.
+A do meio é a que faltava. É a única com dono: a **memória do projeto**.
 Especificação, registro de decisão, arquivo de instrução para o agente. Quem
-constrói controla essa camada inteira, e ela é lida no começo de toda sessão.
+constrói controla essa camada inteira. Ela é lida no começo de toda sessão.
 
 Daí sai um mecanismo de hábito que eu não tinha. Escreva "usamos este banco de
 dados, e por este motivo" no arquivo de memória do projeto, e **essa decisão passa a
@@ -397,7 +418,7 @@ referenciá-la é o cliente.
 
 ## O que fica
 
-O funil do builder tem três etapas, e elas descrevem onde o produto está, não o que
+O funil do builder tem três etapas. Elas descrevem onde o produto está, não o que
 acontece com ele. **Candidatura**: você está no conjunto de onde se escolhe.
 **Construção**: você está no código de algo que está sendo feito, e tirar custa
 horas. **Adoção**: você virou premissa do que foi entregue, e tirar custa um
@@ -410,8 +431,8 @@ comunidade e da otimização para os motores que respondem.
 E a velocidade da passagem é função da delegação. Quanto mais o par delega, menor
 fica o conjunto considerado, mais concentrado no familiar, e mais rápido um produto
 percorre as três etapas — sem que ninguém tenha comparado nada. É por isso que essa
-conta importa para quem constrói e para quem vende, e é o que eu acho que as
-empresas ainda não estão olhando.
+conta importa para quem constrói e para quem vende. Acho que as empresas ainda
+não estão olhando para ela.
 
 As peças seguintes entram etapa por etapa: o que medir em cada uma, e que ações
 convertem para a próxima.

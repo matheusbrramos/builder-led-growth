@@ -37,15 +37,15 @@ And this isn't an impression of mine. The infrastructure vendor published the
 mechanism in as many words, on 29 September 2025: *"every AI builder using Lovable
 is already using Supabase, whether or not they realize it"*
 ([Supabase](https://supabase.com/blog/lovable-cloud-launch)). That is a statement
-from a company with a commercial interest in emphasising its own penetration, and
-it is worth reading with that in mind. But whoever wrote it sits on the side that
+from a company with a commercial interest in emphasising its own penetration.
+Worth reading with that in mind. But whoever wrote it sits on the side that
 can see: it is the vendor, not the user, who can count decisions the decider never
 saw.
 
 This piece is about that route — what its stages are, and what makes a product move
 faster or slower between them.
 
-## The funnel has three stages, and I had proposed the wrong ones
+## Recommendation is not a funnel stage
 
 When I wrote about the decision, the price and what to measure, I proposed candidacy,
 recommendation and adoption. I kept investigating, and one of the three was
@@ -100,11 +100,10 @@ entered it.
 you don't make the set, there is no abandoned cart, no half-finished signup, no
 complaint. The project went ahead with something else and nobody recorded a thing.
 
-### The forces acting here, and recommendation is one of them
+### The forces acting in candidacy
 
-I won't detail the tactics in this piece — they are the subject of the next one,
-which goes into this stage alone. What belongs here is naming the forces in play, so
-it is clear what the next piece will cover:
+The tactics behind each of these forces are left to the pieces that follow, which
+cover candidacy in detail. What matters here is knowing which forces exist:
 
 **Being in the corpus.** The public material that trained the model determines
 whether your name shows up attached to the problem it is solving.
@@ -113,7 +112,7 @@ whether your name shows up attached to the problem it is solving.
 consistent everywhere, understandable without context.
 
 **The community.** What third parties write about you is the raw material for all of
-this, and it is the subject I covered when describing community as the well everyone
+this. I covered that subject when describing community as the well everyone
 drinks from ([Part 5](05-community-and-validation-signal.md)).
 
 **AEO and GEO** — answer engine and generative engine optimisation, the work of
@@ -124,11 +123,10 @@ into construction. The better the candidacy, the faster and more precise it is.
 
 ### How much gets delegated at this stage, measured
 
-There are four useful public measurements, and it is worth saying what they measure:
-**the situation where the machine assembles a shortlist and the person picks.** They
-do not measure the case where a company narrowed the set by policy, and they cannot
-measure the case where nobody saw a set at all — about that one, nobody has anything
-to answer.
+Four public measurements help here. All of them describe the same situation: **the
+machine assembles a shortlist and the person picks.** None of them reaches the case
+where a company narrowed the set by policy. And none of them can reach the case where
+nobody saw a set at all — about that one, whoever would answer has nothing to say.
 
 Consumer willingness to let AI **make** the purchase decision **tops out at 11%** —
 the wording is the survey's own, *"topped out at 11%"*, and the ceiling occurs in the
@@ -165,8 +163,8 @@ thing.
 
 ## Construction: being inside what is being made
 
-The second stage starts at a material point, and it is worth fixing because the wrong
-boundary is what confused me before: **construction begins when there is a first line
+The second stage starts at a material point. Worth fixing, because getting that
+boundary wrong is what confused me before: **construction begins when there is a first line
 of code that calls your product.**
 
 Before that, however short the list, you are still a candidate. Being on a shortlist
@@ -203,8 +201,9 @@ decision passed through a person.
 
 ### What helps convert here
 
-I won't detail this either — it gets its own piece. But the forces at this stage
-differ from candidacy, and they are worth naming:
+The tactics are left for later here too: construction gets its own piece further on
+in this series. What matters now is that the forces here are different ones, not the
+ones acting in candidacy. There are four:
 
 **Familiar documentation, organised and machine-readable.** Not the same thing as
 documentation that is good for a human: what counts here is being retrievable,
@@ -239,7 +238,7 @@ switch. Under BLG it is stronger than in traditional software, for a specific re
 the product isn't merely in somebody's workflow, it is in the work that person shipped
 and answers for.
 
-Out of that comes this stage's most valuable consequence for anyone selling, and it is
+Out of that comes this stage's most valuable consequence for anyone selling. It is
 uncomfortable to write:
 
 > **Reaching adoption creates a competitive barrier that was never won in a
@@ -265,7 +264,7 @@ moment the person accepts, the thing is already written into the code.
 
 ## Delegation is the accelerator
 
-Now the part that ties the three stages together, and it is this piece's thesis.
+Now the part that ties the three stages together. It is this piece's thesis.
 
 Delegation is a degree, not a switch, and both ends of that degree need names:
 
@@ -274,7 +273,7 @@ Delegation is a degree, not a switch, and both ends of that degree need names:
 > already built.**
 
 I looked for an existing name before coining one. Conversational commerce describes
-buying through a messaging app, and predates language models. Zero-click search
+buying through a messaging app, and predates language models by years. Zero-click search
 describes the absence of the click. Generative engine optimisation names what
 publishers do. And the Agentic Commerce Protocol, from Stripe and OpenAI
 ([openai.com](https://openai.com/index/buy-it-in-chatgpt/)), names the far end where
@@ -288,14 +287,33 @@ choice would come from gets smaller, and concentrates on what is already familia
 
 Four independent mechanisms push in that direction.
 
-**The first is the one that surprised me most, because it shows the size of the
-shortlist is an engineering decision, not a market one.** In a study measuring how
-many tools an agent should see before choosing, over the same benchmark data, the
-learned depth was **1.4 candidates with one embedding retriever and 7.4 with another
-method** ([arXiv 2605.24660](https://arxiv.org/abs/2605.24660)). Swapping one piece
-of infrastructure changes from roughly one to roughly seven how many products the
-model gets to see — with nothing changing in the product, the market or the question
-asked. The authors declare the limit: the scope is whether the right tool appears in
+**The first mechanism is the one that surprised me most. It deserves a slow
+explanation.**
+
+Before the agent chooses anything, some piece of the system has to decide what it
+will even see. There are hundreds or thousands of tools available, and they don't all
+fit — not in the model's context window, and not in the time the answer has to
+happen. The component doing that triage is called a **retriever**: given the task, it
+returns the candidates closest to the request. Only those reach the model. The rest do
+not exist for that decision.
+
+How many candidates it returns is a number with a name of its own: depth. In a
+study measuring what the right depth would be, **over exactly the same benchmark data,
+the learned depth was 1.4 candidates with one kind of retriever and 7.4 with another**
+([arXiv 2605.24660](https://arxiv.org/abs/2605.24660)).
+
+Translated into what that means from the outside: an engineering team swaps the search
+component — a technical decision, made for technical reasons, with nobody in the room
+discussing vendors — and the number of products that get considered goes from roughly
+one to roughly seven. **Nothing changed in your product, in your market, or in the
+question the person asked.** What changed is how many chairs there were in the room.
+
+If you are the fourth most relevant candidate for that problem, there is a
+configuration where you are considered and another where you never appear — and both
+are defensible from the point of view of whoever built the system. Nobody decided to
+exclude you.
+
+The authors declare the study's limit: the scope is whether the right tool appears in
 the set, not whether it is then used correctly.
 
 **The second is degradation by catalogue size.** With around 50 tools available,
@@ -362,10 +380,10 @@ I need to correct a sentence of mine before closing.
 Writing about operational accessibility, I said the machine decides afresh every
 session and accumulates nothing between one and the next — that every session starts
 from zero. **The part about the machine is true. The part about the pair is not**, and
-it is the pair that decides. I kept investigating and saw it holds for one layer only,
-and that is the wrong layer for anyone trying to understand this subject.
+it is the pair that decides. I kept investigating and saw it holds for one layer only — the wrong layer
+for anyone trying to understand this subject.
 
-There are three layers, and I had been working with two.
+There are three layers. I had been working with two.
 
 The **session** is where elimination happens. Ephemeral, ownerless, and nobody
 strengthens their position in it.
@@ -373,10 +391,10 @@ strengthens their position in it.
 The **public corpus** — the material that trains the next model — accumulates slowly,
 has no owner, and erodes.
 
-The middle one is what was missing, and it is the only one with an owner: the
+The middle one is what was missing. It is the only one with an owner: the
 **project's memory**. Specifications, decision records, instruction files for the
-agent. Whoever builds controls that layer entirely, and it is read at the start of
-every session.
+agent. Whoever builds controls that layer entirely. It is read at the start of every
+session.
 
 Out of it comes a habit mechanism I did not have. Write "we use this database, and
 here is why" into the project's memory file, and **that decision gets re-read every
@@ -398,7 +416,7 @@ customer decides whether to reference it.
 
 ## What holds
 
-The builder's funnel has three stages, and they describe where the product is, not
+The builder's funnel has three stages. They describe where the product is, not
 what happens to it. **Candidacy**: you are in the set that gets chosen from.
 **Construction**: you are in the code of something being made, and taking you out
 costs hours. **Adoption**: you have become a premise of what was shipped, and taking
@@ -412,7 +430,7 @@ And the speed of the crossing is a function of delegation. The more the pair
 delegates, the smaller the considered set becomes, the more it concentrates on the
 familiar, and the faster a product covers all three stages — with nobody having
 compared anything. That is why this account matters both to whoever builds and to
-whoever sells, and it is what I think companies are not yet looking at.
+whoever sells. I think companies are not yet looking at it.
 
 The pieces that follow go in stage by stage: what to measure at each one, and which
 actions convert to the next.
