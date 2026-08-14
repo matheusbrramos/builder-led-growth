@@ -8,7 +8,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 # Builder-Led Growth, parte 7: o que faz o agente confiar, e por que a competência dele é o problema
 
-*Sétima e última parte do primeiro arco desta série. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão. As partes 3, 4, 5 e 6 trataram da legibilidade, da acessibilidade, da comunidade e do que Relações Públicas já sabia sobre tudo isso. Esta abre o último pilar — e ele é o que estava faltando.*
+*Sétima e última parte do primeiro arco desta série. A [parte 1](01-quando-a-maquina-e-cliente.md) nomeou a disciplina e propôs quatro pilares. A [parte 2](02-decisao-preco-e-medicao.md) abriu o mecanismo da decisão. As partes 3, 4, 5 e 6 trataram da legibilidade, da acessibilidade, da comunidade e do que Relações Públicas já sabia sobre tudo isso. Esta abre o último pilar — e ele é o que estava faltando.*
 
 ![Capa: título da parte 7 sobre fundo navy, com a frase "A mesma competência que faz o modelo usar bem sua ferramenta é a que faz ele obedecer à instrução envenenada" em destaque menor.](../../visuais/parte-07/p7-capa-pt.png)
 
@@ -429,12 +429,12 @@ Este texto fecha o primeiro arco da série — os quatro pilares, propostos na p
 
 **Série Builder-Led Growth — arco 1: os quatro pilares**
 
-- [Parte 1 — Quando a máquina também é seu cliente](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
-- [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
-- Parte 3 — O imposto que a máquina cobra e o humano não vê: https://www.linkedin.com/pulse/builder-led-growth-parte-3-o-imposto-que-m%C3%A1quina-e-v%C3%AA-matheus-768vf/
-- Parte 4 — Quantas vezes o agente precisa chamar um humano: https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/
-- Parte 5 — O poço de onde todos bebem: [ler](05-comunidade-e-sinal-de-validacao.md)
-- Parte 6 — A máquina é imprensa e leitor ao mesmo tempo: [ler](06-relacoes-publicas.md)
+- [Parte 1 — Quando a máquina também é seu cliente](01-quando-a-maquina-e-cliente.md)
+- [Parte 2 — A decisão, o preço e o que medir](02-decisao-preco-e-medicao.md)
+- [Parte 3 — O imposto que a máquina cobra e o humano não vê](03-legibilidade-por-maquina.md)
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
+- [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
+- [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](06-relacoes-publicas.md)
 - Parte 7 — O que faz o agente confiar (este texto)
 
 ---

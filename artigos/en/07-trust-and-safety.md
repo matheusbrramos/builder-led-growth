@@ -8,7 +8,7 @@ Generated from the private working repository. Do not edit here.
 
 # Builder-Led Growth, part 7: what makes an agent trust you, and why its competence is the problem
 
-*Seventh and last part of the first arc of this series. [Part 1](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/) named the discipline and proposed four pillars. [Part 2](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/) opened up the decision mechanism. Parts 3, 4, 5 and 6 covered legibility, accessibility, community, and what public relations already knew about all of it. This one opens the last pillar — and it is the one that was missing.*
+*Seventh and last part of the first arc of this series. [Part 1](01-when-the-machine-is-the-customer.md) named the discipline and proposed four pillars. [Part 2](02-decision-price-and-measurement.md) opened up the decision mechanism. Parts 3, 4, 5 and 6 covered legibility, accessibility, community, and what public relations already knew about all of it. This one opens the last pillar — and it is the one that was missing.*
 
 ![Cover: part 7 title on navy, with the line "The same competence that makes a model use your tool well is what makes it obey the poisoned instruction" in smaller display type.](../../visuais/parte-07/p7-cover-en.png)
 
@@ -429,12 +429,12 @@ This text closes the first arc of the series — the four pillars, proposed in p
 
 **Builder-Led Growth series — arc 1: the four pillars**
 
-- [Part 1 — When the machine is also your customer](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/)
-- [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
-- Part 3 — The tax the machine charges and the human never sees: https://www.linkedin.com/pulse/builder-led-growth-part-3-tax-machine-charges-human-matheus-oc20f/
-- Part 4 — How many times the agent has to call a human: https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/
-- Part 5 — The well everyone drinks from: [read](05-community-and-validation-signal.md)
-- Part 6 — The machine is press and reader at once: [read](06-public-relations.md)
+- [Part 1 — When the machine is also your customer](01-when-the-machine-is-the-customer.md)
+- [Part 2 — The decision, the price and what to measure](02-decision-price-and-measurement.md)
+- [Part 3 — The tax the machine charges and the human never sees](03-machine-legibility.md)
+- [Part 4 — How many times the agent has to call a human](04-operational-accessibility.md)
+- [Part 5 — The well everyone drinks from](05-community-and-validation-signal.md)
+- [Part 6 — The machine is press and reader at once](06-public-relations.md)
 - Part 7 — What makes an agent trust you (this piece)
 
 ---
