@@ -2,7 +2,7 @@
 Parte 06 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/06-public-relations.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 13 de agosto de 2026.
+Publicada no LinkedIn em 14 de agosto de 2026: https://www.linkedin.com/pulse/builder-led-growth-parte-6-m%C3%A1quina-%C3%A9-imprensa-e-ao-matheus-8fvsf/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 

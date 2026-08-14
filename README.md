@@ -20,14 +20,14 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
 - **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
   Published 2026-08-12 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-5-well-everyone-drinks-from-matheus-qp1if/)
   · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — publicado em 2026-08-11 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-5-o-po%C3%A7o-de-onde-todos-bebem-matheus-e8ndf/)
+- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
+  Published 2026-08-14 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-6-machine-press-reader-once-matheus-ibpvf/)
+  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — publicado em 2026-08-14 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-6-m%C3%A1quina-%C3%A9-imprensa-e-ao-matheus-8fvsf/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
-  LinkedIn: 14 August 2026
-  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — LinkedIn: 13 de agosto de 2026
 - **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
   LinkedIn: 19 August 2026
   · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026
@@ -78,14 +78,14 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 - **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
   Published 2026-08-12 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-5-well-everyone-drinks-from-matheus-qp1if/)
   · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — publicado em 2026-08-11 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-5-o-po%C3%A7o-de-onde-todos-bebem-matheus-e8ndf/)
+- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
+  Published 2026-08-14 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-6-machine-press-reader-once-matheus-ibpvf/)
+  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — publicado em 2026-08-14 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-6-m%C3%A1quina-%C3%A9-imprensa-e-ao-matheus-8fvsf/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
-  LinkedIn: 14 August 2026
-  · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — LinkedIn: 13 de agosto de 2026
 - **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
   LinkedIn: 19 August 2026
   · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026

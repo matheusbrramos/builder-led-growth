@@ -2,7 +2,7 @@
 Part 06 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/06-relacoes-publicas.md
-Text frozen. Scheduled for LinkedIn on 14 August 2026.
+Published on LinkedIn on 14 August 2026: https://www.linkedin.com/pulse/builder-led-growth-part-6-machine-press-reader-once-matheus-ibpvf/
 Generated from the private working repository. Do not edit here.
 -->
 
