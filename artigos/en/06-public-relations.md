@@ -88,21 +88,11 @@ That is the same condition as the machine, and so the instrument is the same: **
 
 ![Three-column comparison: Customer, Press, Model. The Model column's cells that stack "yes" from the two preceding columns are highlighted in amber, showing the accumulation of roles visually.](../../visuais/parte-06/p6-customer-press-model-en.png)
 
-|  | Customer | Press | Model |
-|---|---|---|---|
-| Consumes and uses what you ship | yes | no | **yes** |
-| Has its own needs to be met | yes | no | **yes** |
-| Reworks what it gets before passing it on | no | yes | **yes** |
-| Reaches third parties on your behalf | no | yes | **yes** |
-| Negotiates terms with you | yes | no | no |
-| You control the output | — | no | no |
-| You control the input | — | yes | yes |
-
 Read the right-hand column top to bottom. It stacks what the other two kept apart.
 
 This has no comfortable precedent. In the history of communication, the reader and the vehicle were never the same entity: whoever read the newspaper did not print the next edition, and the press shop was not the audience. **The machine is the first reader that is also the printing press** — it uses your product to solve someone's problem and, in the same motion, teaches the next one how to use it.
 
-From that comes the practical consequence, and it is the reason this article exists. Serving the machine as a customer and feeding it as a vehicle are different jobs, competing for the same budget and usually sitting at different desks in the company. Looking after the experience alone leaves the input to chance. Looking after the input alone produces excellent material about a product it stalls on at the first attempt. **Two jobs, and neither works on its own.**
+From that comes the practical consequence — the reason this article exists. Serving the machine as a customer and feeding it as a vehicle are different jobs, competing for the same budget and usually sitting at different desks in the company. Looking after the experience alone leaves the input to chance. Looking after the input alone produces excellent material about a product it stalls on at the first attempt. **Two jobs, and neither works on its own.**
 
 And note the last row of the table, the one that offers hope: you do not control the output, but you control the input. That is exactly the condition press relations has always worked in, which is why there is a whole discipline about doing it well.
 
@@ -138,13 +128,7 @@ The skeleton brings along a concept that names this series' central problem: **n
 
 Here is what each element becomes under Builder-Led Growth:
 
-| Element | Before | Now |
-|---|---|---|
-| Sender | the organization | the organization **and** everyone writing about it, machines included |
-| Message | what you say | what survives the blending |
-| Medium | a vehicle that carries and dissipates | a model that absorbs, blends, **retains** and returns |
-| Receiver | a person | **the machine** — and the person behind it |
-| Feedback | returns to the sender | goes to the human; the record stays with whoever runs the model |
+![Table of Schramm's five elements of communication — sender, message, medium, receiver and feedback — with a Before column and a Now column. The Medium and Receiver rows highlighted in amber, because both came to point at the same entity.](../../visuais/parte-06/p6-five-elements-en.png)
 
 Two rows in that table are worth stopping on.
 
@@ -154,7 +138,7 @@ Two rows in that table are worth stopping on.
 
 Now look at product management and count how many things are, at bottom, that feedback. User interviews. Support tickets. Churn analysis. Satisfaction surveys. Continuous discovery. All of them make the same movement — carrying the reply of whoever used it back to whoever built it.
 
-**Feedback breaks in three distinct places, and separating them is worth doing, because each one hurts differently.**
+**Feedback breaks in three distinct places, and each one hurts in its own way.**
 
 **The first: what the agent thinks of your product never reaches you.** It tries, hits an obstacle, does not resolve it, and moves on to something else.
 
@@ -170,13 +154,13 @@ When part 4 dealt with the stops where an agent needs a human, it separated thre
 
 Worth saying what this is: reasoning, not measurement. I know of no study that has quantified that lag. The mechanism is direct enough for me to bet on it, and cheap enough for someone to falsify.
 
-**What you can try. None of these four things actually closes the loop, and I would rather say so than sell a solution.**
+**What you can try. None of these four things actually closes the loop, but each one recovers a piece of what was lost.**
 
 **Build your own bench.** Run an agent against your product at a fixed interval, with real tasks, and measure what happens. It is the only feedback you control entirely. It measures your product, not your user — a serious limitation, and still more than nothing.
 
 **Make the error carry a route back.** A structured error message with a reporting address the agent can show the human. It guarantees nothing, because showing it or not is the agent's decision. It is cheap, and the alternative is silence. I know of no product doing this today, which may mean it does not work or that nobody has tried.
 
-**Ask where the person actually is.** If she sees the result inside her editor and not on your dashboard, the question has to happen there. How to do that without becoming an interruption is an open problem, and I have no answer.
+**Ask where the person actually is.** If she sees the result inside her editor and not on your dashboard, the question has to happen there. How to do that without becoming an interruption is an open problem. I don't know the answer, and I'd like to hear from whoever does.
 
 **Instrument what still passes through you.** Calls, errors by type, abandonment on first attempt. It is poor feedback — you see behaviour without seeing intent — but it is what is left.
 
@@ -195,11 +179,6 @@ That sentence is a functional description of a language model. It receives signs
 Two classical relations between signs cover, one each way, the two failure modes this series described in different parts:
 
 ![Two mirrored diagrams: on the left, one signifier with three arrows pointing to different meanings (polysemy); on the right, three signifiers with arrows converging on one meaning (synonymy). Under each, the corresponding problem from the series.](../../visuais/parte-06/p6-polysemy-synonymy-en.png)
-
-| Relation | What it is | Where the series described it |
-|---|---|---|
-| **Polysemy** | one signifier, competing meanings | the ambiguity of identity in part 3 — the name that points to more than one thing |
-| **Synonymy** | many signifiers, one meaning | the dispersion in part 5 — many incompatible ways to state the same operation |
 
 **An ambiguous name and a scattered corpus are not two subjects: they are the two fundamental relations between sign and meaning, one running each way.** A nineteenth-century discipline had both catalogued and named, and its map covers the whole terrain.
 
@@ -248,19 +227,7 @@ I want to be clear about tone here, because it is easy to slip. This is not a cl
 
 Worth seeing the pairs side by side, because that way the reader checks them one by one instead of accepting the assertion:
 
-| Public relations practice | Today's name |
-|---|---|
-| Brand ambassador | influencer, content creator |
-| Press relations | developer relations, technical content |
-| Trained spokesperson | technical person who represents the product in public |
-| Relations with opinion formers | analyst relations, creator programmes |
-| Monitoring and clipping | social listening — and now, measuring how the machine cites you |
-| Press kit | brand kit, developer kit, `AGENTS.md` |
-| Events and sponsorship | conferences, hackathons, open source sponsorship |
-| Crisis management | incident communication, status page |
-| Communication targeted by public | content segmented by persona |
-| Earned mention, not bought | appearing in the comparison a third party wrote |
-| Community relations | community management |
+![Eleven public relations practices on the left and today's name for each on the right, from brand ambassador to community relations. Footer declaring it is reasoning organised from practice, not a bibliographic survey.](../../visuais/parte-06/p6-same-practice-new-name-en.png)
 
 A match is not an identity, and overstating it here would spoil the argument. Scale, speed and the fact that the intermediary is now a machine change execution on almost every one of those lines. What the table supports is enough: **there is method tested over decades in adverse conditions, and it is available to anyone who thinks the problem is new.**
 
@@ -271,13 +238,6 @@ I should say that this table is organised reasoning, not a literature review. I 
 In 1984, James Grunig and Todd Hunt published *Managing Public Relations* and proposed four models describing how organizations practise the discipline. Four decades on, it remains the field's most-taught framework.
 
 ![Grunig and Hunt's four models as a table, with the symmetrical one highlighted in amber and a column for what the machine receives from each. Visible credit: Grunig & Hunt, 1984.](../../visuais/parte-06/p6-four-models-en.png)
-
-| Model | How it works | Today's equivalent | What the machine receives |
-|---|---|---|---|
-| Press agentry | One-way, persuasive, seeking attention any way it can | Content built to grab attention | Noise — and noise has a context cost |
-| Public information | One-way, accurate, seeking to inform | Documentation, `llms.txt`, structured data | This is the legibility pillar |
-| Two-way asymmetrical | Researches the public in order to persuade better | Classic growth | Only your own copy, better calibrated |
-| **Two-way symmetrical** | Research on both sides, and both can change | An actual community | **Third-party text about you** |
 
 There is a description by Grunig and Hunt of the second model that sat still for decades waiting for this moment: they call its practitioners **"journalists in residence"** — professionals producing accurate information about their own organization, in the format of someone who knows another party will reuse it.
 

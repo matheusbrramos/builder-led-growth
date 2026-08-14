@@ -62,13 +62,7 @@ Uma empresa que estuda desenvolvedores há duas décadas chegou, por conta próp
 
 A pesquisa pergunta o quanto a pessoa confia na precisão do que a ferramenta de IA produz. Os cortes por momento de carreira dizem uma coisa específica:
 
-| Grupo | Confia muito | Confia um pouco | Desconfia um pouco | Desconfia muito |
-|---|---|---|---|---|
-| Todos | 3,1% | 29,6% | 26,1% | 19,6% |
-| Aprendendo a programar | **6,1%** | 31,3% | 24,2% | 19,7% |
-| Início de carreira | 3,0% | 31,1% | 25,7% | 17,5% |
-| Meio de carreira | 2,8% | 30,3% | 26,1% | 19,7% |
-| Experientes | **2,5%** | 28,6% | 26,7% | 20,7% |
+![Tabela de confiança na precisão da IA por momento de carreira, do Stack Overflow Developer Survey 2025. A coluna Confia muito destacada em âmbar em duas linhas: 6,1% entre quem está aprendendo a programar e 2,5% entre experientes.](../../visuais/parte-07/p7-confianca-por-experiencia-pt.png)
 
 Preciso ser exato aqui, porque a leitura fácil é errada. **A desconfiança não cresce muito com a experiência** — vai de 19,6% no geral para 20,7% entre experientes, e essa diferença não sustenta grande conclusão.
 
@@ -132,13 +126,6 @@ Se a palavra técnica atrapalha, a analogia é direta: **é plantar informação
 A parte 6 argumentou que a máquina é imprensa e leitor ao mesmo tempo, e que por isso o repertório de assessoria de imprensa se aplica. Isto é o outro lado da mesma moeda: **é assessoria de imprensa fraudulenta. É escrever o seu release na página de outra pessoa** — e depois esperar que ela seja citada como fonte independente, que é exatamente o que dá peso a ela.
 
 E aqui aparece uma lacuna organizacional que vale nomear. O quarto pilar tem quatro dimensões, e três delas já têm dono:
-
-| Dimensão | A pergunta | Quem responde hoje |
-|---|---|---|
-| Segurança da informação | dá para invadir através disto? | segurança |
-| Confiabilidade do produto | o que está no código faz o que a descrição promete? | engenharia |
-| Conformidade | consigo responder por isto perante um terceiro? | jurídico |
-| **Segurança de marca** | **alguém consegue falar por mim sem que eu saiba?** | **ninguém** |
 
 ![As quatro dimensões da confiança em quadro, com a linha de "segurança de marca" destacada em âmbar e a coluna "quem responde" vazia.](../../visuais/parte-07/p7-quatro-dimensoes-pt.png)
 
@@ -304,12 +291,7 @@ Aqui está a consequência prática para quem constrói produto de terceiro, que
 
 Se o adotante opera assim, ele não vai perguntar se o seu produto é bom. Vai perguntar quatro outras coisas:
 
-| Propriedade | A pergunta |
-|---|---|
-| **Verificável** | dá para checar por máquina que fez o que disse que fez? |
-| **Reversível** | dá para desfazer sem intervenção manual? |
-| **Particionável** | dá para expor a 1% antes de expor a 100%? |
-| **Observável** | dá para detectar que deu errado sem alguém reclamar? |
+![As quatro perguntas que o adotante faz — verificável, reversível, particionável e observável — cada uma com a pergunta que a define. Rodapé declarando que é proposta, e não medida.](../../visuais/parte-07/p7-quatro-propriedades-pt.png)
 
 Nenhuma delas é sobre qualidade de modelo. Todas são sobre desenho do seu produto.
 
@@ -320,12 +302,6 @@ Isso é proposta, e não medida. Não conheço levantamento que tenha testado es
 ## A outra porta: quem assina embaixo
 
 Existe um segundo julgador, com critérios completamente diferentes, e um produto pode passar num e falhar no outro.
-
-| | A máquina | O comprador corporativo |
-|---|---|---|
-| Pergunta | funciona sem que eu precise conferir? | posso responder por isto? |
-| Evidência que aceita | comportamento na execução | documento e certificação |
-| Prazo da decisão | segundos | trimestres |
 
 ![As duas portas da confiança lado a lado, com a pergunta, a evidência aceita e o prazo de cada uma.](../../visuais/parte-07/p7-duas-portas-pt.png)
 
@@ -375,11 +351,6 @@ Então a resposta à pergunta é dupla, e as duas metades apontam para lados opo
 
 ![Dois painéis espelhados: à esquerda, ambiguidade na superfície do produto marcada como defeito a eliminar; à direita, ambiguidade no pedido do usuário marcada como matéria-prima a acomodar. Entre os dois, a linha divisória do que se controla.](../../visuais/parte-07/p7-dois-tipos-ambiguidade-pt.png)
 
-| Onde | O que fazer |
-|---|---|
-| Na sua superfície — nome, descrição, documentação | **eliminar ambiguidade**, porque ali ela é ruído |
-| No pedido que chega e no caminho que a máquina escolhe | **projetar para conviver**, porque ali ela é a matéria-prima |
-
 ### O que "projetar para conviver" quer dizer na prática
 
 Volto à distinção entre instrução e restrição, porque ela é a forma concreta disso.
@@ -398,12 +369,7 @@ Registro que isso é raciocínio meu, construído durante a escrita deste texto,
 
 Este artigo fecha o arco que a parte 1 abriu. Vale ver os quatro juntos uma vez, agora que cada um foi aberto por dentro.
 
-| Pilar | O que pede | O que o derruba |
-|---|---|---|
-| **Legibilidade** | ser lido, entendido e usado sem ambiguidade | nome que aponta para mais de uma coisa |
-| **Acessibilidade** | começar sem parada humana no meio | credencial antes do primeiro uso |
-| **Comunidade** | existir material de terceiro que alimente a recomendação | dispersão sem âncora canônica |
-| **Confiança** | ser verificável e reversível | a competência do modelo, usada contra ele |
+![Os quatro pilares da série — legibilidade, acessibilidade, comunidade e confiança — com o que cada um pede e o que derruba cada um.](../../visuais/parte-07/p7-quatro-pilares-pt.png)
 
 E há uma coisa que só aparece com os quatro na mesa.
 

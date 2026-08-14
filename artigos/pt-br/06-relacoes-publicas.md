@@ -88,21 +88,11 @@ Esse tipo de canal também já é conhecido, e a disciplina que o estuda tem qua
 
 ![Tabela comparativa de três colunas: Cliente, Imprensa, Modelo. Destacar em âmbar as células da coluna Modelo que acumulam "sim" das duas colunas anteriores, mostrando visualmente o acúmulo de papéis.](../../visuais/parte-06/p6-cliente-imprensa-modelo-pt.png)
 
-|  | Cliente | Imprensa | Modelo |
-|---|---|---|---|
-| Consome e usa o que você entrega | sim | não | **sim** |
-| Tem necessidades próprias a atender | sim | não | **sim** |
-| Transforma o que recebe antes de redistribuir | não | sim | **sim** |
-| Alcança terceiros em seu nome | não | sim | **sim** |
-| Negocia condições com você | sim | não | não |
-| Você controla a saída | — | não | não |
-| Você controla o insumo | — | sim | sim |
-
 Olhe a coluna da direita de cima para baixo. Ela acumula o que as outras duas dividiam.
 
 Isso não tem precedente confortável. Na história da comunicação, o leitor e o veículo nunca foram a mesma entidade: quem lia o jornal não imprimia a próxima edição, e a gráfica não era o público. **A máquina é o primeiro leitor que também é a gráfica** — usa o seu produto para resolver o problema de alguém e, no mesmo movimento, ensina o próximo a usá-lo.
 
-Daí sai a consequência prática, e ela é a razão de este artigo existir. Atender a máquina como cliente e alimentá-la como veículo são trabalhos diferentes, que competem pelo mesmo orçamento e costumam ficar em mesas diferentes da empresa. Cuidar só da experiência dela deixa o insumo por conta do acaso. Cuidar só do insumo entrega material excelente sobre um produto em que ela trava na primeira tentativa. **São dois trabalhos, e nenhum dos dois funciona sozinho.**
+Daí sai a consequência prática — a razão de este artigo existir. Atender a máquina como cliente e alimentá-la como veículo são trabalhos diferentes, que competem pelo mesmo orçamento e costumam ficar em mesas diferentes da empresa. Cuidar só da experiência dela deixa o insumo por conta do acaso. Cuidar só do insumo entrega material excelente sobre um produto em que ela trava na primeira tentativa. **São dois trabalhos, e nenhum dos dois funciona sozinho.**
 
 E note a última linha da tabela, que é a que dá esperança: você não controla a saída, mas controla o insumo. É exatamente a condição em que assessoria de imprensa opera desde sempre, e é por isso que existe uma disciplina inteira sobre como fazer isso bem.
 
@@ -138,13 +128,7 @@ O esqueleto traz junto um conceito que dá nome ao problema central desta série
 
 Veja o que cada elemento vira sob Builder-Led Growth:
 
-| Elemento | Antes | Agora |
-|---|---|---|
-| Emissor | a organização | a organização **e** todo mundo que escreve sobre ela, incluindo máquinas |
-| Mensagem | o que você diz | o que sobrevive à mistura |
-| Meio | veículo que transporta e se dissipa | modelo que absorve, mistura, **retém** e devolve |
-| Receptor | pessoa | **a máquina** — e a pessoa atrás dela |
-| Retorno | volta ao emissor | vai para o humano; o registro fica com quem opera o modelo |
+![Tabela dos cinco elementos da comunicação de Schramm — emissor, mensagem, meio, receptor e retorno — com a coluna Antes e a coluna Agora. As linhas Meio e Receptor destacadas em âmbar, porque as duas passaram a apontar para a mesma entidade.](../../visuais/parte-06/p6-cinco-elementos-pt.png)
 
 Duas linhas dessa tabela merecem parar.
 
@@ -154,7 +138,7 @@ Duas linhas dessa tabela merecem parar.
 
 Olhe agora para gestão de produto e conte quantas coisas são, no fundo, esse retorno. Entrevista com usuário. Ticket de suporte. Análise de cancelamento. Pesquisa de satisfação. Descoberta contínua. Todas fazem o mesmo movimento — trazer a resposta de quem usou de volta até quem construiu.
 
-**O retorno quebra em três lugares distintos, e vale separar os três porque cada um dói diferente.**
+**O retorno quebra em três lugares distintos, e cada um dói de um jeito.**
 
 **O primeiro: o que o agente pensa do seu produto não chega até você.** Ele tenta, encontra um obstáculo, não resolve, e segue para outra coisa.
 
@@ -170,13 +154,13 @@ Quando a parte 4 tratou das paradas em que o agente precisa de um humano, ela se
 
 Vale dizer o que isso é: raciocínio, não medição. Não conheço estudo que tenha quantificado esse atraso. O mecanismo é direto o suficiente para eu apostar nele, e barato o suficiente para alguém falsear.
 
-**O que dá para tentar fazer. Nenhuma dessas quatro coisas fecha o laço de verdade, e eu prefiro dizer isso do que vender solução.**
+**O que dá para tentar fazer. Nenhuma dessas quatro coisas fecha o laço de verdade, mas cada uma recupera um pedaço do que se perdeu.**
 
 **Montar a sua própria bancada.** Rodar um agente contra o seu produto em intervalo fixo, com tarefas reais, e medir o que acontece. É o único retorno que você controla inteiramente. Mede o seu produto, não o seu usuário — o que é uma limitação séria e ainda assim é mais do que nada.
 
 **Fazer o erro carregar um caminho de volta.** Mensagem de erro estruturada, com um endereço de relato que o agente possa mostrar ao humano. Não garante nada, porque mostrar ou não é decisão do agente. É barato, e a alternativa é o silêncio. Não conheço nenhum produto fazendo isso hoje, o que pode significar que não funciona ou que ninguém tentou.
 
-**Perguntar no lugar onde a pessoa está.** Se ela vê o resultado dentro do editor dela e não no seu painel, a pergunta precisa acontecer lá. Como fazer isso sem virar interrupção é problema em aberto, e não tenho resposta.
+**Perguntar no lugar onde a pessoa está.** Se ela vê o resultado dentro do editor dela e não no seu painel, a pergunta precisa acontecer lá. Como fazer isso sem virar interrupção é problema em aberto. Não sei a resposta, e gostaria de ouvir quem souber.
 
 **Instrumentar o que ainda passa por você.** Chamadas, erros por tipo, abandono na primeira tentativa. É retorno pobre — você vê comportamento sem enxergar intenção — mas é o que sobrou.
 
@@ -195,11 +179,6 @@ Essa frase é uma descrição funcional de um modelo de linguagem. Ele recebe si
 Duas relações clássicas entre signos cobrem, uma para cada lado, os dois modos de falha que esta série descreveu em partes diferentes:
 
 ![Dois diagramas espelhados: à esquerda, um significante com três setas apontando para significados diferentes (polissemia); à direita, três significantes com setas convergindo para um significado (sinonímia). Abaixo de cada um, a referência ao problema correspondente da série.](../../visuais/parte-06/p6-polissemia-sinonimia-pt.png)
-
-| Relação | O que é | Onde a série descreveu |
-|---|---|---|
-| **Polissemia** | um significante, significados concorrentes | a ambiguidade de identidade da parte 3 — o nome que aponta para mais de uma coisa |
-| **Sinonímia** | significantes diversos, um significado | a dispersão da parte 5 — muitas formas incompatíveis de dizer a mesma operação |
 
 **Nome ambíguo e corpus disperso não são dois assuntos: são as duas relações fundamentais entre signo e sentido, uma em cada direção.** Uma disciplina do século XIX já tinha os dois catalogados e nomeados, e o mapa dela cobre o terreno inteiro.
 
@@ -248,19 +227,7 @@ Quero ser claro sobre o tom aqui, porque é fácil escorregar. Isto não é reiv
 
 Vale ver os pares lado a lado, porque assim o leitor confere um por um em vez de aceitar a afirmação:
 
-| Prática de Relações Públicas | O nome atual |
-|---|---|
-| Embaixador de marca | influenciador, criador de conteúdo |
-| Assessoria de imprensa | relações com desenvolvedores, conteúdo técnico |
-| Porta-voz treinado | pessoa técnica que representa o produto em público |
-| Relações com formadores de opinião | relações com analistas, programas de criador |
-| Monitoramento e clipping | escuta de redes — e agora, medir como a máquina cita você |
-| Kit de imprensa | kit de marca, kit de desenvolvedor, `AGENTS.md` |
-| Eventos e patrocínio | conferência, hackathon, patrocínio de projeto aberto |
-| Gestão de crise | comunicação de incidente, página de estado |
-| Comunicação dirigida por público | conteúdo segmentado por persona |
-| Menção conquistada, não comprada | aparecer no comparativo que um terceiro escreveu |
-| Relações com a comunidade | gestão de comunidade |
+![Onze práticas de Relações Públicas na coluna da esquerda e o nome atual de cada uma na direita, de embaixador de marca a relações com a comunidade. Rodapé declarando que é organização de raciocínio, e não levantamento bibliográfico.](../../visuais/parte-06/p6-mesma-pratica-outro-nome-pt.png)
 
 Correspondência não é identidade, e exagerar aqui estragaria o argumento. Escala, velocidade e o fato de o intermediário ser agora uma máquina mudam a execução em quase todas essas linhas. O que a tabela sustenta é o suficiente: **existe método testado por décadas em condição adversa, e ele está disponível para quem acha que o problema é novo.**
 
@@ -271,13 +238,6 @@ Devo dizer que essa tabela é organização de raciocínio, não levantamento bi
 Em 1984, James Grunig e Todd Hunt publicaram *Managing Public Relations* e propuseram quatro modelos para descrever como as organizações praticam a disciplina. Quatro décadas depois, continua sendo o arcabouço mais ensinado da área.
 
 ![Os quatro modelos de Grunig e Hunt em quadro, com o simétrico destacado em âmbar e uma seta indicando "o que a máquina mais pondera". Crédito visível: Grunig & Hunt, 1984.](../../visuais/parte-06/p6-quatro-modelos-pt.png)
-
-| Modelo | Como funciona | O equivalente hoje | O que a máquina recebe |
-|---|---|---|---|
-| Agência de imprensa | Mão única, persuasiva, busca atenção de qualquer jeito | Conteúdo feito para chamar atenção | Ruído — e ruído tem custo de contexto |
-| Informação pública | Mão única, precisa, busca informar | Documentação, `llms.txt`, dado estruturado | Isto é o pilar de legibilidade |
-| Assimétrico de mão dupla | Pesquisa o público para persuadir melhor | Growth clássico | Só o seu próprio texto, melhor calibrado |
-| **Simétrico de mão dupla** | Pesquisa dos dois lados, e ambos podem mudar | Comunidade de verdade | **Texto de terceiro sobre você** |
 
 Há uma descrição de Grunig e Hunt sobre o segundo modelo que ficou décadas parada esperando este momento: eles chamam quem o pratica de **"jornalistas residentes"** — profissionais que produzem informação precisa sobre a própria organização, no formato de quem sabe que outro vai reaproveitar aquilo.
 

@@ -62,13 +62,7 @@ A company that has studied developers for two decades arrived, on its own, at th
 
 The survey asks how much someone trusts the accuracy of what AI tools produce. The breakdowns by career stage say something specific:
 
-| Group | Highly trust | Somewhat trust | Somewhat distrust | Highly distrust |
-|---|---|---|---|---|
-| All respondents | 3.1% | 29.6% | 26.1% | 19.6% |
-| Learning to code | **6.1%** | 31.3% | 24.2% | 19.7% |
-| Early career | 3.0% | 31.1% | 25.7% | 17.5% |
-| Mid career | 2.8% | 30.3% | 26.1% | 19.7% |
-| Experienced | **2.5%** | 28.6% | 26.7% | 20.7% |
+![Table of trust in AI accuracy by career stage, from the Stack Overflow Developer Survey 2025. The Highly trust column highlighted in amber on two rows: 6.1% among those learning to code and 2.5% among the experienced.](../../visuais/parte-07/p7-trust-by-experience-en.png)
 
 I need to be exact here, because the easy reading is wrong. **Distrust does not grow much with experience** — it goes from 19.6% overall to 20.7% among experienced developers, and that difference does not carry a large conclusion.
 
@@ -132,13 +126,6 @@ If the technical word gets in the way, the analogy is direct: **it is planting f
 Part 6 argued that the machine is press and reader at once, and that the press-relations repertoire therefore applies. This is the other side of that coin: **it is fraudulent press relations. It is writing your release on someone else's page** — and then expecting it to be cited as an independent source, which is exactly what gives it weight.
 
 And here an organisational gap appears that is worth naming. This pillar has four dimensions, and three of them already have an owner:
-
-| Dimension | The question | Who answers today |
-|---|---|---|
-| Information security | can someone break in through this? | security |
-| Product reliability | does the code do what the description promises? | engineering |
-| Compliance | can I answer for this to a third party? | legal |
-| **Brand safety** | **can someone speak for me without my knowing?** | **nobody** |
 
 ![The four dimensions of trust as a table, with the "brand safety" row highlighted in amber and the "who answers" cell empty.](../../visuais/parte-07/p7-four-dimensions-en.png)
 
@@ -304,12 +291,7 @@ Here is the practical consequence for anyone building third-party product, which
 
 If the adopter operates that way, they will not ask whether your product is good. They will ask four other things:
 
-| Property | The question |
-|---|---|
-| **Verifiable** | can a machine check that it did what it said it did? |
-| **Reversible** | can it be undone without manual intervention? |
-| **Partitionable** | can it be exposed to 1% before 100%? |
-| **Observable** | can a failure be detected without someone complaining? |
+![The four questions the adopter asks — verifiable, reversible, partitionable and observable — each with the question that defines it. Footer declaring it is a proposal, not a measurement.](../../visuais/parte-07/p7-four-properties-en.png)
 
 None of them is about model quality. All of them are about your product's design.
 
@@ -320,12 +302,6 @@ This is a proposal, not a measurement. I know of no study that has tested those 
 ## The other door: whoever signs for it
 
 There is a second judge, with entirely different criteria, and a product can pass one and fail the other.
-
-| | The machine | The corporate buyer |
-|---|---|---|
-| Question | does it work without my having to check? | can I answer for this? |
-| Evidence it accepts | behaviour at execution | documents and certification |
-| Decision horizon | seconds | quarters |
 
 ![The two doors of trust side by side, with the question, the evidence accepted and the horizon of each.](../../visuais/parte-07/p7-two-doors-en.png)
 
@@ -375,11 +351,6 @@ So the answer to the question is double, and the two halves point opposite ways:
 
 ![Two mirrored panels: on the left, ambiguity in the product's surface marked as a defect to remove; on the right, ambiguity in the user's request marked as raw material to accommodate. Between them, the dividing line of what you control.](../../visuais/parte-07/p7-two-kinds-ambiguity-en.png)
 
-| Where | What to do |
-|---|---|
-| In your surface — name, description, documentation | **eliminate ambiguity**, because there it is noise |
-| In the request that arrives and the path the machine takes | **design to live with it**, because there it is the raw material |
-
 ### What "design to live with it" means in practice
 
 Back to the distinction between instruction and constraint, because it is the concrete form of this.
@@ -398,12 +369,7 @@ I record that this is my own reasoning, built while writing this text, and not v
 
 This piece closes the arc part 1 opened. Worth seeing the four side by side once, now that each has been opened from the inside.
 
-| Pillar | What it asks for | What brings it down |
-|---|---|---|
-| **Legibility** | being read, understood and used without ambiguity | a name that points to more than one thing |
-| **Accessibility** | starting without a human stop halfway | a credential before first use |
-| **Community** | third-party material existing to feed recommendation | dispersion with no canonical anchor |
-| **Trust** | being verifiable and reversible | the model's competence, turned against it |
+![The four pillars of the series — legibility, accessibility, community and trust — with what each one asks for and what brings each one down.](../../visuais/parte-07/p7-four-pillars-en.png)
 
 And there is something that only appears with all four on the table.
 

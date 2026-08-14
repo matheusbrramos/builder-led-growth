@@ -2,7 +2,7 @@
 Part 05 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/05-comunidade-e-sinal-de-validacao.md
-Text frozen. Scheduled for LinkedIn on 12 August 2026.
+Published on LinkedIn on 12 August 2026: https://www.linkedin.com/pulse/builder-led-growth-part-5-well-everyone-drinks-from-matheus-qp1if/
 Generated from the private working repository. Do not edit here.
 -->
 

@@ -18,7 +18,7 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
   Published 2026-08-07 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/)
   · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — publicado em 2026-08-06 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/)
 - **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
-  LinkedIn: 12 August 2026
+  Published 2026-08-12 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-5-well-everyone-drinks-from-matheus-qp1if/)
   · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — publicado em 2026-08-11 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-5-o-po%C3%A7o-de-onde-todos-bebem-matheus-e8ndf/)
 
 ### Coming next
@@ -76,7 +76,7 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
   Published 2026-08-07 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-4-how-many-times-agent-has-matheus-nmixf/)
   · Português: [Parte 4 — Quantas vezes o agente precisa chamar um humano](artigos/pt-br/04-acessibilidade-operacional.md) — publicado em 2026-08-06 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-4-quantas-vezes-o-agente-um-matheus-ubmwf/)
 - **[Part 5 — The well everyone drinks from](artigos/en/05-community-and-validation-signal.md)** — Pillar 3. Community as the water table, the verified Stack Overflow series, dispersion rather than average, and the concept of a community of record.  
-  LinkedIn: 12 August 2026
+  Published 2026-08-12 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-5-well-everyone-drinks-from-matheus-qp1if/)
   · Português: [Parte 5 — O poço de onde todos bebem](artigos/pt-br/05-comunidade-e-sinal-de-validacao.md) — publicado em 2026-08-11 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-5-o-po%C3%A7o-de-onde-todos-bebem-matheus-e8ndf/)
 
 ### Coming next
