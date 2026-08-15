@@ -6,7 +6,7 @@ Text frozen. No LinkedIn date set yet.
 Generated from the private working repository. Do not edit here.
 -->
 
-# From PLG to BLG: what still holds when the one choosing is a pair
+# From PLG to BLG — what still holds when the one choosing is a pair
 
 *Opens the second arc of this series. It doesn't require having read the first —
 the concepts that matter are picked up again here. The first arc asked what the

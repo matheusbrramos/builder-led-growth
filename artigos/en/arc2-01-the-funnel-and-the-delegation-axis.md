@@ -6,7 +6,7 @@ Text frozen. No LinkedIn date set yet.
 Generated from the private working repository. Do not edit here.
 -->
 
-# The more you delegate, the faster the funnel moves
+# The Builder-Led Growth funnel — the three stages and what makes a product move faster
 
 *Second piece of the second arc of this series. It doesn't require the earlier
 ones. Here the builder's funnel gets the three stages it needed — candidacy,
@@ -454,8 +454,8 @@ would most like to have after this piece.
 
 **Builder-Led Growth series**, by Matheus Ramos. Second arc:
 
-- [Arc 2, part 0 — From PLG to BLG: what still holds when the one choosing is a pair](arc2-00-from-plg-to-blg.md)
-- Arc 2, part 1 — The more you delegate, the faster the funnel moves (this text)
+- [Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](arc2-00-from-plg-to-blg.md)
+- Arc 2, part 1: The Builder-Led Growth funnel — the three stages and what makes a product move faster (this text)
 
 The first arc, for anyone who wants the full route:
 

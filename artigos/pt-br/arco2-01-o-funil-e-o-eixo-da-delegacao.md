@@ -6,7 +6,7 @@ Texto congelado. Data no LinkedIn ainda não definida.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
-# Quanto mais você delega, mais rápido o funil anda
+# O funil do Builder-Led Growth — as três etapas e o que acelera a passagem
 
 *Segunda peça do segundo arco desta série. Não exige as anteriores. Aqui o funil do
 builder ganha as três etapas que ele precisava ter — candidatura, construção e
@@ -457,8 +457,8 @@ mais gostaria de ter depois deste texto.
 
 **Série Builder-Led Growth**, por Matheus Ramos. Segundo arco:
 
-- [Arco 2, parte 0 — Do PLG ao BLG: o que continua valendo quando quem escolhe é um par](arco2-00-do-plg-ao-blg.md)
-- Arco 2, parte 1 — Quanto mais você delega, mais rápido o funil anda (este texto)
+- [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](arco2-00-do-plg-ao-blg.md)
+- Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem (este texto)
 
 O primeiro arco, para quem quiser o percurso completo:
 

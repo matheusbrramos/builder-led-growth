@@ -6,7 +6,7 @@ Texto congelado. Data no LinkedIn ainda não definida.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
-# Do PLG ao BLG: o que continua valendo quando quem escolhe é um par
+# Do PLG ao BLG — o que continua valendo quando quem escolhe é um par
 
 *Abre o segundo arco desta série. Não exige ter lido o primeiro — os conceitos que
 importam são retomados aqui. O primeiro arco perguntava o que a máquina decide; o
