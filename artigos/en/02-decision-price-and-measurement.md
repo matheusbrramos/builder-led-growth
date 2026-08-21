@@ -8,7 +8,7 @@ Generated from the private working repository. Do not edit here.
 
 # Builder-Led Growth, part 2: the decision, the price and what to measure
 
-*Continuation of ["Builder-Led Growth: when the machine is also your customer"](https://www.linkedin.com/pulse/builder-led-growth-when-machine-also-your-customer-matheus-inudf/). Part 1 named the discipline, positioned BLG in the gap between Agent-Led Growth and PLG 3.0/headless, and proposed four pillars. I kept investigating since then, and the picture gained enough detail that I can now state things part 1 could only gesture at.*
+*Continuation of ["Builder-Led Growth: when the machine is also your customer"](01-when-the-machine-is-the-customer.md). Part 1 named the discipline, positioned BLG in the gap between Agent-Led Growth and PLG 3.0/headless, and proposed four pillars. I kept investigating since then, and the picture gained enough detail that I can now state things part 1 could only gesture at.*
 
 I'll start with the number that reorganized how I read the problem.
 
@@ -303,3 +303,17 @@ Back to the opening number. AI adoption at 84%, trust at 29%, high trust at 3%. 
 In part 3 I open the first pillar from the inside: what it means, in practice, to be legible to a machine — from structured data to the API surface, by way of what GEO and AEO cover and what they don't reach.
 
 If any part of this mechanism doesn't match what you observe in practice, that's the kind of response the series needs to move forward.
+
+---
+
+**Builder-Led Growth series — arc 1: the four pillars**
+
+- [Part 1 — When the machine is also your customer](01-when-the-machine-is-the-customer.md)
+- Part 2 — The decision, the price and what to measure (this piece)
+- [Part 3 — The tax the machine charges and the human never sees](03-machine-legibility.md)
+- [Part 4 — How many times the agent has to call a human](04-operational-accessibility.md)
+- [Part 5 — The well everyone drinks from](05-community-and-validation-signal.md)
+- [Part 6 — The machine is press and reader at once](06-public-relations.md)
+- [Part 7 — What makes an agent trust you](07-trust-and-safety.md)
+
+Arc 1 is complete, and this block links to all seven parts. The series continues in arc 2, which does not require arc 1 — each piece there picks up the concepts it uses.

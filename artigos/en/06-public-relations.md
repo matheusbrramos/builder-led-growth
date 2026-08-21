@@ -305,7 +305,7 @@ Part 7 takes on the fourth pillar — model trust and safety. It is the only one
 
 ---
 
-**Builder-Led Growth series**
+**Builder-Led Growth series — arc 1: the four pillars**
 
 - [Part 1 — When the machine is also your customer](01-when-the-machine-is-the-customer.md)
 - [Part 2 — The decision, the price and what to measure](02-decision-price-and-measurement.md)
@@ -313,8 +313,9 @@ Part 7 takes on the fourth pillar — model trust and safety. It is the only one
 - [Part 4 — How many times the agent has to call a human](04-operational-accessibility.md)
 - [Part 5 — The well everyone drinks from](05-community-and-validation-signal.md)
 - Part 6 — The machine is press and reader at once (this piece)
+- [Part 7 — What makes an agent trust you](07-trust-and-safety.md)
 
-The series continues. Each part goes deeper into something the previous one could only point at, and this block is updated as the next ones come out.
+Arc 1 is complete, and this block links to all seven parts. The series continues in arc 2, which does not require arc 1 — each piece there picks up the concepts it uses.
 
 ---
 

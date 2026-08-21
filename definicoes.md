@@ -34,4 +34,4 @@ Decisão assistida por IA: a pessoa escolhe entre opções que a máquina reuniu
 
 ## decisão delegada
 
-Decisão delegada: a pessoa aceita ou recusa um resultado que a máquina já.
+Decisão delegada: a pessoa aceita ou recusa um resultado que a máquina já construiu.

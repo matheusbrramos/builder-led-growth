@@ -2,7 +2,7 @@
 Part 07 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/07-confianca-e-seguranca.md
-Text frozen. Scheduled for LinkedIn on 19 August 2026.
+Published on LinkedIn on 19 August 2026: https://www.linkedin.com/pulse/builder-led-growth-part-7-what-makes-agent-trust-you-matheus-qf7pf/
 Generated from the private working repository. Do not edit here.
 -->
 
@@ -402,6 +402,8 @@ This text closes the first arc of the series — the four pillars, proposed in p
 - [Part 5 — The well everyone drinks from](05-community-and-validation-signal.md)
 - [Part 6 — The machine is press and reader at once](06-public-relations.md)
 - Part 7 — What makes an agent trust you (this piece)
+
+Arc 1 is complete, and this block links to all seven parts. The series continues in arc 2, which does not require arc 1 — each piece there picks up the concepts it uses.
 
 ---
 

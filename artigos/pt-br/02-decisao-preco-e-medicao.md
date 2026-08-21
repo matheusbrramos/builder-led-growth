@@ -8,7 +8,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 # Builder-Led Growth, parte 2: a decisão, o preço e o que medir
 
-*Continuação de ["Builder-Led Growth: quando a máquina também é seu cliente"](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c). A parte 1 nomeou a disciplina, posicionou o BLG no vão entre Agent-Led Growth e PLG 3.0/headless, e propôs quatro pilares. Continuei investigando desde então, e o quadro ficou consideravelmente mais rico — a ponto de eu conseguir agora dizer coisas que na parte 1 eu só conseguia sugerir.*
+*Continuação de ["Builder-Led Growth: quando a máquina também é seu cliente"](01-quando-a-maquina-e-cliente.md). A parte 1 nomeou a disciplina, posicionou o BLG no vão entre Agent-Led Growth e PLG 3.0/headless, e propôs quatro pilares. Continuei investigando desde então, e o quadro ficou consideravelmente mais rico — a ponto de eu conseguir agora dizer coisas que na parte 1 eu só conseguia sugerir.*
 
 Começo com o número que reorganizou minha leitura do problema.
 
@@ -303,3 +303,17 @@ Volto ao número da abertura. Adoção de IA em 84%, confiança em 29%, confian�
 Na parte 3 eu abro o primeiro pilar por dentro: o que significa, na prática, ser legível para uma máquina — dos dados estruturados à superfície de API, passando pelo que GEO e AEO cobrem e pelo que eles não alcançam.
 
 Se alguma parte deste mecanismo não bate com o que você observa na prática, é esse tipo de resposta que torna a série melhor.
+
+---
+
+**Série Builder-Led Growth — arco 1: os quatro pilares**
+
+- [Parte 1 — Quando a máquina também é seu cliente](01-quando-a-maquina-e-cliente.md)
+- Parte 2 — A decisão, o preço e o que medir (este texto)
+- [Parte 3 — O imposto que a máquina cobra e o humano não vê](03-legibilidade-por-maquina.md)
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
+- [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
+- [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](06-relacoes-publicas.md)
+- [Parte 7 — O que faz o agente confiar](07-confianca-e-seguranca.md)
+
+O arco 1 está completo, e este bloco leva às sete partes. A série continua no arco 2, que não exige o arco 1 — cada peça de lá retoma os conceitos que usa.

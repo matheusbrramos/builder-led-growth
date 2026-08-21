@@ -59,27 +59,45 @@ ANCORAS = [
     # redacao identica em toda peca que use os termos. Sem ancora, a segunda
     # ocorrencia deriva sozinha e o proprio texto produz a polissemia que a serie
     # descreve como defeito.
-    # [\s>]+ entre as palavras, e nao espaco literal. O bloco de citacao ocupa tres
-    # ou quatro linhas conforme a lingua, e a quebra cai onde a largura manda —
-    # entao a ancora nao pode depender de onde ela caiu. Reescrever o texto
+    # A ancora NAO pode depender de onde a quebra de linha caiu: o bloco de
+    # citacao ocupa tres ou quatro linhas conforme a lingua. Reescrever o texto
     # deslocou a quebra do ingles em 11 de agosto de 2026 e a ancora "sumiu",
-    # com o portao acusando dispersao onde a frase estava intacta. Achado falso
-    # custa tanto quanto achado perdido.
+    # com o portao acusando dispersao onde a frase estava intacta.
+    #
+    # A cura de entao foi casar [\s>]+ entre as palavras, e ela criou um defeito
+    # pior, achado em 21 de agosto de 2026: o ">" entrava na CAPTURA, e a captura
+    # e o que o publicar.py grava como definicao canonica. O publico leia
+    # "the machine has > already" no arquivo que manda o modelo citar dali. As
+    # duas ancoras do par tambem paravam antes do verbo — "que a maquina ja",
+    # sem "construiu".
+    #
+    # Agora quem resolve a quebra e sem_citacao(), que tira o "> " ANTES de casar.
+    # A regex volta a \s+ e a captura sai limpa.
     ("decisão assistida", "pt",
-     r"(Decisão[\s>]+assistida[\s>]+por[\s>]+IA:[\s>]+a[\s>]+pessoa[\s>]+escolhe[\s>]+entre[\s>]+opções[\s>]+que[\s>]+a[\s>]+máquina[\s>]+reuniu)"),
+     r"(Decisão\s+assistida\s+por\s+IA:\s+a\s+pessoa\s+escolhe\s+entre\s+opções\s+que\s+a\s+máquina\s+reuniu)"),
     ("decisão delegada", "pt",
-     r"(Decisão[\s>]+delegada:[\s>]+a[\s>]+pessoa[\s>]+aceita[\s>]+ou[\s>]+recusa[\s>]+um[\s>]+resultado[\s>]+que[\s>]+a[\s>]+máquina[\s>]+já)"),
+     r"(Decisão\s+delegada:\s+a\s+pessoa\s+aceita\s+ou\s+recusa\s+um\s+resultado\s+que\s+a\s+máquina\s+já\s+construiu)"),
     ("assisted decision", "en",
-     r"(AI-assisted[\s>]+decision:[\s>]+the[\s>]+person[\s>]+chooses[\s>]+among[\s>]+options[\s>]+the[\s>]+machine[\s>]+assembled)"),
+     r"(AI-assisted\s+decision:\s+the\s+person\s+chooses\s+among\s+options\s+the\s+machine\s+assembled)"),
     ("delegated decision", "en",
-     r"(Delegated[\s>]+decision:[\s>]+the[\s>]+person[\s>]+accepts[\s>]+or[\s>]+rejects[\s>]+a[\s>]+result[\s>]+the[\s>]+machine[\s>]+has[\s>]+already)"),
+     r"(Delegated\s+decision:\s+the\s+person\s+accepts\s+or\s+rejects\s+a\s+result\s+the\s+machine\s+has\s+already\s+built)"),
 ]
 
 DIRS = {"pt": "artigos/pt-br/*.md", "en": "artigos/en/*.md"}
 
 
+def sem_citacao(t):
+    """Tira o "> " que abre cada linha de bloco de citacao, preservando a linha.
+
+    A definicao cunhada no arco 2 vive dentro de um blockquote de markdown, e o
+    marcador de continuacao nao e parte da frase. Quem casa a ancora precisa ver
+    a frase; quem grava a definicao canonica precisa gravar a frase.
+    """
+    return re.sub(r"(?m)^[ 	]*>[ 	]?", "", t)
+
+
 def sem_comentarios(t):
-    return re.sub(r"<!--.*?-->", "", t, flags=re.S)
+    return sem_citacao(re.sub(r"<!--.*?-->", "", t, flags=re.S))
 
 
 def primeira_sentenca(t):

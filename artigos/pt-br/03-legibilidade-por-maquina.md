@@ -8,7 +8,7 @@ Gerado a partir do repositório privado de trabalho. Não editar aqui.
 
 # Builder-Led Growth, parte 3: o imposto que a máquina cobra e o humano não vê
 
-*Terceira parte da série sobre Builder-Led Growth. A [parte 1](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c) nomeou a disciplina e propôs quatro pilares. A [parte 2](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/) abriu o mecanismo da decisão, o papel do preço e o que medir. Esta abre o primeiro pilar por dentro — e ele acabou sendo sobre uma variável que eu não tinha visto quando escrevi os dois textos anteriores.*
+*Terceira parte da série sobre Builder-Led Growth. A [parte 1](01-quando-a-maquina-e-cliente.md) nomeou a disciplina e propôs quatro pilares. A [parte 2](02-decisao-preco-e-medicao.md) abriu o mecanismo da decisão, o papel do preço e o que medir. Esta abre o primeiro pilar por dentro — e ele acabou sendo sobre uma variável que eu não tinha visto quando escrevi os dois textos anteriores.*
 
 Antes de entrar no primeiro pilar, vale recolocar os quatro na mesa. São semanas entre um artigo e outro, e quem chega por este texto não precisa ler os anteriores para acompanhar.
 
@@ -415,10 +415,14 @@ Se alguma parte deste mecanismo não bate com o que você observa na prática, �
 
 ---
 
-**Série Builder-Led Growth**
+**Série Builder-Led Growth — arco 1: os quatro pilares**
 
-- [Parte 1 — Quando a máquina também é seu cliente](https://www.linkedin.com/pulse/builder-lead-growth-matheus-batista-ribeiro-ramos-mde2c)
-- [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
+- [Parte 1 — Quando a máquina também é seu cliente](01-quando-a-maquina-e-cliente.md)
+- [Parte 2 — A decisão, o preço e o que medir](02-decisao-preco-e-medicao.md)
 - Parte 3 — O imposto que a máquina cobra e o humano não vê (este texto)
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
+- [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
+- [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](06-relacoes-publicas.md)
+- [Parte 7 — O que faz o agente confiar](07-confianca-e-seguranca.md)
 
-A série continua. Cada parte aprofunda um pedaço do que a anterior só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.
+O arco 1 está completo, e este bloco leva às sete partes. A série continua no arco 2, que não exige o arco 1 — cada peça de lá retoma os conceitos que usa.

@@ -2,7 +2,7 @@
 Parte 07 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/07-trust-and-safety.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 18 de agosto de 2026.
+Publicada no LinkedIn em 18 de agosto de 2026: https://www.linkedin.com/pulse/builder-led-growth-parte-7-o-que-faz-agente-confiar-e-matheus-kjaof/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
@@ -402,6 +402,8 @@ Este texto fecha o primeiro arco da série — os quatro pilares, propostos na p
 - [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
 - [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](06-relacoes-publicas.md)
 - Parte 7 — O que faz o agente confiar (este texto)
+
+O arco 1 está completo, e este bloco leva às sete partes. A série continua no arco 2, que não exige o arco 1 — cada peça de lá retoma os conceitos que usa.
 
 ---
 

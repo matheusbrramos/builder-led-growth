@@ -139,9 +139,14 @@ Fechando sem soar como quem tem a resposta pronta — porque não tenho — aqui
 
 ---
 
-**Série Builder-Led Growth**
+**Série Builder-Led Growth — arco 1: os quatro pilares**
 
 - Parte 1 — Quando a máquina também é seu cliente (este texto)
-- [Parte 2 — A decisão, o preço e o que medir](https://www.linkedin.com/pulse/builder-led-growth-parte-2-decis%C3%A3o-o-pre%C3%A7o-e-que-matheus-nqnuf/)
+- [Parte 2 — A decisão, o preço e o que medir](02-decisao-preco-e-medicao.md)
+- [Parte 3 — O imposto que a máquina cobra e o humano não vê](03-legibilidade-por-maquina.md)
+- [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
+- [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
+- [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](06-relacoes-publicas.md)
+- [Parte 7 — O que faz o agente confiar](07-confianca-e-seguranca.md)
 
-A série continua. Cada parte aprofunda um pedaço do que este texto só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.
+O arco 1 está completo, e este bloco leva às sete partes. A série continua no arco 2, que não exige o arco 1 — cada peça de lá retoma os conceitos que usa.

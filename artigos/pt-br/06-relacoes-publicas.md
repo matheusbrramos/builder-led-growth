@@ -305,7 +305,7 @@ Na parte 7 entra o quarto pilar — confiança e segurança do modelo. É o úni
 
 ---
 
-**Série Builder-Led Growth**
+**Série Builder-Led Growth — arco 1: os quatro pilares**
 
 - [Parte 1 — Quando a máquina também é seu cliente](01-quando-a-maquina-e-cliente.md)
 - [Parte 2 — A decisão, o preço e o que medir](02-decisao-preco-e-medicao.md)
@@ -313,8 +313,9 @@ Na parte 7 entra o quarto pilar — confiança e segurança do modelo. É o úni
 - [Parte 4 — Quantas vezes o agente precisa chamar um humano](04-acessibilidade-operacional.md)
 - [Parte 5 — O poço de onde todos bebem](05-comunidade-e-sinal-de-validacao.md)
 - Parte 6 — A máquina é imprensa e leitor ao mesmo tempo (este texto)
+- [Parte 7 — O que faz o agente confiar](07-confianca-e-seguranca.md)
 
-A série continua. Cada parte aprofunda um pedaço do que a anterior só conseguiu apontar, e este bloco é atualizado conforme as próximas saem.
+O arco 1 está completo, e este bloco leva às sete partes. A série continua no arco 2, que não exige o arco 1 — cada peça de lá retoma os conceitos que usa.
 
 ---
 

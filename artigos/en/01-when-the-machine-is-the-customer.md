@@ -139,9 +139,14 @@ Closing without pretending to have the finished answer — because I don't — h
 
 ---
 
-**The Builder-Led Growth series**
+**Builder-Led Growth series — arc 1: the four pillars**
 
 - Part 1 — When the machine is also your customer (this piece)
-- [Part 2 — The decision, the price and what to measure](https://www.linkedin.com/pulse/builder-led-growth-part-2-decision-price-what-measure-matheus-0ahff/)
+- [Part 2 — The decision, the price and what to measure](02-decision-price-and-measurement.md)
+- [Part 3 — The tax the machine charges and the human never sees](03-machine-legibility.md)
+- [Part 4 — How many times the agent has to call a human](04-operational-accessibility.md)
+- [Part 5 — The well everyone drinks from](05-community-and-validation-signal.md)
+- [Part 6 — The machine is press and reader at once](06-public-relations.md)
+- [Part 7 — What makes an agent trust you](07-trust-and-safety.md)
 
-The series continues. Each part goes deeper into something this piece could only point at, and this block is updated as the next ones come out.
+Arc 1 is complete, and this block links to all seven parts. The series continues in arc 2, which does not require arc 1 — each piece there picks up the concepts it uses.

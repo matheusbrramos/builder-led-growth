@@ -23,14 +23,14 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
 - **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
   Published 2026-08-14 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-6-machine-press-reader-once-matheus-ibpvf/)
   · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — publicado em 2026-08-14 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-6-m%C3%A1quina-%C3%A9-imprensa-e-ao-matheus-8fvsf/)
+- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
+  Published 2026-08-19 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-7-what-makes-agent-trust-you-matheus-qf7pf/)
+  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — publicado em 2026-08-18 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-7-o-que-faz-agente-confiar-e-matheus-kjaof/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
-  LinkedIn: 19 August 2026
-  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
   LinkedIn: not scheduled yet
   · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: sem data definida
@@ -81,14 +81,14 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 - **[Part 6 — The machine is press and reader at once](artigos/en/06-public-relations.md)** — Public relations applied to BLG. The machine stacks the roles of medium and receiver, which is why Schramm's feedback loop breaks. Polysemy and synonymy name the two failure modes of parts 3 and 5. Grunig and Hunt's symmetrical model gains the economic argument it always lacked.  
   Published 2026-08-14 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-6-machine-press-reader-once-matheus-ibpvf/)
   · Português: [Parte 6 — A máquina é imprensa e leitor ao mesmo tempo](artigos/pt-br/06-relacoes-publicas.md) — publicado em 2026-08-14 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-6-m%C3%A1quina-%C3%A9-imprensa-e-ao-matheus-8fvsf/)
+- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
+  Published 2026-08-19 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-7-what-makes-agent-trust-you-matheus-qf7pf/)
+  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — publicado em 2026-08-18 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-7-o-que-faz-agente-confiar-e-matheus-kjaof/)
 
 ### Coming next
 
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
-- **[Part 7 — What makes an agent trust you, and why its competence is the problem](artigos/en/07-trust-and-safety.md)** — Pillar 4, closing arc 1. The input is the attack surface: instruction-following competence and vulnerability to poisoned descriptions are one property. The deterministic-rule / probabilistic-executor mismatch. Verifiable and reversible as the pillar definition. Two kinds of ambiguity, asking opposite things.  
-  LinkedIn: 19 August 2026
-  · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — LinkedIn: 18 de agosto de 2026
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
   LinkedIn: not scheduled yet
   · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: sem data definida
