@@ -32,11 +32,11 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
-  LinkedIn: not scheduled yet
-  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: sem data definida
+  LinkedIn: 26 August 2026
+  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 25 de agosto de 2026
 - **[Arc 2, part 1: The Builder-Led Growth funnel — the three stages and what makes a product move faster](artigos/en/arc2-01-the-funnel-and-the-delegation-axis.md)** — Details the three stages of the pair's funnel — candidacy, construction and adoption — by the cost of removing the product at each one, and treats recommendation as a force acting inside candidacy rather than a stage of its own. Four surveys agree that what gets delegated today is assembling the shortlist, not choosing within it. Coins the pair assisted decision / delegated decision, shows a retriever moving learned depth from 1.4 to 7.4 candidates over the same benchmark data, and separates the vendor's funnel speed from the builder's productivity.  
-  LinkedIn: not scheduled yet
-  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: sem data definida`,
+  LinkedIn: 28 August 2026
+  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 27 de agosto de 2026`,
 partindo o marcador em dois. O publicar.py procura a string exata, deixou de
 achar, e o README publico ficou SEM O INDICE DA SERIE por uma tarde inteira --
 na pagina que e a porta de entrada do repositorio publico.
@@ -90,11 +90,11 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
-  LinkedIn: not scheduled yet
-  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: sem data definida
+  LinkedIn: 26 August 2026
+  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 25 de agosto de 2026
 - **[Arc 2, part 1: The Builder-Led Growth funnel — the three stages and what makes a product move faster](artigos/en/arc2-01-the-funnel-and-the-delegation-axis.md)** — Details the three stages of the pair's funnel — candidacy, construction and adoption — by the cost of removing the product at each one, and treats recommendation as a force acting inside candidacy rather than a stage of its own. Four surveys agree that what gets delegated today is assembling the shortlist, not choosing within it. Coins the pair assisted decision / delegated decision, shows a retriever moving learned depth from 1.4 to 7.4 candidates over the same benchmark data, and separates the vendor's funnel speed from the builder's productivity.  
-  LinkedIn: not scheduled yet
-  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: sem data definida
+  LinkedIn: 28 August 2026
+  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 27 de agosto de 2026
 
 Each article exists as two full versions, English and Brazilian Portuguese, edited
 independently rather than translated. **The English version is canonical**: where

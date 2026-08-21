@@ -2,7 +2,7 @@
 Arc 2, part 0 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-00-do-plg-ao-blg.md
-Text frozen. No LinkedIn date set yet.
+Text frozen. Scheduled for LinkedIn on 26 August 2026.
 Generated from the private working repository. Do not edit here.
 -->
 
