@@ -65,7 +65,7 @@ ANCORAS = [
     # com o portao acusando dispersao onde a frase estava intacta.
     #
     # A cura de entao foi casar [\s>]+ entre as palavras, e ela criou um defeito
-    # pior, achado em 21 de agosto de 2026: o ">" entrava na CAPTURA, e a captura
+    # pior, achado em 24 de agosto de 2026: o ">" entrava na CAPTURA, e a captura
     # e o que o publicar.py grava como definicao canonica. O publico leia
     # "the machine has > already" no arquivo que manda o modelo citar dali. As
     # duas ancoras do par tambem paravam antes do verbo — "que a maquina ja",
