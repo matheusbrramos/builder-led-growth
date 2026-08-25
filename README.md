@@ -38,8 +38,8 @@ Written and final. Scheduled for LinkedIn on the dates below; the text here does
   LinkedIn: 28 August 2026
   · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 27 de agosto de 2026
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
-  LinkedIn: not scheduled yet
-  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — LinkedIn: sem data definida`,
+  LinkedIn: 2 September 2026
+  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — LinkedIn: 1 de setembro de 2026`,
 partindo o marcador em dois. O publicar.py procura a string exata, deixou de
 achar, e o README publico ficou SEM O INDICE DA SERIE por uma tarde inteira --
 na pagina que e a porta de entrada do repositorio publico.
@@ -99,8 +99,8 @@ Written and final. Scheduled for LinkedIn on the dates below; the text here does
   LinkedIn: 28 August 2026
   · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 27 de agosto de 2026
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
-  LinkedIn: not scheduled yet
-  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — LinkedIn: sem data definida
+  LinkedIn: 2 September 2026
+  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — LinkedIn: 1 de setembro de 2026
 
 Each article exists as two full versions, English and Brazilian Portuguese, edited
 independently rather than translated. **The English version is canonical**: where
