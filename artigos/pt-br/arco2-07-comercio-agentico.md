@@ -1,6 +1,6 @@
 <!--
 Arco 2, parte 7 da série Builder-Led Growth, por Matheus Ramos.
-A canônica desta série é a inglesa, e esta peça AINDA NÃO TEM versão em inglês — ela não está em outro lugar do repositório.
+VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-07-agentic-commerce.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
 Texto congelado. Data no LinkedIn ainda não definida.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
