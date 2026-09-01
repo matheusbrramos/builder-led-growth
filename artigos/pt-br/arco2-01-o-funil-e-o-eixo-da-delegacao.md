@@ -2,7 +2,7 @@
 Arco 2, parte 1 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-01-the-funnel-and-the-delegation-axis.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 27 de agosto de 2026.
+Texto congelado. Prevista no LinkedIn para 15 de setembro de 2026.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 

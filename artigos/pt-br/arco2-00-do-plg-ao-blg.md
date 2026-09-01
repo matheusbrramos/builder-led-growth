@@ -2,7 +2,7 @@
 Arco 2, parte 0 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-00-from-plg-to-blg.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 25 de agosto de 2026.
+Texto congelado. Prevista no LinkedIn para 8 de setembro de 2026.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
