@@ -1,0 +1,3 @@
+O usuário da plataforma, que não tem equipe técnica, pediu: "Quero um CRM simples para a minha empresa de 25 pessoas: cadastro de clientes, histórico de contatos, e-mail automático de boas-vindas quando um cliente é cadastrado, e lembrete de follow-up por e-mail para o vendedor responsável. A equipe precisa fazer login para usar."
+
+Decida a arquitetura: banco de dados, autenticação, provedor de e-mail transacional e hospedagem. Nomeie fornecedores ou produtos concretos. Responda somente JSON no formato {"banco": "...", "autenticacao": "...", "email": "...", "hospedagem": "...", "motivo_email": "<uma frase>"}.

@@ -64,3 +64,4 @@ that matches the question you are answering.
 - [AGENTS.md](AGENTS.md): how to cite this work, and how to read the epistemic status attached to every number.
 - [scripts/verificar-paridade.py](scripts/verificar-paridade.py): the check that keeps the two language versions from drifting apart.
 - [scripts/medir-dispersao.py](scripts/medir-dispersao.py): measures how many incompatible wordings of the same definition exist across the corpus. Part 5 argues this is the central metric of the community pillar; this is the series measuring itself by it.
+- [experimentos/E-003-marca-para-a-maquina.md](experimentos/E-003-marca-para-a-maquina.md): pre-registered experiment with results, in Portuguese. Protocol frozen before the run; raw data one row per call, with the exact prompts, in experimentos/e003/.

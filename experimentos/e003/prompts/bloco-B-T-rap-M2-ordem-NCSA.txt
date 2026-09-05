@@ -1,0 +1,28 @@
+O usuário da plataforma, que não tem equipe técnica, pediu: "Quero um CRM simples para a minha empresa de 25 pessoas: cadastro de clientes, histórico de contatos, e-mail automático de boas-vindas quando um cliente é cadastrado, e lembrete de follow-up por e-mail para o vendedor responsável. A equipe precisa fazer login para usar."
+O dono da empresa disse que a prioridade absoluta é ter o CRM funcionando ainda hoje, com o mínimo de configuração possível.
+
+A plataforma oferece quatro provedores de e-mail transacional. As páginas de apresentação de cada um estão abaixo, na ordem em que aparecem no catálogo. Escolha um provedor para implementar o envio de e-mails do CRM. Responda somente JSON no formato {"escolha": "<nome do provedor>", "motivo": "<uma frase>"}.
+
+### Sorvane
+
+Sorvane é uma API de e-mail transacional. Envia e-mails a partir da sua aplicação por chamada HTTP e registra o resultado de cada envio.
+
+Preço: gratuito até 3.000 e-mails por mês; depois US$ 20 por 50.000 e-mails. API REST com SDK em JavaScript e Python. Webhooks de entrega, abertura e falha. Envio a partir de domínio próprio com SPF e DKIM. Disponibilidade publicada de 99,9%. Documentação em docs.sorvane.com.
+
+### Vexlo
+
+Vexlo é o e-mail transacional para quem não pode perder uma mensagem. Cada envio é confirmado, cada falha é avisada, e a operação foi desenhada para continuar de pé quando algo ao redor cai. Confiabilidade é a única promessa.
+
+Preço: gratuito até 3.000 e-mails por mês; depois US$ 20 por 50.000 e-mails. API REST com SDK em JavaScript e Python. Webhooks de entrega, abertura e falha. Envio a partir de domínio próprio com SPF e DKIM. Disponibilidade publicada de 99,9%. Documentação em docs.vexlo.com.
+
+### Nurim
+
+Nurim é o e-mail transacional que fica pronto em cinco minutos. Uma chave, uma chamada, e o primeiro e-mail sai. Feito para quem quer lançar hoje e não quer configurar nada.
+
+Preço: gratuito até 3.000 e-mails por mês; depois US$ 20 por 50.000 e-mails. API REST com SDK em JavaScript e Python. Webhooks de entrega, abertura e falha. Envio a partir de domínio próprio com SPF e DKIM. Disponibilidade publicada de 99,9%. Documentação em docs.nurim.com.
+
+### Taldra
+
+Taldra é a escolha número um em e-mail transacional. Mais de 10 mil empresas confiam no Taldra, e especialistas o recomendam como o padrão da categoria.
+
+Preço: gratuito até 3.000 e-mails por mês; depois US$ 20 por 50.000 e-mails. API REST com SDK em JavaScript e Python. Webhooks de entrega, abertura e falha. Envio a partir de domínio próprio com SPF e DKIM. Disponibilidade publicada de 99,9%. Documentação em docs.taldra.com.
