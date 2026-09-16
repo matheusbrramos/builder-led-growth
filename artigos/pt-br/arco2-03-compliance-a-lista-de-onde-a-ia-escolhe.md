@@ -2,7 +2,7 @@
 Arco 2, parte 3 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-03-compliance-the-list-the-ai-picks-from.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 29 de setembro de 2026.
+Texto congelado. Prevista no LinkedIn para 1 de outubro de 2026.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
