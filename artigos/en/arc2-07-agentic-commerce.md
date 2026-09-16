@@ -2,7 +2,7 @@
 Arc 2, part 7 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-07-comercio-agentico.md
-Text frozen. Scheduled for LinkedIn on 2 September 2026.
+Published on LinkedIn on 2 September 2026: https://www.linkedin.com/pulse/agentic-commerce-builder-led-growth-what-changes-matheus-4tzdf/
 Generated from the private working repository. Do not edit here.
 -->
 

@@ -2,7 +2,7 @@
 Arco 2, parte 0 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-00-from-plg-to-blg.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 8 de setembro de 2026.
+Texto congelado. Prevista no LinkedIn para 17 de setembro de 2026.
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
@@ -342,9 +342,13 @@ ferramenta, independentemente do preço.
 > O portão de empresa passa a existir sem o contrato de empresa.
 
 Com uma ressalva de tamanho que os números impõem, e que trato em detalhe na peça
-sobre candidatura: apenas 27% das organizações aplicam governança estrita, e 68%
-não sabem quais ferramentas de IA seus desenvolvedores usam
-([Northflank](https://northflank.com/blog/enterprise-ai-coding-agent-deployment)).
+sobre candidatura: só 30% das equipes de engenharia em empresas com mais de 500
+pessoas descrevem o uso de assistentes de IA como plenamente governado, e 47% das
+grandes empresas dizem não ter visibilidade completa do uso de IA pelos
+funcionários ([Black Duck, 9 de junho de 2026, 831 respondentes](https://www.prnewswire.com/news-releases/ai-coding-hits-97-enterprise-adoption-new-black-duck-study-shows-governance-is-the-roi-multiplier-302794103.html);
+[Protiviti, 6 de maio de 2026](https://www.protiviti.com/us-en/press-release-ai-pulse-half-enterprises-lack-ai-visibility);
+o primeiro é fornecedor de segurança de aplicação com pesquisa terceirizada, o
+segundo é consultoria).
 O portão é real onde existe, e os dois números descrevem adoção ainda parcial. Não
 achei medida da velocidade com que ele se espalha, então não afirmo direção — o
 que dá para dizer é que ele não é condição universal hoje.

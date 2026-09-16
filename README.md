@@ -27,7 +27,7 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
   Published 2026-08-19 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-7-what-makes-agent-trust-you-matheus-qf7pf/)
   · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — publicado em 2026-08-18 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-7-o-que-faz-agente-confiar-e-matheus-kjaof/)
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
-  LinkedIn: 2 September 2026
+  Published 2026-09-02 · [read on LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-builder-led-growth-what-changes-matheus-4tzdf/)
   · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — publicado em 2026-09-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-e-builder-led-growth-o-que-muda-para-matheus-nrezf/)
 
 ### Coming next
@@ -35,14 +35,17 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
-  LinkedIn: 9 September 2026
-  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 8 de setembro de 2026
+  LinkedIn: 18 September 2026
+  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 17 de setembro de 2026
 - **[Arc 2, part 1: The Builder-Led Growth funnel — the three stages and what makes a product move faster](artigos/en/arc2-01-the-funnel-and-the-delegation-axis.md)** — Details the three stages of the pair's funnel — candidacy, construction and adoption — by the cost of removing the product at each one, and treats recommendation as a force acting inside candidacy rather than a stage of its own. Four surveys agree that what gets delegated today is assembling the shortlist, not choosing within it. Coins the pair assisted decision / delegated decision, shows a retriever moving learned depth from 1.4 to 7.4 candidates over the same benchmark data, and separates the vendor's funnel speed from the builder's productivity.  
-  LinkedIn: 16 September 2026
-  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 15 de setembro de 2026
+  LinkedIn: 25 September 2026
+  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 24 de setembro de 2026
 - **[Arc 2, part 2: Candidacy in Builder-Led Growth — how to get picked by an AI beyond GEO](artigos/en/arc2-02-candidacy-beyond-geo.md)** — Candidacy is being in the set the machine draws its options from, and nobody at the company that builds its own CRM asks for the vendor. Defines SEO, AEO and GEO with credit and shows the third logic: the reader is the pair that builds, the metric is incorporation. Three doors into the set — corpus, search, platform — each with its own clock; seven platforms read on 1 September 2026, seven product sites read on 2 September; and a pre-registered experiment where the brand text moved a coding agent's choice from zero to everything with one sentence, while authority without proof never won.  
   LinkedIn: 23 September 2026
-  · Português: [Arco 2, parte 2: Candidatura no Builder-Led Growth — como ser escolhido por uma IA para além do GEO](artigos/pt-br/arco2-02-candidatura-para-alem-do-geo.md) — LinkedIn: 22 de setembro de 2026`,
+  · Português: [Arco 2, parte 2: Candidatura no Builder-Led Growth — como ser escolhido por uma IA para além do GEO](artigos/pt-br/arco2-02-candidatura-para-alem-do-geo.md) — LinkedIn: 22 de setembro de 2026
+- **[Arc 2, part 3: Compliance in Builder-Led Growth — how to get on the list the AI is allowed to pick from](artigos/en/arc2-03-compliance-the-list-the-ai-picks-from.md)** — The second half of candidacy: how a product gets cut from the set before the AI chooses. Three cutters — a person with a list, a standard with a process, and the product's own past in the corpus. Two lists, and the procurement list feeding the agent's list. ISO 42001 read by machine, and a named buyer requiring it. The compliance gate as a machine reading the vendor's audit report, and the age of the rule deciding which argument works.  
+  LinkedIn: 30 September 2026
+  · Português: [Arco 2, parte 3: Compliance no Builder-Led Growth — como entrar na lista de onde a IA pode escolher](artigos/pt-br/arco2-03-compliance-a-lista-de-onde-a-ia-escolhe.md) — LinkedIn: 29 de setembro de 2026`,
 partindo o marcador em dois. O publicar.py procura a string exata, deixou de
 achar, e o README publico ficou SEM O INDICE DA SERIE por uma tarde inteira --
 na pagina que e a porta de entrada do repositorio publico.
@@ -91,7 +94,7 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
   Published 2026-08-19 · [read on LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-part-7-what-makes-agent-trust-you-matheus-qf7pf/)
   · Português: [Parte 7 — O que faz o agente confiar, e por que a competência dele é o problema](artigos/pt-br/07-confianca-e-seguranca.md) — publicado em 2026-08-18 · [ler no LinkedIn](https://www.linkedin.com/pulse/builder-led-growth-parte-7-o-que-faz-agente-confiar-e-matheus-kjaof/)
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
-  LinkedIn: 2 September 2026
+  Published 2026-09-02 · [read on LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-builder-led-growth-what-changes-matheus-4tzdf/)
   · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — publicado em 2026-09-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-e-builder-led-growth-o-que-muda-para-matheus-nrezf/)
 
 ### Coming next
@@ -99,14 +102,17 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
 
 - **[Arc 2, part 0: From PLG to BLG — what still holds when the one choosing is a pair](artigos/en/arc2-00-from-plg-to-blg.md)** — Opens arc 2 and doesn't require arc 1. A builder is the pair, not the machine. Jobs to be done with the parentage told properly. What PLG built and what BLG inherits, the five points where PLG stops serving, and the compliance floor coming down. The gradient between recommending and building, with 98% of consumers verifying AI recommendations before buying.  
-  LinkedIn: 9 September 2026
-  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 8 de setembro de 2026
+  LinkedIn: 18 September 2026
+  · Português: [Arco 2, parte 0: Do PLG ao BLG — o que continua valendo quando quem escolhe é um par](artigos/pt-br/arco2-00-do-plg-ao-blg.md) — LinkedIn: 17 de setembro de 2026
 - **[Arc 2, part 1: The Builder-Led Growth funnel — the three stages and what makes a product move faster](artigos/en/arc2-01-the-funnel-and-the-delegation-axis.md)** — Details the three stages of the pair's funnel — candidacy, construction and adoption — by the cost of removing the product at each one, and treats recommendation as a force acting inside candidacy rather than a stage of its own. Four surveys agree that what gets delegated today is assembling the shortlist, not choosing within it. Coins the pair assisted decision / delegated decision, shows a retriever moving learned depth from 1.4 to 7.4 candidates over the same benchmark data, and separates the vendor's funnel speed from the builder's productivity.  
-  LinkedIn: 16 September 2026
-  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 15 de setembro de 2026
+  LinkedIn: 25 September 2026
+  · Português: [Arco 2, parte 1: O funil do Builder-Led Growth — as três etapas e o que acelera a passagem](artigos/pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md) — LinkedIn: 24 de setembro de 2026
 - **[Arc 2, part 2: Candidacy in Builder-Led Growth — how to get picked by an AI beyond GEO](artigos/en/arc2-02-candidacy-beyond-geo.md)** — Candidacy is being in the set the machine draws its options from, and nobody at the company that builds its own CRM asks for the vendor. Defines SEO, AEO and GEO with credit and shows the third logic: the reader is the pair that builds, the metric is incorporation. Three doors into the set — corpus, search, platform — each with its own clock; seven platforms read on 1 September 2026, seven product sites read on 2 September; and a pre-registered experiment where the brand text moved a coding agent's choice from zero to everything with one sentence, while authority without proof never won.  
   LinkedIn: 23 September 2026
   · Português: [Arco 2, parte 2: Candidatura no Builder-Led Growth — como ser escolhido por uma IA para além do GEO](artigos/pt-br/arco2-02-candidatura-para-alem-do-geo.md) — LinkedIn: 22 de setembro de 2026
+- **[Arc 2, part 3: Compliance in Builder-Led Growth — how to get on the list the AI is allowed to pick from](artigos/en/arc2-03-compliance-the-list-the-ai-picks-from.md)** — The second half of candidacy: how a product gets cut from the set before the AI chooses. Three cutters — a person with a list, a standard with a process, and the product's own past in the corpus. Two lists, and the procurement list feeding the agent's list. ISO 42001 read by machine, and a named buyer requiring it. The compliance gate as a machine reading the vendor's audit report, and the age of the rule deciding which argument works.  
+  LinkedIn: 30 September 2026
+  · Português: [Arco 2, parte 3: Compliance no Builder-Led Growth — como entrar na lista de onde a IA pode escolher](artigos/pt-br/arco2-03-compliance-a-lista-de-onde-a-ia-escolhe.md) — LinkedIn: 29 de setembro de 2026
 
 Each article exists as two full versions, English and Brazilian Portuguese, edited
 independently rather than translated. **The English version is canonical**: where

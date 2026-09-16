@@ -2,7 +2,7 @@
 Arc 2, part 0 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-00-do-plg-ao-blg.md
-Text frozen. Scheduled for LinkedIn on 9 September 2026.
+Text frozen. Scheduled for LinkedIn on 18 September 2026.
 Generated from the private working repository. Do not edit here.
 -->
 
@@ -345,9 +345,13 @@ regardless of price.
 > The enterprise gate starts existing without the enterprise contract.
 
 With a caveat on scale that the numbers impose, and that I handle in detail in the
-piece on candidacy: only 27% of organisations enforce strict governance, and 68%
-don't know which AI tools their developers use
-([Northflank](https://northflank.com/blog/enterprise-ai-coding-agent-deployment)).
+piece on candidacy: only 30% of engineering teams at companies with more than 500
+people describe their use of AI assistants as fully governed, and 47% of large
+enterprises say they lack full visibility into how employees use AI
+([Black Duck, 9 June 2026, 831 respondents](https://www.prnewswire.com/news-releases/ai-coding-hits-97-enterprise-adoption-new-black-duck-study-shows-governance-is-the-roi-multiplier-302794103.html);
+[Protiviti, 6 May 2026](https://www.protiviti.com/us-en/press-release-ai-pulse-half-enterprises-lack-ai-visibility);
+the first is an application-security vendor with outsourced research, the second
+is a consultancy).
 The gate is real where it exists, and the two numbers describe adoption that is
 still partial. I found no measure of how fast it is spreading, so I won't claim a
 direction — what can be said is that it isn't a universal condition today.
