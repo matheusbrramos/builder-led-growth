@@ -2,7 +2,7 @@
 Arc 2, part 3 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-03-compliance-a-lista-de-onde-a-ia-escolhe.md
-Text frozen. Scheduled for LinkedIn on 2 October 2026.
+Published on LinkedIn on 2 October 2026: https://www.linkedin.com/pulse/compliance-builder-led-growth-how-get-list-ai-allowed-matheus-gu4vf/
 Generated from the private working repository. Do not edit here.
 -->
 

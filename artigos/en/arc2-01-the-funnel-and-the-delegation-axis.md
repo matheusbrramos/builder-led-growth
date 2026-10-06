@@ -2,7 +2,7 @@
 Arc 2, part 1 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-01-o-funil-e-o-eixo-da-delegacao.md
-Text frozen. Scheduled for LinkedIn on 29 September 2026.
+Published on LinkedIn on 30 September 2026: https://www.linkedin.com/pulse/arc-2-part-1-builder-led-growth-funnel-three-stages-matheus-p1nlf/
 Generated from the private working repository. Do not edit here.
 -->
 

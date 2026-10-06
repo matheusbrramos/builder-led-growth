@@ -2,7 +2,7 @@
 Arc 2, part 2 of the Builder-Led Growth series, by Matheus Ramos.
 CANONICAL VERSION (English).
 Portuguese counterpart: ../pt-br/arco2-02-candidatura-para-alem-do-geo.md
-Text frozen. Scheduled for LinkedIn on 23 September 2026.
+Published on LinkedIn on 23 September 2026: https://www.linkedin.com/pulse/candidacy-builder-led-growth-how-get-picked-ai-beyond-matheus-snopf/
 Generated from the private working repository. Do not edit here.
 -->
 

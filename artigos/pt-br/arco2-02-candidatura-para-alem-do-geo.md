@@ -2,7 +2,7 @@
 Arco 2, parte 2 da série Builder-Led Growth, por Matheus Ramos.
 VERSÃO NÃO CANÔNICA. A canônica é a inglesa: ../en/arc2-02-candidacy-beyond-geo.md
 Em caso de divergência de fato ou de número, a inglesa prevalece.
-Texto congelado. Prevista no LinkedIn para 22 de setembro de 2026.
+Publicada no LinkedIn em 22 de setembro de 2026: https://www.linkedin.com/pulse/candidatura-builder-led-growth-como-ser-escolhido-por-matheus-hsljf/
 Gerado a partir do repositório privado de trabalho. Não editar aqui.
 -->
 
