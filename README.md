@@ -40,7 +40,15 @@ Esta declaracao mora AQUI, no topo, e nao junto do marcador do indice. Em
   · Português: [Compliance no Builder-Led Growth — como entrar na lista de onde a IA pode escolher](artigos/pt-br/arco2-03-compliance-a-lista-de-onde-a-ia-escolhe.md) — publicado em 2026-10-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/compliance-builder-led-growth-como-entrar-na-lista-de-matheus-irlof/)
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
   Published 2026-09-02 · [read on LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-builder-led-growth-what-changes-matheus-4tzdf/)
-  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — publicado em 2026-09-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-e-builder-led-growth-o-que-muda-para-matheus-nrezf/)`,
+  · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — publicado em 2026-09-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-e-builder-led-growth-o-que-muda-para-matheus-nrezf/)
+
+### Coming next
+
+Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
+
+- **[Recommendation in Builder-Led Growth — telling the tactic that lasts from the one that gets patched](artigos/en/arc2-04-recommendation-the-tactic-that-lasts.md)** — Among the products already in the set, what decides the agent's choice and which tactics survive. Three harness decisions narrow the set before the model has an opinion — catalogue, retrieval and order, with task success going from 32.1% to 85.7% depending on the menu and learned depth from 1.4 to 7.4 candidates depending on the retriever. Category leaders hold around 80% consistency across buyer personas while mid-market brands swap up to 75%. A three-question criterion separating tactics that exploit today's implementation from those that exploit the structure of the game, three paths by which a tactic decays, and a horizon-by-durability grid with the arithmetic to fund the slow with the fast.  
+  LinkedIn: 14 October 2026
+  · Português: [Recomendação no Builder-Led Growth — como separar a tática que dura da que vai ser consertada](artigos/pt-br/arco2-04-recomendacao-a-tatica-que-dura.md) — LinkedIn: 13 de outubro de 2026`,
 partindo o marcador em dois. O publicar.py procura a string exata, deixou de
 achar, e o README publico ficou SEM O INDICE DA SERIE por uma tarde inteira --
 na pagina que e a porta de entrada do repositorio publico.
@@ -103,6 +111,14 @@ página e os arquivos de contrato para agentes estão em inglês por alcance.*
 - **[Agentic commerce and Builder-Led Growth — what changes for growth and engineering](artigos/en/arc2-07-agentic-commerce.md)** — A standalone arc 2 piece, read on its own. Where BLG ends and commerce begins: the cart materialises the decision instead of starting it, and the curation that eliminates the product happens before it. The ceiling on consumer delegation, with Adobe telemetry measured over more than a trillion visits. The private flywheel, and why the record of the choice is not yours.  
   Published 2026-09-02 · [read on LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-builder-led-growth-what-changes-matheus-4tzdf/)
   · Português: [Agentic commerce e Builder-Led Growth — o que muda para growth e engenharia](artigos/pt-br/arco2-07-comercio-agentico.md) — publicado em 2026-09-01 · [ler no LinkedIn](https://www.linkedin.com/pulse/agentic-commerce-e-builder-led-growth-o-que-muda-para-matheus-nrezf/)
+
+### Coming next
+
+Written and final. Scheduled for LinkedIn on the dates below; the text here does not change when it goes out.
+
+- **[Recommendation in Builder-Led Growth — telling the tactic that lasts from the one that gets patched](artigos/en/arc2-04-recommendation-the-tactic-that-lasts.md)** — Among the products already in the set, what decides the agent's choice and which tactics survive. Three harness decisions narrow the set before the model has an opinion — catalogue, retrieval and order, with task success going from 32.1% to 85.7% depending on the menu and learned depth from 1.4 to 7.4 candidates depending on the retriever. Category leaders hold around 80% consistency across buyer personas while mid-market brands swap up to 75%. A three-question criterion separating tactics that exploit today's implementation from those that exploit the structure of the game, three paths by which a tactic decays, and a horizon-by-durability grid with the arithmetic to fund the slow with the fast.  
+  LinkedIn: 14 October 2026
+  · Português: [Recomendação no Builder-Led Growth — como separar a tática que dura da que vai ser consertada](artigos/pt-br/arco2-04-recomendacao-a-tatica-que-dura.md) — LinkedIn: 13 de outubro de 2026
 
 Each article exists as two full versions, English and Brazilian Portuguese, edited
 independently rather than translated. **The English version is canonical**: where
